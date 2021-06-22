@@ -7,6 +7,10 @@ grand_parent: Minecraft
 permalink: /minecraft/general/getting-started/
 tags: minecraft message motd color create creating configure configuring ip address connecting server icon installing eula
 ---
+
+<video controls poster="https://i.imgur.com/ofhQdwK.png" src="https://files.catbox.moe/7q42gz.mp4"></video>
+
+
 # Creating a Server
 ## Creating a Server on your Account
 To create a Minecraft Java server, go to your Client Panel. On the left sidebar, choose Create Server. Type in all required information like server name, memory amount, and server location. Once done, click the Create button and wait at least a minute in the Client Panel for the new server to be created for your account.
