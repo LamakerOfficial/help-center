@@ -3,7 +3,7 @@ layout: default
 title:  "Using SFTP and RCON"
 parent: General
 grand_parent: Minecraft
-permalink: /minecraft/general/custom-ip/
+permalink: /minecraft/general/sftp/
 tags: minecraft java bedrock ip address sftp rcon file transfer rcon remote console edit editing ssh sshd filezilla wscp scp 
 ---
 
