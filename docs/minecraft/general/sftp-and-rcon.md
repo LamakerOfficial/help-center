@@ -26,7 +26,7 @@ SFTP Clients:
 |:---------|:---------------------|:-------------------------|
 | [Filezilla]() | Windows, macOS, and Linux |
 | [Cyberduck]() | Windows and macOS |
-| [WinSCP]() | Window |
+| [WinSCP]() | Windows |
 | [Swish]() | Windows |
 
 NOTE: Linux usually has SFTP intergration built into the file manager.
