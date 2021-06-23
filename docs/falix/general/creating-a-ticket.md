@@ -3,7 +3,7 @@ layout: default
 title:  "Creating a Ticket"
 parent: General
 grand_parent: Falix
-permalink: /falix/genereal/creating-a-ticket
+permalink: /falix/general/creating-a-ticket
 tags: Falix support ticket discord help question ask
 ---
 
