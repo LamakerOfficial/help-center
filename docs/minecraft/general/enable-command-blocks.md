@@ -6,6 +6,7 @@ grand_parent: Minecraft
 permalink: /minecraft/general/enabling-command-blocks/
 tags: minecraft commmand block enable configuration configure server.properties
 ---
+
 # Command Blocks
 ## What are they?
 Command blocks are mechanical blocks that when powered by redstone will run a command of your choice. To access the command blocks you must be an operator on the server and in creative mode. It cannot be found in your creative inventory. Due to its ability to affect all aspects of the game, command blocks are not accessible in survival mode.

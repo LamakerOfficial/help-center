@@ -30,6 +30,17 @@ tags: Falix
 ---
 ```
 
+## Content
+### Video
+I personally like seeing `<video>` in the help center over a YouTube embed, but you're allowed to use a YouTube embed if you want to.
+[Learn how to embed a YouTube video](https://support.google.com/youtube/answer/171780?hl=en)
+
+If you're going to use `<video>`, I would like to see at least a thumbnail set for it, which is also called a `poster` in HTML. Also make sure you do add the `controls` option so users can control the video.
+
+Would go something like this:
+```
+<video poster="https://example.com/thumbnail.png" src="https://example.com/video.mp4" controls>
+
 ## 📢️ Publishing
 Create a pull request on this repo and title it like this "New Post: Name of Article" or if you're editing an article, title it like "Edit: Name of Existing Article".
 

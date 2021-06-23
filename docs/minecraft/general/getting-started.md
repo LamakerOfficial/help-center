@@ -10,7 +10,6 @@ tags: minecraft message motd color create creating configure configuring ip addr
 
 <video controls poster="https://i.imgur.com/ofhQdwK.png" src="https://files.catbox.moe/7q42gz.mp4"></video>
 
-
 # Creating a Server
 ## Creating a Server on your Account
 To create a Minecraft Java server, go to your Client Panel. On the left sidebar, choose Create Server. Type in all required information like server name, memory amount, and server location. Once done, click the Create button and wait at least a minute in the Client Panel for the new server to be created for your account.
@@ -97,6 +96,9 @@ The server icon helps indicate the branding of your Minecraft Java server, it's 
 By default, Minecraft sets 20 as the max player limit for Minecraft Java servers. You can increase this, or decrease, to any number you want. To configure the player limit, the setting for this is usually found in the server.properties file. Simply, just change the number 20 to something else, you could also set -1 for unlimited.
 
 # Setting Operators
+
+<video controls poster="https://i.imgur.com/G5OiZdi.png" src="https://files.catbox.moe/i9tgsz.mp4"></video>
+
 An operator is a player with administrative access to your server, giving them full access to all commands. Even commands like /stop or /restart.
 To set an operator, use:
 
