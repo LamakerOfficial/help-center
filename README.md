@@ -56,14 +56,14 @@ If you're interested in learning on how to build the Help Center locally, maybe 
 Since the Help Center is powered by Jeykll, you'll need to install [Ruby](https://www.ruby-lang.org/en/) for your operating system.
  - [Download for Windows](https://rubyinstaller.org/)
  - [Download for macOS](https://www.ruby-lang.org/en/downloads/)
- - [Install Instructions for Linux](https://www.ruby-lang.org/en/documentation/installation/#package-management-systems)
 
-After installation of Ruby, run the following commands:
-*NOTE: Use `sudo` on Linux
+## Installing on Linux
 ```
-gem install bundler jekyll
+sudo apt-get install ruby-full build-essential zlib1g-dev
+gem install jekyll bundler
 ```
 
+## Building and Locally Hosting
 Then change directory to the help center, and use:
 ```
 gem install just-the-docs
