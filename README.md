@@ -40,6 +40,7 @@ If you're going to use `<video>`, I would like to see at least a thumbnail set f
 Would go something like this:
 ```
 <video poster="https://example.com/thumbnail.png" src="https://example.com/video.mp4" controls>
+```
 
 ## 📢️ Publishing
 Create a pull request on this repo and title it like this "New Post: Name of Article" or if you're editing an article, title it like "Edit: Name of Existing Article".
