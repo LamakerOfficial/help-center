@@ -1,17 +1,16 @@
-<!-- ---
+---
 layout: default
 title:  "WorldGuard and WorldEdit"
 parent: Plugins
 grand_parent: Minecraft
 permalink: /minecraft/plugins/worldguard-and-worldedit/
 tags: minecraft edit paint brush structure wand protect guard restrict area region define 
---- -->
+---
 
 In-Progress
 {: .label .label-yellow }
 
-Recommended
-{: .label .label-green }
+
 
 <div class="install-plugin">
     <img src="https://enginehub.org/static/worldedit-logo.a212455e.svg">
@@ -21,7 +20,7 @@ Recommended
 
 <div class="install-plugin">
     <img src="https://enginehub.org/static/worldguard-logo.7ceabec8.svg">
-    <p>WorldGuard</p>
+    <p>WorldGuard <span class="label label-green" id="plugin-recommend">Recommended</span></p>
     <a href="https://enginehub.org/worldguard/">Download this Plugin</a>
 </div>
 
@@ -47,7 +46,7 @@ WorldGuard supports all versions of Minecraft, but 1.17 (as of the writing of th
 
 | Set Region | Remove Region      |
 |:---------------|:---------------------|:-------------------------|
-| <video src="https://help.falixnodes.net/assets/videos/worldguard/wg-define.webm" controls muted> | <video src="https://help.falixnodes.net/assets/videos/worldguard/wg-remove.webm" controls muted>
+| <video style="height: 120px; object-fit: cover; object-position: top;" src="https://help.falixnodes.net/assets/videos/worldguard/wg-define.webm" controls muted> | <video style="height: 120px; object-fit: cover; object-position: top;" src="https://help.falixnodes.net/assets/videos/worldguard/wg-remove.webm" controls muted>
 
 What's a region? A region is a zone you can create in WorldGuard that allows you to protect the area inside of it, also making other changes in the zone like game rules and etc.
 
@@ -62,6 +61,14 @@ To remove a region, use the `/region` command with the `remove` option and provi
 ```
 
 #### Flags
+<!-- Leave the two lines below commented in, for whatever reason, the other chat below won't work without it, yes I know it's weird. -->
+<!-- | Preview        | Color Code                                      | -->
+<!-- |:---------------|:---------------------|:-------------------------| -->
+
+| Interacting with Flags menu (Not possible in old versions)
+|:---------------|:---------------------|:-------------------------|
+| <video src="https://help.falixnodes.net/assets/videos/worldguard/flags-wg.webm" controls muted>
+
 Each region can have it's own set of flags, where you can change the way the game behaves in those area like gamerules, interactions, damage, pvp, etc...
 
 As an example:
@@ -108,3 +115,39 @@ With the **wand method**, you can use the left and right click of your mouse poi
 Left click: Positon 1
 
 Right click: Position 2
+
+#### Copy, Paste
+<!-- Leave the two lines below commented in, for whatever reason, the other chat below won't work without it, yes I know it's weird. -->
+<!-- | Preview        | Color Code                                      | -->
+<!-- |:---------------|:---------------------|:-------------------------| -->
+
+| Copying and Pasting a Selection
+|:---------------|:---------------------|:-------------------------|
+| <video src="https://help.falixnodes.net/assets/videos/worldguard/copy-paste.webm" controls muted>
+
+We're all familiar with how copying and pasting works, WorldEdit includes this feature too where you can copy a selection and then paste else.
+
+Using this feature is simply, make a selection of what you want to **copy**, then use:
+```
+//copy
+```
+
+Also please be aware of where you're standing when copying, if you copy the selection while it's below you, then it will paste below you.
+
+To **paste**:
+```
+//paste
+```
+
+#### Undoing and Redoing
+Lots of mistakes can happen while using World Edit, especially when experimenting, luckily there is the undo option to save the day!
+
+Just use:
+```
+//undo
+```
+
+If you ever over undo your progress, you can redo by using:
+```
+//redo
+```

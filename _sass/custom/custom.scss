@@ -24,6 +24,25 @@ footer i {
 a#edit-this-page {
   width: max-content;
 }
+p.label.label-yellow:hover::before {
+  content: "This article is still being worked on";
+  position: absolute;
+  background: #f7d12e;
+  margin: 35px 0px 0px 0px;
+  padding: 10px 10px;
+  border-radius: 6px;
+  text-transform: none;
+}
+span#plugin-recommend:hover::before {
+  content: "We highly recommend that you use this plugin for your server";
+  position: absolute;
+  background: #009c7b;
+  margin: 35px 0px 0px 0px;
+  padding: 10px 10px;
+  border-radius: 6px;
+  text-transform: none;
+  z-index: 5;
+}
 
 /* Tables */
 
