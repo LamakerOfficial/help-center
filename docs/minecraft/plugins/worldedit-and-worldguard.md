@@ -15,7 +15,7 @@ In-Progress
 <div class="install-plugin">
     <img src="https://enginehub.org/static/worldedit-logo.a212455e.svg">
     <p>WorldEdit</p>
-    <a href="https://www.spigotmc.org/resources/discordsrv.18494/">Download this Plugin</a>
+    <a href="https://enginehub.org/worldedit/">Download this Plugin</a>
 </div>
 
 <div class="install-plugin">
