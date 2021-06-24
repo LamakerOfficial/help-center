@@ -47,7 +47,7 @@ WorldGuard supports all versions of Minecraft, but 1.17 (as of the writing of th
 
 | Set Region | Remove Region      |
 |:---------------|:---------------------|:-------------------------|
-| <video src="https://help.falixnodes.net/assets/videos/worldguard/wg-define.mp4" controls muted> | <video src="https://help.falixnodes.net/assets/videos/worldguard/wg-remove.mp4" controls muted>
+| <video src="https://help.falixnodes.net/assets/videos/worldguard/wg-define.webm" controls muted> | <video src="https://help.falixnodes.net/assets/videos/worldguard/wg-remove.webm" controls muted>
 
 What's a region? A region is a zone you can create in WorldGuard that allows you to protect the area inside of it, also making other changes in the zone like game rules and etc.
 
@@ -71,7 +71,7 @@ As an example:
 
 | Allowing Interactions with Doors and Levels 
 |:---------------|:---------------------|:-------------------------|
-| <video style="height: 180px; object-fit: cover; object-position: top;" src="https://help.falixnodes.net/assets/videos/worldguard/wg-allow-passthrough.mp4" controls muted>
+| <video style="height: 180px; object-fit: cover; object-position: top;" src="https://help.falixnodes.net/assets/videos/worldguard/wg-allow-passthrough.webm" controls muted>
 
 You can set a flag to allow players(or a certain rank if you're using LuckPerms) to interact with doors and levels. This is done with the `passthrough` flag along with the region name in front of it, which can be set to `allow`, it's `deny` by default.
 
@@ -91,7 +91,7 @@ You can set a flag to allow players(or a certain rank if you're using LuckPerms)
 
 | Command Only | With Wand Tool         |
 |:---------------|:---------------------|:-------------------------|
-| <video poster="https://i.imgur.com/LV1ErEr.png" src="https://help.falixnodes.net/assets/videos/worldedit/pos-we.mp4" controls muted> | <video poster="https://i.imgur.com/WRKUTv7.png" src="https://help.falixnodes.net/assets/videos/worldedit/pos-we-wand.mp4" controls muted>
+| <video poster="https://i.imgur.com/LV1ErEr.png" src="https://help.falixnodes.net/assets/videos/worldedit/pos-we.webm" controls muted> | <video poster="https://i.imgur.com/WRKUTv7.png" src="https://help.falixnodes.net/assets/videos/worldedit/pos-we-wand.webm" controls muted>
 
 With the **command method**, go to the position you want to set position 1, then use:
 ```
