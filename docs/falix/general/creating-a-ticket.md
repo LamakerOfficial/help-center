@@ -31,6 +31,10 @@ Saying stuff like "help me" or "server is crashing" is a very poor choice of wor
 I, Korbs, believe you should do a checklist before creating a ticket, and at least do better self-troubleshooting on your own. Spoon-feeding isn't something we like to do.
 
 ## Checklist
+ - [Console and Logs](https://help.falixnodes.net/falix/general/creating-a-ticket#console-and-logs)
+ - [Look Around the Help Center](https://help.falixnodes.net/falix/general/creating-a-ticket#look-around-the-help-center)
+ - [Outage or Maintenance](https://help.falixnodes.net/falix/general/creating-a-ticket#outage-or-maintenance)
+
 ### Console and Logs
 The console can provide helpful information when something goes wrong, usually this *helpful* information recommends you to do something in order to resolve the issue on your own.
 
