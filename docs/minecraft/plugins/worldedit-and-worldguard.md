@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: default
 title:  "WorldGuard and WorldEdit"
 parent: Plugins
 grand_parent: Minecraft
 permalink: /minecraft/plugins/worldguard-and-worldedit/
 tags: minecraft edit paint brush structure wand protect guard restrict area region define 
----
+--- -->
 
 In-Progress
 {: .label .label-yellow }
