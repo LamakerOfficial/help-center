@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Troubleshooting"
+title:  "Troubleshooting and Errors"
 parent: General
 grand_parent: Falix
 permalink: /falix/general/troubleshooting/
-tags: Falix
+tags: Falix troubleshoot errors bungeecord corrupt 137 1020 403 
 ---
 
 In Progress
@@ -23,6 +23,9 @@ Edit the __config.yml__ file, make sure that **ip_forward** is set to **true**.
 Simply restart the proxy server upon saving the configuration.
 
 # Errors
+## Error 137
+This error indicates that your server is using too much CPU to the point of overloading. The server automatically turns off to prevent overload of the whole node.
+
 ## Server Creation Error
 There are a vast array of reasons why you may be unable to create a new server.
 
