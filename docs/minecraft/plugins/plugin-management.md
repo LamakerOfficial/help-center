@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Plugin Management"
+nav_order: 1
 parent: Plugins
 grand_parent: Minecraft
 permalink: /minecraft/plugins/management/
