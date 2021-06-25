@@ -10,7 +10,7 @@ nav_order: 0
 ### Falix
  - [Signing up](https://help.falixnodes.net/falix/general/getting-started/#signing-up)
  - [Being Part of our Discord Server](https://help.falixnodes.net/falix/general/getting-started/#being-part-of-our-discord-server)
- - [Creating a server](https://help.falixnodes.net/falix/general/getting-started/#creating-a-server)
+ - [Creating a Ticket](https://help.falixnodes.net/falix/general/creating-a-ticket)
 
 ### Minecraft
  - [Creating a server](https://help.falixnodes.net/minecraft/general/getting-started/#creating-a-server)
