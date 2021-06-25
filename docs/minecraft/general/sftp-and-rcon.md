@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Using SFTP and RCON"
+title:  "Using SFTP"
 parent: General
 grand_parent: Minecraft
 permalink: /minecraft/general/sftp/
@@ -8,8 +8,8 @@ tags: minecraft java bedrock ip address sftp rcon file transfer rcon remote cons
 ---
 
 <!-- RCON is being added later -->
-In Progress
-{: .label .label-yellow }
+<!-- In Progress
+{: .label .label-yellow } -->
 
 <video controls poster="https://i.imgur.com/p9rgs15.png" src="https://files.catbox.moe/vavkhu.mp4"></video>
 
