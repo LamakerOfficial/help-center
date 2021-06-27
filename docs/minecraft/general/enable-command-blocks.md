@@ -22,7 +22,7 @@ Command blocks are mechanical blocks that when powered by redstone will run a co
 
 # Enabling and Obtaining
 ## Enabling
-To enable command blocks for your Minecraft Java server, open the __server.properties__ file and look for `enable-command-block`. This option is usually disabled by default after the server has been generated.
+To enable command blocks for your Minecraft Java server, open the <u>server.properties</u> file and look for `enable-command-block`. This option is usually disabled by default after the server has been generated.
 Simply change it from `false` to `true`, then restart your Minecraft Java server.
 
 ## Obtaining

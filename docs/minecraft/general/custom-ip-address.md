@@ -8,7 +8,7 @@ tags: minecraft java bedrock ip address custom domain cloudflare dns srv port na
 ---
 
 # Registering a Domain
-Why a domain? A custom IP address like __hypixel.net__ is a domain and you need one to create a custom IP address for your Minecraft server. 
+Why a domain? A custom IP address like <u>hypixel.net</u> is a domain and you need one to create a custom IP address for your Minecraft server. 
 
 ## Choosing a Domain Provider
 There are a lot of places where you can register a domain.
@@ -41,7 +41,7 @@ Why Cloudflare? You're required to use an SRV Record which some domain providers
 What is DNS? Learn about that [here](https://www.cloudflare.com/learning/dns/what-is-dns/).
 
 Create a Cloudflare account, afterwards, click Add Site.
-Add your domain like __example.com__, do not add *http://*.
+Add your domain like <u>example.com</u>, do not add *http://*.
 
 Select the free plan option, click next.
 

@@ -31,6 +31,99 @@ tags: Falix
 ```
 
 ## Content
+### Plugin's Download
+At the top of each plugin article, there is a box displays information about the plugin with a download link, example:
+
+<img src="https://i.imgur.com/QYkKcOT.png" width="500">
+
+If you plan to create an article explaining how to use a plugin, it's best you use this at the top of the article. The code is:
+```
+<div class="install-plugin">
+    <img style="border-radius: 7px;" src="">
+    <p>Name of Plugin</p>
+    <a href="#">Download this Plugin</a>
+</div>
+```
+
+In the future, I plan to add more content to this custom HTML code like author, official website, last updated, etc.
+
+### Headers
+
+# Header 1
+```
+# Header 1
+```
+
+## Header 2
+```
+## Header 2
+```
+
+### Header 3
+```
+### Header 3
+```
+
+#### Header 4
+```
+#### Header 4
+```
+
+### Links
+[FalixNodes](https://falixnodes.net/)
+```
+[FalixNodes](https://falixnodes.net/)
+```
+
+### List and Check Lists
+List:
+ - Item
+ - Item
+ - Item
+ - Item
+```
+ - Item
+ - Item
+ - Item
+ - Item
+```
+
+Checklist:
+ - [x] Item
+ - [x] Item
+ - [ ] Item
+ - [ ] Item
+ - [ ] Item
+```
+ - [x] Item
+ - [x] Item
+ - [ ] Item
+ - [ ] Item
+ - [ ] Item
+```
+
+### Tables
+A table is used to display content clearly without making a mess, like we did in the [Getting Started](https://help.falixnodes.net/minecraft/general/getting-started/#message-of-the-day) article under Minecraft, showing a color code table.
+
+Example: 
+
+| Example        | List          |
+|:---------------|:--------------|
+| Example        | Content       |
+| Example        | Content       |
+| Example        | Content       |
+| Example        | Content       |
+
+Code:
+```
+| Example        | List          |
+|:---------------|:--------------|
+| Example        | Content       |
+| Example        | Content       |
+| Example        | Content       |
+| Example        | Content       |
+```
+
 ### Video
 I personally like seeing `<video>` in the help center over a YouTube embed, but you're allowed to use a YouTube embed if you want to.
 [Learn how to embed a YouTube video](https://support.google.com/youtube/answer/171780?hl=en)
