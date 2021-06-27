@@ -29,6 +29,8 @@ If the option you want isn't available on the first boot, a custom jar can be us
 
 Falix will automatically detect the <u>custom.jar</u> on the next launch of your server and will use the file to boot.
 
+> You may need to do this for [Bungeecord](https://help.falixnodes.net/falix/general/troubleshooting/#corrupted-bungeecord-jar-file).
+
 # Choosing Your Server Java Version
 <!-- # What is Java? (An explantion for noobs will be added later on) -->
 ## Minecraft Versions
