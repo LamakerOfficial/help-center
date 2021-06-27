@@ -24,10 +24,10 @@ Click "I Accept" when the **Mojang EULA** pop up appears. The server is turn off
 During the first boot of any Minecraft server, it may take a while to prepare spawn area.
 
 ## Using a Custom Jar
-Minecraft uses a __.jar__ file to start your server and setting a custom jar is easy.
-If the option you want isn't available on the first boot, a custom jar can be used. Simply upload the .jar file(e.g. __paper-1.16.5-774.jar__) to your server's root directory in files, then rename it to __custom.jar__. You can rename the file by clicking or tapping on the three dots on the right side, then clicking Rename.
+Minecraft uses a <u>.jar</u> file to start your server and setting a custom jar is easy.
+If the option you want isn't available on the first boot, a custom jar can be used. Simply upload the .jar file(e.g. <u>paper-1.16.5-774.jar</u>) to your server's root directory in files, then rename it to <u>custom.jar</u>. You can rename the file by clicking or tapping on the three dots on the right side, then clicking Rename.
 
-Falix will automatically detect the __custom.jar__ on the next launch of your server and will use the file to boot.
+Falix will automatically detect the <u>custom.jar</u> on the next launch of your server and will use the file to boot.
 
 # Choosing Your Server Java Version
 <!-- # What is Java? (An explantion for noobs will be added later on) -->
@@ -75,6 +75,8 @@ You also have a shortcut. You can check out premade configs by clicking [here](h
 
 # Configuring
 ## Message of the Day
+![Message of the Day Example](https://i.imgur.com/ctD8iqS.png)
+
 Also known as MOTD, is the message that shows up below the server name on a multiplayer server list. Usually used to say what's new about the server and/or also displaying what version it supports. Sometimes also used to indicate what games it has to offer or just a short description of the server.
 
 To configure MOTD(Message of the Day), the setting for this is usually found in the server.properties file. Simply just change it to what you want for your Minecraft Java Server.
@@ -132,7 +134,7 @@ If you want to give some players access to specific admin commands, but not ever
 
 # Connecting
 ## Find your Server IP Address
-In your [Game Panel](https://panel.falix.gg/) the IP is shown in the upper left on the Console tab. Use this to connect to your server. It should look something like __de##.falixnodes.net:#####__.
+In your [Game Panel](https://panel.falix.gg/) the IP is shown in the upper left on the Console tab. Use this to connect to your server. It should look something like <u>de##.falixnodes.net:#####</u>.
 
 If you're looking for the numeric IP, this usually shows up when booting the server.
 
