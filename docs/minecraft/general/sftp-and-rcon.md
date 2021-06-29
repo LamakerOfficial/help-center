@@ -2,8 +2,8 @@
 layout: default
 title:  "Using SFTP"
 parent: General
-grand_parent: Minecraft
-permalink: /minecraft/general/sftp/
+grand_parent: Falix
+permalink: /falix/general/sftp/
 tags: minecraft java bedrock ip address sftp rcon file transfer rcon remote console edit editing ssh sshd filezilla wscp scp 
 ---
 
