@@ -31,13 +31,13 @@ In-Game, use the following command to obtain a command for yourself:
 /give @p command_block
 ```
 
-If you would like to give someone else a command block, which must be a operater, you can use:
+If you would like to give someone else a command block, which must be an operator, you can use:
 ```
 /give <username> command_block
 ```
 
-If you want to give someone a command block from the console, in the [Game Panel](https://panel.falix.gg), then use:
+If you want to give someone a command block from the console, in the [Game Panel](https://panel.falixnodes.net), then use:
 ```
 give <username> command_block
 ```
-Don't use `/` when using the console in the [Game Panel](https://panel.falix.gg)
+Don't use `/` when using the console in the [Game Panel](https://panel.falixnodes.net)

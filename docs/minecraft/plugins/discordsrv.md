@@ -23,7 +23,7 @@ Both the chat and console link are toggleable through the configuration file. So
 # Installation Process
 Like any other plugin, you'll need to download the <u>.jar</u> file of DiscordSRV, then add it to your plugins folder. Once you've added DiscordSRV to your plugins folder, fully restart the server, and all configuration files will be generated for DiscordSRV.
 
-You can download DiscordSRV by clicking "Dowload this Plugin" above.
+You can download DiscordSRV by clicking "Download this Plugin" above.
 
 # Creating your Discord Bot
 Before continuing, creating a bot on Discord is needed in order to proceed to the next step. 
@@ -42,7 +42,7 @@ Invite the bot to the server you want it in.
 ## Sync Plugin with Discord Bot
 In order for your Minecraft server's chat to send to your Discord server, you'll need to add your bot's token to the plugin's configuration.
 
-To find your bot's token, head back to your Discord Developer dasboard, click on your applications, go to the Bot tab. Click the Copy button under token.
+To find your bot's token, head back to your Discord Developer dashboard, click on your applications, go to the Bot tab. Click the Copy button under token.
 
 In the <u>config.yml</u> file of DiscordSRV, paste the token where it says BotToken, usually on line 5.
 
@@ -51,6 +51,6 @@ We need to tell DiscordSRV which channel on your Discord server it should send t
 
 In the <u>config.yml</u> file of DiscordSRV, there is a place to add your channel ID, usually on line 11. Replace "0000000000" with your channel ID. 
 
-To get your channel ID, right click on the channel you want to set for the Minecraft chat, then click on Copy ID. If Copy ID option is not showing, please enable Developer Mode in your Discord's Advanced settings.
+To get your channel ID, right click on the channel you want to set for the Minecraft chat, then click on Copy ID. If the Copy ID option is not showing, please enable Developer Mode in your Discord's Advanced settings.
 
 Optionally, you can set a console channel in your Discord server too. This can be used to send commands to your server from Discord, please keep this channel hidden from other members and only visible to admins.

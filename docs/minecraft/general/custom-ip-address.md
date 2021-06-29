@@ -63,7 +63,7 @@ Once done, wait around 20 - 45 minutes for Cloudflare to confirm your site has b
 
 # Manage Domain
 ## Creating an A Record
-In the DNS settings, of your domain, add a new A Record. For the name, use `@`. Then use the numberic IP address for the IPv4 Address, do not include the port number.
+In the DNS settings, of your domain, add a new A Record. For the name, use `@`. Then use the numeric IP address for the IPv4 Address, do not include the port number.
 
 It should look like this:
 
@@ -76,7 +76,7 @@ In the DNS settings, of your domain, add a new A Record. For the name use `@`.
 
 For Service, use `_minecraft`.
 
-For Prority, use `0` and for Weight use `5`.
+For Priority, use `0` and for Weight use `5`.
 
 Then, use your server's port number for Port.
 
