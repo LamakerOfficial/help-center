@@ -19,7 +19,7 @@ Now, in the [Game Panel](https://panel.falixnodes.net/) you should see the new s
 ## Starting the Server
  Select your new server and go to the Console tab, usually already selected by default. Click the Start button, located in the upper left corner of the Console tab. You're going to be selecting which type of server you want during the first startup of your new server. In this case, we're creating a Minecraft Java server, to select Minecraft Java, then the type of Minecraft Java server that you want like Vanilla or PaperMC, and select the version of Minecraft Java you want to play on.
  
-Click "I Accept" when the **Mojang EULA** pop up appears. The server is turn off for a few moments, then turn back on, and will continue to boot.
+Click "I Accept" when the **Mojang EULA** pop up appears. The server is turned off for a few moments, then turn back on, and will continue to boot.
 
 During the first boot of any Minecraft server, it may take a while to prepare spawn area.
 
@@ -32,7 +32,7 @@ Falix will automatically detect the <u>custom.jar</u> on the next launch of your
 > You may need to do this for [Bungeecord](https://help.falixnodes.net/falix/general/troubleshooting/#corrupted-bungeecord-jar-file).
 
 # Choosing Your Server Java Version
-<!-- # What is Java? (An explantion for noobs will be added later on) -->
+<!-- # What is Java? (An explanation for noobs will be added later on) -->
 ## Minecraft Versions
 Use **Java 8** for Minecraft 1.12.2 or older
 
@@ -136,7 +136,7 @@ If you want to give some players access to specific admin commands, but not ever
 
 # Connecting
 ## Find your Server IP Address
-In your [Game Panel](https://panel.falix.gg/) the IP is shown in the upper left on the Console tab. Use this to connect to your server. It should look something like <u>de##.falixnodes.net:#####</u>.
+In your [Game Panel](https://panel.falixnodes.net/) the IP is shown in the upper left on the Console tab. Use this to connect to your server. It should look something like <u>de##.falixnodes.net:#####</u>.
 
 If you're looking for the numeric IP, this usually shows up when booting the server.
 

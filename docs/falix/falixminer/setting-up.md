@@ -15,7 +15,7 @@ tags: Falix miner mining coins falixcoins download installing cpu gpu
 > Note: Since most anti-virus software would identify miners as a virus, you will need to whitelist the file or temporarily disable the anti-virus software. You can only mine either with the CPU or the GPU at the same time. Mining can only be performed on one device at a time.
 
 ## Windows
-Download the miner from [here](https://github.com/FalixInc/FalixCoins-Miner/releases/) and save it to your desktop or perhaps another place into a folder. Open the command prompt, Powershell, or Windows Terminal as administrator.
+Download the miner from [here](https://github.com/FalixInc/FalixCoins-Miner/releases/) and save it to your desktop or perhaps another place into a folder. Open the command prompt, Powershell, or Windows Terminal as administrator.
 
 Change directory to the folder that you downloaded the miner; if you saved the miner to a new folder on your desktop, the command would look something like this:
 ```
@@ -35,12 +35,12 @@ Now type the following command:
 ```
 falixnodes_gpu_miner-win.exe YourDiscordIDHere MaxGPUUsage
 ```
-> Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `MaxGPUUage` with the max percentage of GPU uage you want from 1 to 100.
+> Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `MaxGPUUage` with the max percentage of GPU usage you want from 1 to 100.
 
 ## Linux
-Download the miner from [here](https://github.com/FalixInc/FalixCoins-Miner/releases/) and save it to your desktop or perhaps another place into a folder.
+Download the miner from [here](https://github.com/FalixInc/FalixCoins-Miner/releases/) and save it to your desktop or perhaps another place into a folder.
 
-Open your terminal and change directory to the folder that you downloaded the miner; if you saved the miner to a new folder on your desktop, the command would look something like this:
+Open your terminal and change the directory to the folder that you downloaded the miner; if you saved the miner to a new folder on your desktop, the command would look something like this:
 ```
 cd ~/Desktop/Folder-Name
 ```
@@ -63,12 +63,12 @@ Now type the following command:
 ```
 ./falixnodes_gpu_miner-linux YourDiscordIDHere MaxGPUUsage
 ```
-> Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `MaxGPUUage` with the max percentage of GPU uage you want from 1 to 100.
+> Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `MaxGPUUage` with the max percentage of GPU usage you want from 1 to 100.
 
 ## macOS
-Download the miner from [here](https://github.com/FalixInc/FalixCoins-Miner/releases/) and save it to your desktop or perhaps another place into a folder.
+Download the miner from [here](https://github.com/FalixInc/FalixCoins-Miner/releases/) and save it to your desktop or perhaps another place into a folder.
 
-Open your terminal and change directory to the folder that you downloaded the miner; if you saved the miner to a new folder on your desktop, the command would look something like this:
+Open your terminal and change the directory to the folder that you downloaded the miner; if you saved the miner to a new folder on your desktop, the command would look something like this:
 ```
 cd ~/Desktop/Folder-Name
 ```
