@@ -17,3 +17,4 @@ nav_order: 0
  - [Configuring](https://help.falixnodes.net/minecraft/general/getting-started/#configuring)
  - [Setting Operators](https://help.falixnodes.net/minecraft/general/getting-started/#setting-operators)
  - [Connecting](https://help.falixnodes.net/minecraft/general/getting-started/#connecting)
+ - [Getting Started with BungeeCord](https://help.falixnodes.net/minecraft/bungeecord/getting-started)
