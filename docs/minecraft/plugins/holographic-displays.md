@@ -54,7 +54,7 @@ You can make your holograms look better by coloring and formatting them!
 
 ![image](../../../assets/images/posts/plugins/holographic-displays/coloring-and-formatting.png)
 
-We achieved this result by using: `/hd setline example 2 &3This is the hologram's second line`
+We achieved this result by using: `/hd setline example 2 &6&lThis is the hologram's second line`
 
 ## Moving a Hologram
 
