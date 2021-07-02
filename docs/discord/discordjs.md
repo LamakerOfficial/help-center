@@ -52,7 +52,7 @@ We have made a command. Now let's specify to the script our bot TOKEN. This will
 To get the TOKEN, go to [discord developers](https://discord.com/developers/applications) and in your application, click on Bot, and copy the token
 The Token is like a password, so don't share it with anyone!
 
-`client.run('Your Super Secret Token')`
+`client.login('Your Super Secret Token')`
 
 ## Hosting The Bot
 

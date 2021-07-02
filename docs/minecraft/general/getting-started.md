@@ -54,6 +54,8 @@ To make a Java version the default one, so that you don't need to select it ever
 ## Java 16
 `adopt@1.16.0-1`
 
+Alternatively, choose it in the "Docker Image" dropdown.
+
 Now, go back to your console, start your server and you'll see it using the Java version you set.
 
 > If the above does not work, manually delete the `.jabba` folder and restart your server.
