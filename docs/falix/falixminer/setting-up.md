@@ -126,7 +126,11 @@ sudo ./falixnodes_miner-macos -t YourDiscordIDHere -t #
 
 # Credits
 flaxeneel2#897 (me) - developing v2
+
 Lamaker 💕#2005 - API work and cpu tester
+
 TheBeaver#9074 - cpu tester
+
 Mitoxe2#1012 - gpu tester
+
 ShemBaneTheRaccoon#420 - cpu tester
