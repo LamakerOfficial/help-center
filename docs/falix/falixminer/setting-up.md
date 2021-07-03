@@ -65,7 +65,7 @@ cd C:\Users\Username\Desktop\Folder-Name\
 ### For CPU Mining Only:
 Now type the following command:
 ```
-falixnodes_miner-win.exe -u YourDiscordIDHere -t #
+falixnodes_cpu_miner-win.exe -u YourDiscordIDHere -t #
 ```
  > Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `#` with the numbers of threads you want to allocate for mining.
 
@@ -74,7 +74,7 @@ Now type the following command:
 ```
 falixnodes_gpu_miner-win.exe -u YourDiscordIDHere -p ##
 ```
-> Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `##` with the max percentage of GPU usage you want from 1 to 100.
+> Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `##` with the max percentage of GPU usage you want from 5 to 100.
 
 ## Linux
 Download the miner from [here](https://github.com/FalixInc/FalixCoins-Miner/releases/) and save it to your desktop or perhaps another place into a folder.
@@ -93,7 +93,7 @@ chmod u+x ./falixnodes*
 ### For CPU Mining Only:
 Now type the following command:
 ```
-sudo ./falixnodes_miner-linux -u YourDiscordIDHere -t #
+sudo ./falixnodes_cpu_miner-linux -u YourDiscordIDHere -t #
 ```
  > Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `#` with the numbers of threads you want to allocate for mining.
 
@@ -102,7 +102,7 @@ Now type the following command:
 ```
 ./falixnodes_gpu_miner-linux YourDiscordIDHere -p ##
 ```
-> Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `##` with the max percentage of GPU usage you want from 1 to 100.
+> Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `##` with the max percentage of GPU usage you want from 5 to 100.
 
 ## macOS
 Download the miner from [here](https://github.com/FalixInc/FalixCoins-Miner/releases/) and save it to your desktop or perhaps another place into a folder.
@@ -120,17 +120,19 @@ chmod u+x ./falixnodes*
 
 To run the miner, use:
 ```
-sudo ./falixnodes_miner-macos -t YourDiscordIDHere -t #
+sudo ./falixnodes_cpu_miner-macos -u YourDiscordIDHere -t #
 ```
  > Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `#` with the numbers of threads you want to allocate for mining.
 
 # Credits
-flaxeneel2#897 (me) - developing v2
+flaxeneel2#897 (me) - Developing v2
 
-Lamaker 💕#2005 - API work and cpu tester
+Lamaker 💕#2005 - API work and CPU tester
 
-TheBeaver#9074 - cpu tester
+TheBeaver#9074 - CPU tester
 
-Mitoxe2#1012 - gpu tester
+Mitoxe2#1012 - GPU tester
 
-ShemBaneTheRaccoon#420 - cpu tester
+ShemBaneTheRaccoon#420 - CPU tester
+
+Korbs#0001 - Documentions
