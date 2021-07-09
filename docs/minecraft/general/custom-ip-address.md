@@ -72,6 +72,8 @@ It should look like this:
 | A           | @         | 00.000.00.00 |
 
 ## Creating a SRV Record
+![SRV Record on Cloudflare](../../../assets/images/posts/minecraft/custom-ip/srv-record.png)
+
 In the DNS settings, of your domain, add a new A Record. For the name use `@`.
 
 For Service, use `_minecraft`.
