@@ -162,7 +162,9 @@ Then change directory to the help center, and use:
 ```
 gem install just-the-docs
 bundle install
+bundle add webrick
 ```
+
 
 To run a localhost server, run:
 ```

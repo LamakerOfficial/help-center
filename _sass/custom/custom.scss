@@ -1,9 +1,9 @@
 :root {
-    --accent-color: #2970CC;
+  --accent-color: #2970CC;
 }
 body {
-    background: #121E2C;
-    color: white;
+  background: #121E2C;
+  color: white;
 }
 h1 {color: white;}
 h2 {color: white;}
@@ -11,19 +11,38 @@ h3 {color: white;}
 h4 {color: white;}
 h5 {color: white;}
 a{color: var(--accent-color)}
+a:not([class]) {background-image: none;}
+::marker {color: #2970cc;}
 ::selection{background: var(--accent-color);color: white;}
 ::-webkit-scrollbar{width: 7px;height: 4px;}
 ::-webkit-scrollbar-thumb{background:#333333;}
-div#main-header {
-    background: transparent;
-    border: none;
+div#main-header {background: transparent;border: none;}
+footer i {color: white;}
+a#edit-this-page {width: max-content;}
+
+@media only screen and (max-width:1060px){
+  .grid-gs {grid-template-columns: 50% 50% !important;}
+  span#falix-gs-s {width: calc(45% - -3px) !important;}
+  span#minecraft-gs-s {width: calc(45% - -3px) !important;}
 }
-footer i {
-  color: white;
+@media only screen and (max-width:920px){
+  .grid-gs {grid-template-columns: 100% !important;}
+  span#falix-gs-s {width: calc(100% - 68px) !important;}
+  span#minecraft-gs-s {width: calc(100% - 68px) !important;}
 }
-a#edit-this-page {
-  width: max-content;
+@media only screen and (max-width: 799px) {
+  span#falix-gs-s {width: calc(100% - 36px) !important;}
+  span#minecraft-gs-s {width: calc(100% - 36px) !important;}
+  .search-input-wrap {box-shadow: none;}
+  footer#in_footer {position: absolute;transform: translate(0px, 110px);}
+  .search {background: #0b1726;}
 }
+@media only screen and (max-width: 500px) {
+  span#falix-gs-s {width: calc(100% - 32px) !important;}
+  span#minecraft-gs-s {width: calc(100% - 32px) !important;}
+}
+
+
 p.label.label-yellow:hover::before {
   content: "This article is still being worked on";
   position: absolute;
@@ -63,17 +82,6 @@ thead th {
 td {
   background: #162d4b;
   border: none;
-}
-
-/* */
-
-@media only screen and (max-width:799px){
-  .search-input-wrap {box-shadow: none;}
-  footer#in_footer {
-    position: absolute;
-    transform: translate(0px, 40px);
-  }
-  .search {background: #0b1726;}
 }
 
 iframe {
@@ -413,4 +421,63 @@ color: transparent;
 span#white_color {
 background: white;
 color: transparent;
+}
+
+/* GS */
+.grid-gs {
+  display: grid;
+  grid-template-columns: 362px 362px;
+  grid-gap: 10px;
+  margin-top: 40px;
+}
+
+.card-gs {
+  background: #13253b;
+  border-radius: 7px;
+  padding: 42px 0px 10px 0px;
+}
+.card-gs li {
+  padding: 2px 0px 1px 16px;
+}
+.card-gs h3 {
+  margin-left: 14px;
+}
+
+.symbol-gs {
+  position: absolute;
+  margin: -34px 0px 0px 5px;
+}
+.symbol-gs img {
+  width: 28px !important;
+  transform: scale(0.8) translate(7px, 2px);
+}
+
+.card-gs-h {
+  background: transparent;
+  position: absolute;
+  width: 296px;
+  border-radius: 7px 7px 0px 0px;
+  padding: 0px 0px 4px 25px;
+  margin: -46px 0px 0px 0px;
+  z-index: 5;
+}
+
+div#falix-gs-c {
+  border: 2px var(--accent-color) solid;
+}
+div#minecraft-gs-c {
+  border: 2px #95c75c solid;
+}
+
+span#falix-gs-s {
+  background: var(--accent-color);
+  position: absolute;
+  width: 358px;
+  margin: -42px 0px 0px 0px;
+}
+span#minecraft-gs-s {
+  background: #95c75c;
+  position: absolute;
+  width: 358px;
+  margin: -42px 0px 0px 0px;
 }
