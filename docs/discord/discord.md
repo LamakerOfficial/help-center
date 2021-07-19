@@ -7,5 +7,3 @@ permalink: /discord/
 ---
 
 # Discord
-
-## Creating And Hosting Discord Bots
