@@ -3,7 +3,7 @@ layout: default
 title:  "Buying Items from the Store"
 parent: General
 grand_parent: Falix
-permalink: /falix/general/buying-items-from-the-store
+permalink: /falix/general/buying-items-from-the-store/
 tags: Falix store coins buy
 ---
 

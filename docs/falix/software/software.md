@@ -4,7 +4,7 @@ title: Software
 nav_order: 3
 parent: Falix
 has_children: true
-permalink: /falix/software
+permalink: /falix/software/
 ---
 
 # FalixNodes Software

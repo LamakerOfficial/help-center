@@ -3,7 +3,7 @@ layout: default
 title:  "Getting Started"
 parent: BungeeCord
 grand_parent: Minecraft
-permalink: /minecraft/bungeecord/getting-started
+permalink: /minecraft/bungeecord/getting-started/
 tags: Falix Bungeecord bungee cord network proxy spigot papermc ip forwarding
 ---
 

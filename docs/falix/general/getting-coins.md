@@ -3,7 +3,7 @@ layout: default
 title:  "Getting Coins"
 parent: General
 grand_parent: Falix
-permalink: /falix/general/getting-coins
+permalink: /falix/general/getting-coins/
 tags: Falix
 ---
 
