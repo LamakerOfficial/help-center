@@ -1,9 +1,9 @@
 ---
 layout: default
 title:  "Troubleshooting and Errors"
-parent: General
+parent: Support
 grand_parent: Falix
-permalink: /falix/general/troubleshooting/
+permalink: /falix/support/troubleshooting/
 tags: Falix troubleshoot errors bungeecord corrupt 137 1020 403 
 ---
 
