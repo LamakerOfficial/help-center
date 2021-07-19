@@ -12,13 +12,13 @@ In Progress
 
 # Troubleshooting
 ## Corrupted Bungeecord JAR File
-Delete the __bungeecord.jar__ and __bungeecord.server__ file in your file manager, then upload the __BungeeCord.jar__ file from the official [Jenkins](https://ci.md-5.net/job/BungeeCord/) build and rename it to __custom.jar__. Then try booting your server again.
+Delete the <u>bungeecord.jar</u> and <u>bungeecord.server</u> file in your file manager, then upload the <u>BungeeCord.jar</u> file from the official [Jenkins](https://ci.md-5.net/job/BungeeCord/) build and rename it to <u>custom.jar</u>. Then try booting your server again.
 
 ## BungeeCord IP Forwarding
 Error Message: If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
 If this error appears when attempting to connect to your BungeeCord server, you should then edit the configuration file in your proxy server.
 
-Edit the __config.yml__ file, make sure that **ip_forward** is set to **true**.
+Edit the <u>config.yml</u> file, make sure that **ip_forward** is set to **true**.
 
 Simply restart the proxy server upon saving the configuration.
 

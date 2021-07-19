@@ -43,6 +43,6 @@ These __.jar__ files will be assigned to a specific folder on your Minecraft ser
 In order for server administrators to be able to change the settings of a plugin, a configuration file can be used, as previously stated: "a new folder in the plugins folder should appear, usually contains the plugin's configuration."
 
 ## Configuring
-In the plugins folder, there will be a folder with the plugin's name. You can edit the config file, usually marked as __.yml__ file to change the settigs to the plugin.
+In the plugins folder, there will be a folder with the plugin's name. You can edit the config file, usually marked as __.yml__ file to change the settings to the plugin.
 
 Some plugins, like LuckPerms, may have a GUI you can use in browser to do configuration and more.

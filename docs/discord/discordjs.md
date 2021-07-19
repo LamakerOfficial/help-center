@@ -7,9 +7,9 @@ tags: Falix discord bot hosting nodejs js
 ---
 
 # Creating And Hosting a Discord Bot Using Discord.js
-### Creating a Bot
+## Creating a Bot
 First, simply go to [Discord's Developers Portal](https://discord.com/developers/applications) and login.Then, click on "New Application" in the top right corner of the screen, give it a name and click on "Create". After that, click on bot on the side menu, press add bot and confirm it.
-You've sucessfully created the bot account!
+You've successfully created the bot account!
 
 ## Coding a Bot
 To code your bot and to do the following steps you must have basic knowledge of NodeJS and a code editor installed on your PC such as [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/), but you can use one of your liking.
@@ -52,7 +52,7 @@ We have made a command. Now let's specify to the script our bot TOKEN. This will
 To get the TOKEN, go to [discord developers](https://discord.com/developers/applications) and in your application, click on Bot, and copy the token
 The Token is like a password, so don't share it with anyone!
 
-`client.run('Your Super Secret Token')`
+`client.login('Your Super Secret Token')`
 
 ## Hosting The Bot
 

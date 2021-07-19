@@ -8,7 +8,7 @@ tags: minecraft java bedrock ip address custom domain cloudflare dns srv port na
 ---
 
 # Registering a Domain
-Why a domain? A custom IP address like __hypixel.net__ is a domain and you need one to create a custom IP address for your Minecraft server. 
+Why a domain? A custom IP address like <u>hypixel.net</u> is a domain and you need one to create a custom IP address for your Minecraft server. 
 
 ## Choosing a Domain Provider
 There are a lot of places where you can register a domain.
@@ -41,7 +41,7 @@ Why Cloudflare? You're required to use an SRV Record which some domain providers
 What is DNS? Learn about that [here](https://www.cloudflare.com/learning/dns/what-is-dns/).
 
 Create a Cloudflare account, afterwards, click Add Site.
-Add your domain like __example.com__, do not add *http://*.
+Add your domain like <u>example.com</u>, do not add *http://*.
 
 Select the free plan option, click next.
 
@@ -63,7 +63,7 @@ Once done, wait around 20 - 45 minutes for Cloudflare to confirm your site has b
 
 # Manage Domain
 ## Creating an A Record
-In the DNS settings, of your domain, add a new A Record. For the name, use `@`. Then use the numberic IP address for the IPv4 Address, do not include the port number.
+In the DNS settings, of your domain, add a new A Record. For the name, use `@`. Then use the numeric IP address for the IPv4 Address, do not include the port number.
 
 It should look like this:
 
@@ -72,11 +72,13 @@ It should look like this:
 | A           | @         | 00.000.00.00 |
 
 ## Creating a SRV Record
+![SRV Record on Cloudflare](../../../assets/images/posts/minecraft/custom-ip/srv-record.png)
+
 In the DNS settings, of your domain, add a new A Record. For the name use `@`.
 
 For Service, use `_minecraft`.
 
-For Prority, use `0` and for Weight use `5`.
+For Priority, use `0` and for Weight use `5`.
 
 Then, use your server's port number for Port.
 

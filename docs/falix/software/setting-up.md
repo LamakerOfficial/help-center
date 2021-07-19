@@ -20,7 +20,7 @@ or you can click here:
 
 ## macOS
 
-Due to restriction with Apple, the software is not available in the App Store, but we have provided a DMG option instead.
+Due to restrictions with Apple, the software is not available in the App Store, but we have provided a DMG option instead.
 
 If you're using macOS, click the download button on the software website. A DMG file will be provided. Open the DMG file and simply drag the Falix app into the Applications folder.
 
@@ -37,11 +37,11 @@ Since Falix Software is available in the Microsoft Store, you can easily manage 
 
 ## macOS
 Auto updating is still not available for macOS users, you'll need to manually install new updates. When a new update is available, just re-download Falix and install the newer version.
-Uninstalling is not required, when manually installing new updates, it will overwrite the exiting version.
+Uninstalling is not required, when manually installing new updates, it will overwrite the existing version.
 
 ## Linux
-Auto updating is no longer available for LInux users, you'll need to manually install new updates. When a new update is available, just re-download Falix and install the newer version.
-Uninstalling is not required, when manually installing new updates, it will overwrite the exiting version.
+Auto updating is no longer available for Linux users, you'll need to manually install new updates. When a new update is available, just re-download Falix and install the newer version.
+Uninstalling is not required, when manually installing new updates, it will overwrite the existing version.
 
 # Troubleshooting
 ## Stuck on advertisement in Game Panel or Client Panel
@@ -55,7 +55,7 @@ For Linux users, assuming you installed from Snap, Snap apps can take a moment t
 For Windows users, please check your task manager and see if Falix Software is running. Since it's built on Electron, you may see a few instances of it running. You can kill the process and try again, if it's not working on the second try, you can try re-installing the software.
 
 ## Falix Software caused BSOD on Windows
-This issue has been reported a few times, but has not ben seen by Korbs(developer). If for whatever reason this does happen, please let us know.
+This issue has been reported a few times, but has not been seen by Korbs(developer). If for whatever reason this does happen, please let us know.
 
 # Troubleshooting - Building
 These are issues you may get while building the software from GitHub
@@ -79,7 +79,7 @@ Electron Builder v20 still has all the features we need to build Falix Software,
 ## Appx file won't open
 If you've built a APPX file on Windows 7 or Windows 8.1, this file can't be used. APPX file is built for Windows 10 only.
 
-[What's an APPX file?](https://help.falix.gg/article/falix/software/faq-for-developers/)
+[What's an APPX file?](https://help.falixnodes.net/article/falix/software/faq-for-developers/)
 
 ## Appx file won't let me install on Windows 10
 We recommend that you actually EXE format instead of APPX. Please change the target under Windows to "nsis". NSIS will provide a EXE setup file.
