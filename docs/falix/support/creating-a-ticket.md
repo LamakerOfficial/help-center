@@ -85,7 +85,7 @@ Let's see some examples:
  ```
  This means something is wrong with the jar file you're using for your server. Simply just replace the jar file with a replacement. 
 
- If you're having this issue with BungeeCord, [read here](#).
+ If you're having this issue with BungeeCord, [read here](https://help.falixnodes.net/falix/support/troubleshooting/#corrupted-bungeecord-jar-file).
 
 ## Look Around the Help Center
 You're here, might as well look around. If you're having an issue, it may have already been covered here at our help center. We also do have a troubleshooting tab that you should also check out.
