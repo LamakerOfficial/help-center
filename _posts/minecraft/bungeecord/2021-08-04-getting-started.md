@@ -97,4 +97,7 @@ Players, including you (of course), can easily teleport to the other servers on 
 
 In-Game example:
 
-<video controls muted src="../../../assets/images/posts/bungeecord/getting-started/in-game-command-server.webm"></video>
+<video class="video-js" controls preload="auto" data-setup="{}"><source
+ src="https://media.korbsstudio.com/falix/bungeecord/in-game-command-server.webm" type="video/webm"
+ src="https://media.korbsstudio.com/falix/bungeecord/in-game-command-server.mp4" type="video/mp4"
+ /></video>
