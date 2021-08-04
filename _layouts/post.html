@@ -1,0 +1,19 @@
+---
+---
+{% include header.html %}
+
+<div class="article">
+    {% include breadcrumbs.html %}
+    {{content}}
+    {% include footer.html %}
+</div>
+
+<style>
+.article {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1000px;
+}
+</style>
