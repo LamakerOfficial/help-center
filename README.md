@@ -151,9 +151,16 @@ Since the Help Center is powered by Jeykll, you'll need to install [Ruby](https:
  - [Download for Windows](https://rubyinstaller.org/)
  - [Download for macOS](https://www.ruby-lang.org/en/downloads/)
 
-## Installing on Linux
+## Installing Ruby on Linux
+Debian/Ubuntu:
 ```
 sudo apt-get install ruby-full build-essential zlib1g-dev
+gem install jekyll bundler
+```
+Fedora/CentOS/RedHat:
+```
+sudo dnf install make automake gcc gcc-c++ kernel-devel
+sudo dnf groupinstall "Development Tools" "Development Libraries"
 gem install jekyll bundler
 ```
 
@@ -168,7 +175,7 @@ bundle add webrick
 
 To run a localhost server, run:
 ```
-jekyll serve
+bundle exec jekyll serve
 ```
 
-After using `jekyll serve`, try going to http://localhost:4000/.
+After using `bundle exec jekyll serve`, try going to http://localhost:4000/.
