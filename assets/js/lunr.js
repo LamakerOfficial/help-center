@@ -2711,7 +2711,7 @@
         }
     
         // Escape character is '\'
-        if (char.charCodeAt(0) == 92) {
+        if (char.charCodeAt(0) == 32) {
           lexer.escapeCharacter()
           continue
         }

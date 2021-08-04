@@ -3,7 +3,7 @@ layout: post
 title:  "Creating a Server"
 categories: Minecraft
 tag: mcgeneral
-permalink: /minecraft/getting-started/
+permalink: /minecraft/general/getting-started/
 ---
 
 # Creating a Server

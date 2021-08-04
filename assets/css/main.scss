@@ -96,11 +96,35 @@ div#mm li {
 @media only screen and (min-width:1081px){
     .if_mobile {display: none;}
 }
+@media only screen and (max-width:1010px) {
+    .grid_ct {grid-template-columns: 330px 330px !important;}
+}
+
+@media only screen and (max-width:700px) {
+    .grid_ct {grid-template-columns: 330px !important;}
+    div#breadcrumbs {font-size: 12px;}
+    section#hero input {display: none;}
+}
+
+@media only screen and (max-width:780px) {
+    input#lunrsearch {width: 100px;}
+}
+
+@media only screen and (max-width:480px) {
+    .install-plugin {height: 120px !important;}
+    .install-plugin img {width: 90px !important;}
+    .install-plugin p {margin: 28px 0px 0px 130px !important;}
+    .install-plugin a {
+        left: 41px;
+        right: inherit !important;
+        margin: 63px 0px 0px 90px !important;
+    }
+}
 
 @media only screen and (max-width:1080px){
     .if_desktop {display: none;}
     .sections {width: 100% !important;}
-    .h_content, .f_content {
+    .h_content, .f_content, form, section#hero h1, section#category, .article, div#lunrsearchresults {
         width: calc(100% - 50px) !important;
     }
     .se_content {
@@ -114,10 +138,13 @@ div#mm li {
         width: calc(100% - 50px);
         margin-left: 30px;
     }
+    .article img, .article table {width: 100%;}
     .se_text p {width: inherit !important;}
     .se_img {display: none !important;}
     .f_grid{grid-template-columns: 100% !important; grid-gap: 0px !important;}
 }
+
+
 
 /* Header */
 .h_content {
@@ -136,7 +163,7 @@ div#mm li {
 .h_right {
     position: absolute;
     top: 25px;
-    right: 0px;
+    right: -15px;
     text-align: right;
     display: flex;
 }
@@ -387,18 +414,26 @@ form {
     bottom: 39px;
 }
 input#lunrsearch {
-    border: none;
     border-radius: 4px;
-    background: #2970cc;
+    border: 2px transparent solid;
+    background: #1c2e42;
     color: white;
     padding: 8px 10px;
     pointer-events: all;
 }
+div#lunrsearchresults li {
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+input#lunrsearch:hover {border: 2px rgba(41, 112, 204, 0.5) solid;}
+input#lunrsearch:focus {border: 2px rgb(41, 112, 204) solid;}
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
     opacity: 1; /* Firefox */
 }
 
+span.title {text-decoration: underline;}
+li.lunrsearchresult a {text-decoration: none;}
 div#lunrsearchresults {
     border: 2px #2970cc solid;
     border-radius: 2px;

@@ -3,3 +3,7 @@ logo: "/assets/images/Icon.png"
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from

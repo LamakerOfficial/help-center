@@ -3,7 +3,7 @@
 {% include header.html %}
 
 <section style="height: 300px;" id="hero">
-    <h1>Help Center - Minecraft</h1>
+    <h1>Help Center - Falix</h1>
     {% include search-lunr.html %}
 </section>
 
@@ -12,26 +12,19 @@
         <div class="ct">
             <h1>General</h1>
             <ui>
-                {% for post in site.tags.mcgeneral %}
+                {% for post in site.tags.fxgeneral %}
                     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ui>
         </div>
         <div class="ct">
-            <h1>Plugins</h1>
+            <h1>Support</h1>
             <ui>
-                {% for post in site.tags.plugins %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ui>
-        </div>
-        <div class="ct">
-            <h1>BungeeCord</h1>
-            <ui>
-                {% for post in site.tags.Bungeecord %}
+                {% for post in site.tags.support %}
                     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ui>
         </div>
     </div>
 </section>
+
