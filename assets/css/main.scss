@@ -1,3 +1,7 @@
+:root {
+    --accent: #2970cc;
+}
+
 /* SIL OPEN FONT LICENSE: https://falix.gg/src/fonts/Poppins/OFL.txt */
 /* Poppins was downloaded from Google Fonts: https://fonts.google.com/specimen/Poppins */
 
@@ -19,6 +23,8 @@
     font-weight: lighter;
 }
 
+
+
 body {
     background: #0f1d2d;
     color: white;
@@ -39,7 +45,7 @@ header {
 ::-webkit-scrollbar {width: 0px;}
 ::selection {background: #17365a; color: rgba(255, 255, 255, 0.5);}
 *:focus {outline: none;}
-a {color: #2970cc;}
+a {color: var(--accent);}
 blockquote {
     border-left: 2px white solid;
     padding-left: 12px;
@@ -48,19 +54,19 @@ blockquote {
 video {
     width: 100%;
     border-radius: 4px;
-    border: 2px #2970cc solid;
+    border: 2px var(--accent) solid;
 }
 table {
     background: #1c2e42;
-    border: 2px #2970cc solid;
+    border: 2px var(--accent) solid;
     border-radius: 4px;
-    width: 400px;
+    width: 100%;
 }
-thead {background: #2970cc;}
+thead {background: var(--accent);}
 
 button#btn {
     color: white;
-    background: #2970cc;
+    background: var(--accent);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -326,7 +332,7 @@ p#social-icons i {
 
 .install-plugin {
     background: #1c2e42;
-    border: 2px #2970cc solid;
+    border: 2px var(--accent) solid;
     height: 80px;
     margin-top: 30px;
 }
@@ -375,7 +381,7 @@ section#category {
 }
 .ct {
     background: #1c2e42;
-    border: 2px #2970cc solid;
+    border: 2px var(--accent) solid;
     margin: 10px;
     padding: 90px 0px 20px 20px;
     border-radius: 4px;
@@ -435,7 +441,7 @@ input#lunrsearch:focus {border: 2px rgb(41, 112, 204) solid;}
 span.title {text-decoration: underline;}
 li.lunrsearchresult a {text-decoration: none;}
 div#lunrsearchresults {
-    border: 2px #2970cc solid;
+    border: 2px var(--accent) solid;
     border-radius: 2px;
     background: #1c2e42;
     position: absolute;
@@ -467,3 +473,19 @@ button#goGo_ct {
     padding: 0px 30px 0px 0px;
 }
 button#goGo_ct:hover {background: rgb(0 0 0 / 10%);}
+
+
+.article {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1000px;
+    animation: 1s fadeIn ease;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    45% {opacity: 0;}
+    100% {opacity: 1;}
+}
