@@ -1,0 +1,26 @@
+.video-js {
+    width: 100%;
+}
+.vjs-control-bar {
+    background: rgb(49 49 49 / 90%) !important;
+}
+.video-js .vjs-progress-holder {
+    height: 1.3em;
+}
+.video-js .vjs-play-progress:before {display: none;}
+.video-js .vjs-play-progress {background-color: rgb(65 118 188 / 90%);}
+button.vjs-big-play-button {
+    left: 20px !important;
+    top: inherit !important;
+    bottom: 20px !important;
+    position: absolute;
+    border: 2px white solid !important;
+    border-radius: 50px !important;
+    width: 50px !important;
+}
+.vjs-modal-dialog-content {
+    backdrop-filter: blur(200px) brightness(0.9);
+    border: 2px rgb(41 112 204) solid;
+    border-radius: 4px;
+    font-size: 20px !important;
+}
