@@ -1,5 +1,7 @@
 title: Falix Help Center
 logo: "/assets/images/Icon.png"
+baseurl: ""
+url: ""
 theme: minima
 plugins:
   - jekyll-feed
