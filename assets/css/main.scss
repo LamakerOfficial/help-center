@@ -505,3 +505,15 @@ button#goGo_ct:hover {
     45% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+button#ct_extra {
+    color: white;
+    border: none;
+    position: absolute;
+    margin: -69px 0px 0px 230px;
+    z-index: 5;
+    padding: 10px 12px;
+    border-radius: 4px;
+    background: var(--accent);
+    cursor: pointer;
+}
