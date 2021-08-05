@@ -321,6 +321,7 @@ section#footer a {
 p#social-icons {
     cursor: default;
     display: flex;
+    pointer-events: all !important;
 }
 p#social-icons i {
     margin-right: 10px;
