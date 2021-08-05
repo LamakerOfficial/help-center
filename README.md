@@ -1,5 +1,9 @@
-# Falix Help Center - Design Refresh
-![preview](https://i.imgur.com/Gs8dTZ5.png)
+Update August 4th 2021 - The design was recently revamp to match up with the new design from software.falixnodes.net. This means that some parts of the new design on the help center is still a work in progress. If you see any errors, or at least think something is wrong, make sure to report an issue.
+
+We're no longer using Just the Docs and now using our own custom template, created by Korbs Studio.
+
+# Falix Help Center
+![preview](https://i.imgur.com/PricFQB.png)
 
 A new design of the help center is being worked on along with adding a few other things like filters, search, author, and options(Copy Link, Report, and Edit)
 
@@ -9,32 +13,35 @@ Want to help contribute to the Help Center? Write or update an article!
 ## 🛡️ Requirements 
  - The communication must be clear and well explained for the user to understand
  - Fact check and make sure the information you're providing is accurate
- - Good grammar, we check our grammar using [Grammarly](https://grammarly.com/)
- - Valid syntax, make sure there are no syntax errors
+ - Good grammar
+ - Valid syntax
  - Proper metadata
 
 ## ✍️ Creating an Article
-By following the file structure, create a `.md` file under the correct category. As an example, if you were to create an article that explains on how to install and use a plugin on Minecraft Java, the file would be created like `docs/minecraft/plugins/plugin-name.md`. Then start writing the article in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do, if you need help understanding how to do certain task like creating a link, inserting an image, creating a list look [here](https://guides.github.com/features/mastering-markdown/).
+By following the file structure, create a `.md` file under the correct category. As an example, if you were to create an article that explains on how to install and use a plugin on Minecraft Java, the file would be created like `_posts_/minecraft/plugins/plugin-name.md`. Then start writing the article in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do, if you need help understanding how to do certain task like creating a link, inserting an image, creating a list look [here](https://guides.github.com/features/mastering-markdown/).
 
 ## 📃️ Metadata
 Make sure the metadata is setup properly, this is usually at the top of every article.
 It should look like this:
 ```
 ---
-layout: default
-title:  "Article Title"
-parent: Sub-Category
-grand_parent: Category
-permalink: /category/sub-category/article-title/
-tags: Falix
+layout: post
+title:  "Title of Article"
+categories: Minecraft
+tags: Plugins
+permalink: /minecraft/plugins/name-of-plugin/
 ---
 ```
+
+`layout` must remain as `post`.
+
+`tags` is the sub-category.
 
 ## Content
 ### Plugin's Download
 At the top of each plugin article, there is a box displays information about the plugin with a download link, example:
 
-<img src="https://i.imgur.com/QYkKcOT.png" width="500">
+<img src="https://i.imgur.com/3tWsjYD.png">
 
 If you plan to create an article explaining how to use a plugin, it's best you use this at the top of the article. The code is:
 ```
@@ -128,30 +135,32 @@ Code:
 I personally like seeing `<video>` in the help center over a YouTube embed, but you're allowed to use a YouTube embed if you want to.
 [Learn how to embed a YouTube video](https://support.google.com/youtube/answer/171780?hl=en)
 
-If you're going to use `<video>`, I would like to see at least a thumbnail set for it, which is also called a `poster` in HTML. Also make sure you do add the `controls` option so users can control the video.
+We've added VideoJS script recently to the help center, which adds custom controls to the code.
 
-Would go something like this:
+So when adding videos to an article, make sure it looks like this:
+
 ```
-<video poster="https://example.com/thumbnail.png" src="https://example.com/video.mp4" controls>
+<video class="video-js" controls preload="auto" data-setup="{}"><source
+ src="https://example.com/video.webm" type="video/webm"
+ src="https://example.com/video.mp4" type="video/mp4"
+ /></video>
 ```
+
+Make sure to provide both webm and mp4. Webm are much smaller and load faster, although an MP4 file is required as not all browsers support webm format. So the MP4 is more of a fallback option if the user's browser doesn't like the webm format.
 
 ## 📢️ Publishing
 Create a pull request on this repo and title it like this "New Post: Name of Article" or if you're editing an article, title it like "Edit: Name of Existing Article".
 
-We use [Cloudflare Pages](https://pages.cloudflare.com/) to host the Help Center, so when the pull requested is merged, Cloudflare will rebuild the Help Center and then update if the rebuild was success.
-
 Your edit will be reviewed by [Korbs](https://github.com/KorbsStudio/) along with your code to check for any syntax error.
-
-*We use the [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/ui-components) theme with [slight modifications to styling](https://github.com/FalixNodes-Software/help-center/blob/main/_sass/custom/custom.scss).*
 
 # Building
 If you're interested in learning on how to build the Help Center locally, maybe to preview that your article does show up properly, just follow the instructions below.
 
-Since the Help Center is powered by Jeykll, you'll need to install [Ruby](https://www.ruby-lang.org/en/) for your operating system.
+Since the Help Center is powered by Jekyll, you'll need to install [Ruby](https://www.ruby-lang.org/en/) for your operating system.
  - [Download for Windows](https://rubyinstaller.org/)
  - [Download for macOS](https://www.ruby-lang.org/en/downloads/)
 
-## Installing Ruby on Linux
+### Installing Ruby on Linux
 Debian/Ubuntu:
 ```
 sudo apt-get install ruby-full build-essential zlib1g-dev
@@ -160,18 +169,10 @@ gem install jekyll bundler
 Fedora/CentOS/RedHat:
 ```
 sudo dnf install make automake gcc gcc-c++ kernel-devel
-sudo dnf groupinstall "Development Tools" "Development Libraries"
 gem install jekyll bundler
 ```
 
 ## Building and Locally Hosting
-Then change directory to the help center, and use:
-```
-gem install just-the-docs
-bundle install
-bundle add webrick
-```
-
 
 To run a localhost server, run:
 ```

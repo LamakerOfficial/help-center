@@ -1,58 +1,9 @@
 title: Falix Help Center
-baseurl: ""
-url: ""
 logo: "/assets/images/Icon.png"
-
-theme: just-the-docs
+theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
-permalink: pretty 
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/"
-]
-
-color_scheme: dark
-
-search_enabled: true
-search:
-  heading_level: 12
-  previews: 5
-  preview_words_before: 6
-  preview_words_after: 6
-  tokenizer_separator: /[\s/]+/
-  rel_url: true
-  button: false
-  heading_anchors: true
-
-aux_links_new_tab: true
-aux_links:
-  "FalixNodes.net":
-    - "//falixnodes.net"
-nav_sort: case_sensitive
-back_to_top: false
-back_to_top_text: "Back to top"
-last_edit_timestamp: true
-last_edit_time_format: "%b %e %Y at %I:%M %p"
-
-gh_edit_link: true
-gh_edit_link_text: "Edit Article"
-gh_edit_repository: "https://github.com/FalixNodes-Software/help-center"
-gh_edit_branch: "main"
-gh_edit_view_mode: "tree"
-
-plugins:
-  - jekyll-seo-tag
-
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
+whitelist:
+  - jekyll-redirect-from
