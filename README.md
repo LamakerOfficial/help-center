@@ -18,7 +18,7 @@ Want to help contribute to the Help Center? Write or update an article!
  - Proper metadata
 
 ## ✍️ Creating an Article
-By following the file structure, create a `.md` file under the correct category. As an example, if you were to create an article that explains on how to install and use a plugin on Minecraft Java, the file would be created like `_posts_/minecraft/plugins/plugin-name.md`. Then start writing the article in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do, if you need help understanding how to do certain task like creating a link, inserting an image, creating a list look [here](https://guides.github.com/features/mastering-markdown/).
+By following the file structure, create a `.md` file under the correct category. As an example, if you were to create an article that explains on how to install and use a plugin on Minecraft Java, the file would be created like `_posts_/minecraft/plugins/2021-08-04-plugin-name.md`. You're required to add the date at the beginning of the file name, `2021-08-04`. Then start writing the article in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do, if you need help understanding how to do certain task like creating a link, inserting an image, creating a list look [here](https://guides.github.com/features/mastering-markdown/).
 
 ## 📃️ Metadata
 Make sure the metadata is setup properly, this is usually at the top of every article.
