@@ -46,6 +46,13 @@ header {
 ::selection {background: #17365a; color: rgba(255, 255, 255, 0.5);}
 *:focus {outline: none;}
 a {color: var(--accent);}
+code {font-family: monospace;}
+thead {background: var(--accent);}
+pre {
+    background: #1c2e42;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
 blockquote {
     border-left: 2px white solid;
     padding-left: 12px;
@@ -62,7 +69,6 @@ table {
     border-radius: 4px;
     width: 100%;
 }
-thead {background: var(--accent);}
 
 button#btn {
     color: white;
@@ -471,9 +477,13 @@ button#goGo_ct {
     text-align: right;
     height: 68px;
     padding: 0px 30px 0px 0px;
+    transition: 0.3s margin;
 }
-button#goGo_ct:hover {background: rgb(0 0 0 / 10%);}
-
+button#goGo_ct:hover {
+    background: rgb(0 0 0 / 10%);
+    margin: -90px 0px 0px -15px;
+    transition: 0.3s margin;
+}
 
 .article {
     position: absolute;
@@ -483,6 +493,7 @@ button#goGo_ct:hover {background: rgb(0 0 0 / 10%);}
     width: 1000px;
     animation: 1s fadeIn ease;
 }
+.article h1 {text-decoration: underline;}
 
 @keyframes fadeIn {
     0% {opacity: 0;}
