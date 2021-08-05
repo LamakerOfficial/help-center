@@ -4,6 +4,8 @@ title:  "Troubleshooting and Errors"
 categories: Falix
 tags: support
 permalink: /falix/support/troubleshooting/
+redirect_from:
+  - /falix/general/troubleshooting/
 ---
 
 In Progress
