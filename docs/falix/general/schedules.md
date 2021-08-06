@@ -9,7 +9,7 @@ tags: schedules automatic
 
 # Guide on how to use Schedules
 
-### What are scedules?
+### What are schedules?
 scedules are like time tables, they run commands/functions at a specified date or time
 
 ### What are scedules useful for? 
