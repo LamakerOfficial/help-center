@@ -1,21 +1,19 @@
 ---
-layout: default
+layout: post
 title:  "Schedules"
-parent: General
-grand_parent: Falix
-permalink: /falix/general/schedules
-tags: schedules automatic
+categories: Falix
+tags: fxgeneral
+permalink: /falix/general/schedules/
 ---
 
 # Guide on how to use Schedules
-
-### What are schedules?
+## What are schedules?
 Schedules are like time tables, they run commands/functions at a specified date or time.
 
-### What are schedules useful for? 
+## What are schedules useful for? 
 Schedules run certain tasks at a specified time or date, one example might be turning off a server after 4 hours or turning it on every day at 10am.
 
-### What functions can schedules run?
+## What functions can schedules run?
 They can:
 
 + Run a power action
