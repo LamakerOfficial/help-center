@@ -10,7 +10,7 @@ tags: schedules automatic
 # Guide on how to use Schedules
 
 ### What are schedules?
-scedules are like time tables, they run commands/functions at a specified date or time
+Schedules are like time tables, they run commands/functions at a specified date or time.
 
 ### What are scedules useful for? 
 schedules run certain tasks at a specified time or date, one example might be turning a server off after 4 hours or turning it on every day at 10 am.
