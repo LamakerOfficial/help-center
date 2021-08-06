@@ -13,7 +13,7 @@ tags: schedules automatic
 Schedules are like time tables, they run commands/functions at a specified date or time.
 
 ### What are schedules useful for? 
-schedules run certain tasks at a specified time or date, one example might be turning a server off after 4 hours or turning it on every day at 10 am.
+Schedules run certain tasks at a specified time or date, one example might be turning off a server after 4 hours or turning it on every day at 10am.
 
 ### What functions can schedules run?
 They can:
