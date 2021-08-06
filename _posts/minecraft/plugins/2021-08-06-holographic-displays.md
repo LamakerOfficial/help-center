@@ -31,7 +31,7 @@ Note that the hologram is going to be created at the position where the player t
 
 You should be able to see this now:
 
-![image](../../../assets/images/posts/plugins/holographic-displays/default-hologram.png)
+<img src="../../../assets/images/posts/plugins/holographic-displays/default-hologram.png" width="500"/>
 
 ## Editing a Hologram
 
@@ -39,19 +39,22 @@ You should be able to see this now:
 
 To set a line of a hologram, use `/hd setline <hologram name> <line number> <new text>`.
 
-![image](../../../assets/images/posts/plugins/holographic-displays/set-line.png)
+<img src="../../../assets/images/posts/plugins/holographic-displays/set-line.png" width="500"/>
+
 
 ### Adding a New Line
 
 To add a new line to the hologram, use `/hd addline <hologram name> <text>`.
 
-![image](../../../assets/images/posts/plugins/holographic-displays/add-line.png)
+<img src="../../../assets/images/posts/plugins/holographic-displays/add-line.png" width="500"/>
+
 
 ## Coloring and Formatting
 
 You can make your holograms look better by coloring and formatting them!
 
-![image](../../../assets/images/posts/plugins/holographic-displays/coloring-and-formatting.png)
+<img src="../../../assets/images/posts/plugins/holographic-displays/coloring-and-formatting.png" width="500"/>
+
 
 We achieved this result by using: `/hd setline example 2 &6&lThis is the hologram's second line`
 
@@ -67,19 +70,20 @@ To delete a hologram, use `/hd delete <hologram name>`
 
 To display an image in a hologram, upload the image to `/plugins/HolographicDisplays/` and use `/hd readimage <hologram name> <image> <hologram width>`
 
-![image](../../../assets/images/posts/plugins/holographic-displays/displayed-image.png)
+<img src="../../../assets/images/posts/plugins/holographic-displays/displayed-image.png" width="500"/>
+
 
 ## Displaying Items
 
 To display items, use the same command as setting or adding a line, but instead of text, use `ICON: <item>`
 
-![image](../../../assets/images/posts/plugins/holographic-displays/floating-item.gif)
+<img src="../../../assets/images/posts/plugins/holographic-displays/floating-item.gif" width="500"/>
 
 ## Using Placeholders
 
 You can also use placeholders on your holograms to make them more dynamic! Below, you can see a table with useful placeholders.
 
-![image](../../../assets/images/posts/plugins/holographic-displays/placeholder.png)
+<img src="../../../assets/images/posts/plugins/holographic-displays/placeholder.png" width="500"/>
 ###### Acheived using the placeholder "{player}"
 
 | Placeholder        | What it does  |
