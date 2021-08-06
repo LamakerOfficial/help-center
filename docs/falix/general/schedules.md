@@ -77,12 +77,7 @@ They can:
 
 
 ### Send command
-Send command sends any command to the console, before inserting a command make sure it works, some examples of commands:
-+ Tps
-+ Op
-+ timings report
-+ kill
-+ say
+To send a console command, use "send command". Any command that can run through the console can be used here!
 
 `TIME OFFSET` is the amount of time to wait after the previous task executes before running this one. If this is the first task on a schedule this will not be applied.
 
@@ -95,13 +90,13 @@ Send power action either shuts down your server, restarts it or terminates it.
 
 `TIME OFFSET` is the amount of time to wait after the previous task executes before running this one. If this is the first task on a schedule this will not be applied.
 
-PAYLOAD is where you will select the action you want the scedules to preform
+`PAYLOAD` is where you will select the action you want the schedules to perform.
 
 ### Create backup
-Create backup creates a clone or copy of all your server files and stores it for you to use in the future
+Create backup creates a clone or copy of all your server files and stores it for you to use in the future.
 
 `TIME OFFSET` is the amount of time to wait after the previous task executes before running this one. If this is the first task on a schedule this will not be applied.
 
-If you want the scedules to ignore multiple files, then type each files path on a different line.
+If you want the schedule to ignore multiple files, then type each file's path on a different line.
 
-Make sure you have added backups to your server, you can do so in the [client page](https://client.falixnodes.net)
+Make sure you have added backups to your server, you can do so in the [client panel](https://client.falixnodes.net).
