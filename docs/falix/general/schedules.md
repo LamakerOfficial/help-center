@@ -86,7 +86,7 @@ Send command sends any command to the console, before inserting a command make s
 
 `TIME OFFSET` is the amount of time to wait after the previous task executes before running this one. If this is the first task on a schedule this will not be applied.
 
-PAYLOAD is where you will type in your commands, if you are using multiple commands then type each on a separate line
+`PAYLOAD` is where you will type in your commands, if you're using multiple commands then type each one on a separate line.
 
 
 
