@@ -31,6 +31,14 @@
                 <li><a href="{{ base.url | prepend: site.url }}/minecraft/bungeecord/getting-started">Getting Started with BungeeCord</a></li>
             </ui>
         </div>
+        <div class="ct">
+            <h1>Discord</h1>
+            <button id="goGo_ct" onclick="location.href = '{{ base.url | prepend: site.url }}/discord/'"><i class="fas fa-long-arrow-alt-right"></i></button>
+            <ui>
+                <li><a href="{{ base.url | prepend: site.url }}/discord/nodejs-discord-bot/">JS - Setting Up</a></li>
+                <li><a href="{{ base.url | prepend: site.url }}/discord/python-discord-bot/">Python - Setting Up</a></li>
+            </ui>
+        </div>
     </div>
     {% include footer.html %}
 </section>

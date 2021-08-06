@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Discord.js"
+title:  "Setting Up"
 parent: Discord
+tags: discordJS
 permalink: /discord/nodejs-discord-bot/
-tags: Falix discord bot hosting nodejs js
 ---
 
 # Creating And Hosting a Discord Bot Using Discord.js

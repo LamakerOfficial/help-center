@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Discord.py"
+title:  "Setting Up"
 parent: Discord
+tags: discordPY
 permalink: /discord/python-discord-bot/
-tags: Falix discord bot hosting python
 ---
 
 # Creating And Hosting a Discord Bot Using Discord.py

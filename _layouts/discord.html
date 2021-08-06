@@ -1,0 +1,32 @@
+---
+---
+<title>{{page.title}} | {{site.title}}</title>
+{% include header.html %}
+
+<section style="height: 300px;" id="hero">
+    <h1>Falix</h1>
+    {% include search-lunr.html %}
+</section>
+
+<section id="category">
+    <div class="grid_ct">
+        <div class="ct">
+            <h1>Discord JS</h1>
+            <ui>
+                {% for post in site.tags.discordJS %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ui>
+        </div>
+        <div class="ct">
+            <h1>Discord Python</h1>
+            <ui>
+                {% for post in site.tags.discordPY %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ui>
+        </div>
+    </div>
+    {% include footer.html %}
+</section>
+
