@@ -28,7 +28,7 @@ It should look like this:
 layout: post
 title:  "Title of Article"
 categories: Minecraft
-tags: Plugins
+tags: plugins
 permalink: /minecraft/plugins/name-of-plugin/
 ---
 ```
