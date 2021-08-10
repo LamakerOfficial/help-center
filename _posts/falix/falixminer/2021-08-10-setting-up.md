@@ -123,14 +123,14 @@ sudo ./falixnodes_cpu_miner-macos -u YourDiscordIDHere -t #
  > Replace `YourDiscordIDHere` with your [Discord ID](https://support.discord.com/hc/en-us/articles/206346498) and replace `#` with the numbers of threads you want to allocate for mining.
 
 # Credits
-flaxeneel2#897 (me) - Developing v2
+flaxeneel2#0897 (me) - Developing v2
 
-Lamaker 💕#2005 - API work and CPU tester
+Lamaker#2005 - API work and CPU tester
 
 TheBeaver#9074 - CPU tester
 
 Mitoxe2#1012 - GPU tester
 
-ShemBaneTheRaccoon#420 - CPU tester
+ShemBaneTheRaccoon#7137 - CPU tester
 
 Korbs#0001 - Documentions
