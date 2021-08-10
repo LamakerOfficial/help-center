@@ -67,9 +67,9 @@ Most commonly, [Google Translate](https://translate.google.com/) and [Grammarly]
    The correct way: "On the older version of Falix, there were options for Discord bots."
 
 # Checklist
- - [Outage or Maintenance](https://help.falixnodes.net/falix/general/creating-a-ticket#outage-or-maintenance)
- - [Console and Logs](https://help.falixnodes.net/falix/general/creating-a-ticket#console-and-logs)
- - [Look Around the Help Center](https://help.falixnodes.net/falix/general/creating-a-ticket#look-around-the-help-center)
+ - [Outage or Maintenance](https://help.falixnodes.net/falix/support/tickets-and-support#outage-or-maintenance)
+ - [Console and Logs](https://help.falixnodes.net/falix/support/tickets-and-support#console-and-logs)
+ - [Look Around the Help Center](https://help.falixnodes.net/falix/support/tickets-and-support#look-around-the-help-center)
 
 ## Outage or Maintenance
 There may be an issue that we're aware of and there's a chance we may have announced it already in our status or announcements channel on our Discord server. 
