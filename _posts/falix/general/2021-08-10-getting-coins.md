@@ -19,4 +19,4 @@ You can mine FalixCoins with our own app. Visit [this article](https://help.fali
 
 ## Joining Promoted Discord Servers
 
-You can join a promoted server and receive FalixCoins for it! Simply go to the [promotions page](https://client.falixnodes.net/promotions) to see the promoted servers available along with the expiry date and the number of coins you will receive from joining it.
+You can join a promoted server and receive FalixCoins for it! Simply go to the [promotions page](https://client.falixnodes.net/join_for_rewards) to see the promoted servers available along with the expiry date and the number of coins you will receive from joining it.
