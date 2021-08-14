@@ -37,7 +37,7 @@ You may not have enough resources left to create a server which may be caused by
 The node for the location you've preferred might have been full.
 
 ### Server Creation is Disabled
-For the time being, we may have disabled server creation. Simply refer to our [Discord](https://discord.gg/FalixNode) announcements channel.
+For the time being, we may have disabled server creation. Simply refer to our [Discord](https://discord.gg/FalixNodes) announcements channel.
 
 ## Connection Issue
 Every now and then you may see an error that says "We're having some trouble connecting to your server, please wait...".

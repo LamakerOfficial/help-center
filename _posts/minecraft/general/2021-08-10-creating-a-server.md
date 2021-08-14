@@ -132,7 +132,7 @@ If you want to give some players access to specific admin commands, but not ever
 
 # Connecting
 ## Find your Server IP Address
-In your [Game Panel](https://panel.falixnodes.net/) the IP is shown in the upper left on the Console tab. Use this to connect to your server. It should look something like <u>de##.falixnodes.net:#####</u>.
+In your [Game Panel](https://panel.falixnodes.net/) the IP is shown in the upper left on the Console tab. Use this to connect to your server. It should look something like <u>ult##.falix.gg:#####</u>.
 
 If you're looking for the numeric IP, this usually shows up when booting the server.
 
