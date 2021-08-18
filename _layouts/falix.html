@@ -35,15 +35,6 @@
                 {% endfor %}
             </ui>
         </div>
-        <div class="ct">
-            <h1>FalixCoins Miner</h1>
-            <button id="ct_extra" onclick="location.href = 'https://github.com/FalixInc/FalixCoins-Miner/releases'"><i class="fas fa-download"></i></button>
-            <ui>
-                {% for post in site.tags.miner %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ui>
-        </div>
     </div>
     {% include footer.html %}
 </section>
