@@ -15,8 +15,8 @@ Choosing your server's software is a very important task. This article will help
 ## Purpur
 [Purpur](https://purpur.pl3x.net/) is an optimized Fork of Tuinity. It contains extra features and supports Spigot and Bukkit plugins. We recommend using this server software.
 
-## Fabric
-[Fabric](https://fabricmc.net/) is a lightweight Minecraft software used for Fabric mods.
+## FabricMC
+[FabricMC](https://fabricmc.net) is a lightweight Minecraft software used for Fabric mods.
 
 ## Vanilla
 Vanilla is the default software provided by Minecraft. It does not support plugins or mods.
