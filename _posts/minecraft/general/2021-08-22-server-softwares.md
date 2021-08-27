@@ -10,10 +10,10 @@ permalink: /minecraft/general/server-softwares/
 Choosing your server's software is a very important task. This article will help you choose the software that fits your server's needs.
 
 ## PaperMC
-[PaperMC](https://papermc.io) is a fork of Spigot that is optimized and allows you to use Spigot and Bukkit plugins. It also fixes some Vanilla bugs and exploits!
+[PaperMC](https://papermc.io) is an optimized fork of Spigot that supports Spigot and Bukkit plugins. It also fixes some Vanilla bugs and exploits!
 
 ## Purpur
-[Purpur](https://purpur.pl3x.net/) is a Fork of Tuinity that is very optimized. It contains extra features and supports Spigot and Bukkit plugins. We recommend using this server software.
+[Purpur](https://purpur.pl3x.net/) is an optimized Fork of Tuinity. It contains extra features and supports Spigot and Bukkit plugins. We recommend using this server software.
 
 ## Fabric
 [Fabric](https://fabricmc.net/) is a lightweight Minecraft software used for Fabric mods.
