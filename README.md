@@ -1,11 +1,5 @@
-Update August 4th 2021 - The design was recently revamp to match up with the new design from software.falixnodes.net. This means that some parts of the new design on the help center is still a work in progress. If you see any errors, or at least think something is wrong, make sure to report an issue.
-
-We're no longer using Just the Docs and now using our own custom template, created by Korbs Studio.
-
 # Falix Help Center
 ![preview](https://i.imgur.com/PricFQB.png)
-
-A new design of the help center is being worked on along with adding a few other things like filters, search, author, and options(Copy Link, Report, and Edit)
 
 # Creating a New Article
 Want to help contribute to the Help Center? Write or update an article!
