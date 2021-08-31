@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating a Server"
+title:  "Getting Started"
 categories: Minecraft
 tag: mcgeneral
 permalink: /minecraft/general/getting-started/
