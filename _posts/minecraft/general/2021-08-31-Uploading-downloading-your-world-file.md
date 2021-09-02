@@ -7,9 +7,9 @@ permalink: /minecraft/general/uploading-downloading-your-world-files/
 ---
 
 # Uploading Your World
-Would you like to upload a world to your server? Great! Follow the guide below to learn how!
+This guide explains how to upload a world to your server!
 
-1. Set up your server.
+1. etup your server. You can create servers on the [client panel](https://client.falixnodes.net).
 2. Go to the [game panel](https://panel.falixnodes.net).
 3. Click on your server.
 4. Click on "File Manager" at the top of the page.
@@ -26,7 +26,7 @@ Would you like to upload a world to your server? Great! Follow the guide below t
 ---------------------------------------------------------
 
 # Downloading Your World
-Would you like to download a world from your server? Great! Follow the guide below to learn how!
+This guide explains how to download a world from your server!
 
 1. Go to the [game panel](https://panel.falixnodes.net).
 2. Click on your server.
@@ -38,5 +38,5 @@ Would you like to download a world from your server? Great! Follow the guide bel
 8. Click on "download".
 9. Your world folder should be downloaded!
 
-> Note: If you are using spigot or any of its forks, you should also have `world_nether` and `world_the_end`, these are also your world files so make sure to download them alongside `world`.
+> Note: If you are using Spigot or any of its forks, you should also have `world_nether` and `world_the_end`, these are also your world files so make sure to download them alongside `world`.
 > Note: You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
