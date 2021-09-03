@@ -39,5 +39,7 @@ This guide explains how to download a world from your server!
 8. Click on "download".
 9. Your world folder should be downloaded!
 
+![image](..\..\..\assets\images\posts\minecraft\download-and-upload-your-world-files\1.png)
+
 > Note: If you are using Spigot or any of its forks, you should also have `world_nether` and `world_the_end`, these are also your world files so make sure to download them alongside `world`.
 > Note: You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
