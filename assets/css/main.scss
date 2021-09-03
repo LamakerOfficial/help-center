@@ -46,7 +46,9 @@ header {
 ::selection {background: #17365a; color: rgba(255, 255, 255, 0.5);}
 *:focus {outline: none;}
 a {color: var(--accent);}
-code {font-family: monospace;}
+code {font-family: monospace;background: #1c2e42;padding: 3px 6px;}
+td code {background: #0f1d2d;}
+
 thead {background: var(--accent);}
 img {max-width: 100%;}
 pre {
