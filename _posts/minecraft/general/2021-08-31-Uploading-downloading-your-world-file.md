@@ -1,15 +1,18 @@
 ---
 layout: post
-title:  "Uploading/Downloading Your World Files"
+title:  "Uploading And Downloading Your World Files"
 categories: Minecraft
 tags: mcgeneral
-permalink: /minecraft/general/uploading-downloading-your-world-files/
+permalink: /minecraft/general/uploading-and-downloading-your-world-files/
 ---
 
 # Uploading Your World
 This guide explains how to upload a world to your server!
 
-1. etup your server. You can create servers on the [client panel](https://client.falixnodes.net).
+> Make sure your server is turned off while following the steps below.
+> Make sure your world is compressed (in ".zip", ".rar" formats or others) before following the steps below.
+
+1. Setup your server. You can create a server on the [client panel](https://client.falixnodes.net).
 2. Go to the [game panel](https://panel.falixnodes.net).
 3. Click on your server.
 4. Click on "File Manager" at the top of the page.
@@ -19,8 +22,6 @@ This guide explains how to upload a world to your server!
 8. Click on "unarchive".
 9. Your world should be uploaded!
 
-> Note: Make sure your world is archived before following the steps above.
-> Note: Make sure your server is off while following the steps above.
 > Note: You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
 
 ---------------------------------------------------------
