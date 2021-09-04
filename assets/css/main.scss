@@ -48,6 +48,7 @@ header {
 a {color: var(--accent);}
 code {font-family: monospace;background: #1c2e42;padding: 3px 6px;}
 td code {background: #0f1d2d;}
+td {border-bottom: 1px #0f1d2d solid !important;}
 
 thead {background: var(--accent);}
 img {max-width: 100%;}
@@ -287,7 +288,7 @@ section#hero::before {
     z-index: 4;
 }
 section#hero {
-    background: url(https://pbs.twimg.com/media/DYozIolW0AAgrnG?format=jpg&name=medium);
+    background: url(https://media.korbsstudio.com/falix/4.png);
     background-size: cover;
     background-position: bottom;
     position: absolute;
@@ -370,7 +371,7 @@ p#social-icons {
     flex-direction: row-reverse;
 }
 section#hero {
-    background-image: url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/103124447_3128233093890197_2643451303304197392_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=WBaUC4LO6WUAX_5WtF9&_nc_ht=scontent-atl3-1.xx&oh=d562986654a8b8d83fb34ae72a42488f&oe=612EBC12);
+    background-image: url(https://media.korbsstudio.com/falix/4.png);
     background-position: center;
 }
 section#hero h1 {
