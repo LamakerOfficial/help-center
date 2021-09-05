@@ -29,3 +29,12 @@ Vanilla Snapshot is a testing version of Minecraft. Snapshot's usually contain b
 
 ## Cuberite 
 [Cuberite](https://cuberite.org/) is an optimized Minecraft server software used for Cuberite plugins.
+
+## Pocketmine(PMMP)
+[Pocketmine](https://pmmp.readthedocs.io/en/rtfd/installation.html) is a lightweight Minecraft Bedrock server software. It does support plugins and Multi world System.
+
+## Altay
+Altay is an optimized fork of Pocketmine(PMMP). It contains many extra features and supports all Pocketmine plugins.
+
+## Vanilla Bedrock
+Vanilla Bedrock is the default Bedrock software provided by Minecraft. It does support Behaviour packs but not plugins.
