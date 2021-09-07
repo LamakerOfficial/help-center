@@ -42,7 +42,7 @@ Vanilla Snapshot is a testing version of Minecraft. Snapshot's usually contain b
 [Pocketmine](https://www.pocketmine.net) is a lightweight Minecraft Bedrock server software. It supports Pocketmine plugins and Multi world Systems.
 
 ### Altay
-Altay is an optimized fork of Pocketmine(PMMP). It contains many extra features and supports all Pocketmine plugins.
+Altay is an optimized fork of Pocketmine(PMMP). It contains extra features and supports Pocketmine plugins.
 
 ### Vanilla Bedrock
 Vanilla Bedrock is the default Bedrock software provided by Minecraft. It supports Behaviour packs but not plugins.
