@@ -24,7 +24,6 @@ This guide explains how to upload a world to your server!
 
 > Note: You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
 
----------------------------------------------------------
 
 # Downloading Your World
 This guide explains how to download a world from your server!
