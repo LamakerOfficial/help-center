@@ -43,4 +43,4 @@ Vanilla Snapshot is a testing version of Minecraft. Snapshot's usually contain b
 [Altay](https://github.com/TuranicTeam/Altay) is an optimized fork of Pocketmine that contains extra features and supports all Pocketmine plugins.
 
 ### Vanilla Bedrock
-Vanilla Bedrock is the default Bedrock software provided by Minecraft. It supports Behaviour packs but not plugins.
+Vanilla Bedrock is the default Bedrock software provided by Minecraft. It does not support plugins.
