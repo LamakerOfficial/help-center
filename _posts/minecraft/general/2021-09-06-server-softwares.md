@@ -34,8 +34,6 @@ Vanilla Snapshot is a testing version of Minecraft. Snapshot's usually contain b
 
 <br>
 
-------------------------------------------------------------------------------------
-
 ## Minecraft Bedrock
 
 ### Pocketmine(PMMP)
