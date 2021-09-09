@@ -15,7 +15,7 @@ Choosing your server's software is a very important task. This article will help
 [PaperMC](https://papermc.io) is an optimized fork of Spigot that supports Spigot and Bukkit plugins. It also fixes some Vanilla bugs and exploits!
 
 ### Purpur
-[Purpur](https://purpur.pl3x.net/) is an optimized Fork of Tuinity. It contains extra features and supports Spigot and Bukkit plugins. We recommend using this server software.
+[Purpur](https://purpur.pl3x.net/) is an optimized fork of Tuinity. It contains extra features and supports Spigot and Bukkit plugins. We recommend using this server software.
 
 ### FabricMC
 [FabricMC](https://fabricmc.net) is a lightweight Minecraft software used for Fabric mods.
@@ -44,3 +44,6 @@ Vanilla Snapshot is a testing version of Minecraft. Snapshot's usually contain b
 
 ### Vanilla Bedrock
 Vanilla Bedrock is the default Bedrock software provided by Minecraft. It does not support plugins.
+
+### Cloudburst
+[Cloudburst](https://cloudburstmc.org/) is an optimized fork of Cloudburst Nukkit written in Java that supports Nukkit plugins.
