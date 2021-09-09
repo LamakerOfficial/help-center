@@ -10,34 +10,14 @@
 
 <section id="category">
     <div class="grid_ct">
-        <div class="ct">
-            <h1>Falix</h1>
-            <button id="goGo_ct" onclick="location.href = '{{ base.url | prepend: site.url }}/falix/'"><i class="fas fa-long-arrow-alt-right"></i></button>
-            <ui>
-                <li><a href="{{ base.url | prepend: site.url }}/falix/general/getting-started/#signing-up">Signing up</a></li>
-                <li><a href="{{ base.url | prepend: site.url }}/falix/general/getting-started/#being-part-of-our-discord-server">Being Part of our Discord Server</a></li>
-                <li><a href="{{ base.url | prepend: site.url }}/falix/support/tickets-and-support/">Creating a Ticket</a></li>
-            </ui>
+        <div id="home-only" class="ct" onclick="location.href = '{{ base.url | prepend: site.url }}/falix/'">
+            <h1 id="home-only"><i class="fas fa-users-cog"></i> Falix</h1>
         </div>
-        <div class="ct">
-            <h1>Minecraft</h1>
-            <button id="goGo_ct" onclick="location.href = '{{ base.url | prepend: site.url }}/minecraft/'"><i class="fas fa-long-arrow-alt-right"></i></button>
-            <ui>
-                <li><a href="{{ base.url | prepend: site.url }}/minecraft/general/getting-started/#creating-a-server">Creating a Server</a></li>
-                <li><a href="{{ base.url | prepend: site.url }}/minecraft/general/getting-started/#configuring">Configuring</a></li>
-                <li><a href="{{ base.url | prepend: site.url }}/minecraft/general/getting-started/#setting-operators">Setting Operators</a></li>
-                <li><a href="{{ base.url | prepend: site.url }}/minecraft/general/getting-started/#server-icon">Setting a Server Icon</a></li>
-                <li><a href="{{ base.url | prepend: site.url }}/minecraft/general/getting-started/#connecting">Connecting to your server</a></li>
-                <li><a href="{{ base.url | prepend: site.url }}/minecraft/bungeecord/getting-started">Getting Started with BungeeCord</a></li>
-            </ui>
+        <div id="home-only" class="ct" onclick="location.href = '{{ base.url | prepend: site.url }}/minecraft/'">
+            <h1 id="home-only"><i class="fa fa-cube"></i> Minecraft</h1>
         </div>
-        <div class="ct">
-            <h1>Discord</h1>
-            <button id="goGo_ct" onclick="location.href = '{{ base.url | prepend: site.url }}/discord/'"><i class="fas fa-long-arrow-alt-right"></i></button>
-            <ui>
-                <li><a href="{{ base.url | prepend: site.url }}/discord/nodejs-discord-bot/">JS - Setting Up</a></li>
-                <li><a href="{{ base.url | prepend: site.url }}/discord/python-discord-bot/">Python - Setting Up</a></li>
-            </ui>
+        <div id="home-only" class="ct" onclick="location.href = '{{ base.url | prepend: site.url }}/discord/'">
+            <h1 id="home-only"><i class="fab fa-discord"></i> Discord</h1>
         </div>
     </div>
     {% include footer.html %}

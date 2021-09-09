@@ -395,6 +395,21 @@ section#category {
     display: grid;
     grid-template-columns: 330px 330px 330px;
 }
+
+.ct h1#home-only {
+    z-index: 2;
+    margin: -50px 0px 0px -40px;
+    text-align: center;
+    position: absolute;
+    width: 330px;
+}
+.ct#home-only:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+.ct h1#home-only i {margin-right: 10px;}
+.ct h1#home-only::before {display: none;}
+
 .ct {
     background: #1c2e42;
     border: 2px var(--accent) solid;
@@ -521,4 +536,49 @@ button#ct_extra {
     border-radius: 4px;
     background: var(--accent);
     cursor: pointer;
+}
+
+.minecraft-edition-picker {
+    background: #0b1725;
+    padding: 1px 25px 21px 25px;
+    margin-top: 30px;
+    border: 2px var(--accent) solid;
+    font-size: 12px;
+    width: max-content;
+}
+button {
+    background: var(--accent);
+    color: white;
+    animation: none;
+    border: none;
+    cursor: pointer;
+    padding: 7px 16px;
+}
+
+
+
+span#java, span#bedrock {
+    padding: 90px 20px 10px 20px;
+    background: transparent;
+    pointer-events: none;
+}
+span#java::after {
+    content: "";
+    background: #b56c00;
+    position: absolute;
+    width: 87px;
+    height: 38px;
+    margin: -5px 0px 0px -70px;
+    z-index: -1;
+    border-radius: 2px;
+}
+span#bedrock::after {
+    content: "";
+    background: #494949;
+    position: absolute;
+    width: 122px;
+    height: 38px;
+    margin: -6px 0px 0px -100px;
+    z-index: -1;
+    border-radius: 2px;
 }
