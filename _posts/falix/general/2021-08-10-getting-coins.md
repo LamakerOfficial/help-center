@@ -17,3 +17,5 @@ You can refer your friend to register through your affiliate for 50 coins per us
 ## Joining Promoted Discord Servers
 
 You can join a promoted server and receive FalixCoins for it! Simply go to the [promotions page](https://client.falixnodes.net/join_for_rewards) to see the promoted servers available along with the expiry date and the number of coins you will receive from joining it.
+
+Do note that you must log out and login to recieve your coins.
