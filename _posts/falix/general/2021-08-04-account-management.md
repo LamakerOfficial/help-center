@@ -16,7 +16,8 @@ It is currently not possible to transfer your Falix server and account to anothe
 
 # Managing
 ## Resetting Your Password
-If you've forgotten your account's password for your Game Panel, please click on your profile picture in the [Client Page](client.falixnodes.net/) then click on "[Settings](https://client.falixnodes.net/profile/settings)", it should be at the top right corner of your screen. You should be redirected to another page. Scroll down and click on "Change Game Panel Password". You will be redirected back to the main page, scroll down and you should see an alert containing your password.
+If you've forgotten your account's password for the Game Panel, click on your profile picture in the top right corner of your screen on the [Client Page](client.falixnodes.net/), then click on "[Settings](https://client.falixnodes.net/profile/settings)". You should be redirected to another page. 
+Scroll down and click on "Change Game Panel Password". You will be redirected back to the main page, scroll down and you should see a success alert containing your password.
 ![image](../../../assets/images/posts/falix/account-management/password-alert-box.png)
 
 ## Deleting Account
