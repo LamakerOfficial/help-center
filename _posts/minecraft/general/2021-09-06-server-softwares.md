@@ -46,4 +46,4 @@ Vanilla Snapshot is a testing version of Minecraft. Snapshot's usually contain b
 Vanilla Bedrock is the default Bedrock software provided by Minecraft. It does not support plugins.
 
 ### Cloudburst
-[Cloudburst](https://cloudburstmc.org/) is an optimized fork of Cloudburst Nukkit written in Java that supports Nukkit plugins.
+[CloudburstMC](https://cloudburstmc.org) (aka NukkitX) is an optimized fork of Nukkit that supports Nukkit plugins.
