@@ -458,8 +458,7 @@ input#lunrsearch {
     padding: 8px 10px;
     pointer-events: all;
 }
-div#lunrsearchresults li {
-    margin-bottom: 30px;
+div#lunrsearchresults li {  
     margin-right: 50px;
 }
 input#lunrsearch:hover {border: 2px rgba(41, 112, 204, 0.5) solid;}
@@ -483,7 +482,7 @@ div#lunrsearchresults {
     display: none;
 }
 div#lunrsearchresults p {margin-left: 25px;}
-span.url {display: none;}
+span.url {color: white; opacity: 0.5;}
 span.body {
     color: white;
     text-decoration: none;
