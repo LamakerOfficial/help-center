@@ -381,7 +381,7 @@ gamemode=creative
     </table>
 
 ## Server Icon
-The server icon helps indicate the branding of your Minecraft Java server, it's easy to set one. Simply create an icon that is 64x64 in resolution. Name the server icon as <u>server-icon.png</u> and add it to the root of your Minecraft Bedrock server files.
+The server icon helps indicate the branding of your Minecraft Bedrock server, it's easy to set one. Simply create an icon that is 64x64 in resolution. Name the server icon as <u>server-icon.png</u> and add it to the root of your Minecraft Bedrock server files.
 
 # Setting Operators
 An operator is a player with administrative access to your server, giving them full access to all commands. Even commands like /stop or /restart.
