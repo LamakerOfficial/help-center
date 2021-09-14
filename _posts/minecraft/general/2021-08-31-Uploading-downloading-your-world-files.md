@@ -31,12 +31,12 @@ This guide explains how to download a world from your server!
 1. Go to the [game panel](https://panel.falixnodes.net).
 2. Click on your server.
 3. Click on "File Manager" at the top of the page.
-4. Locate your world(s) folder, it is usually called `world`.
-5. Check the box to the left of your world(s) folder.
+4. Locate your world folder, it is usually called `world`.
+5. Check the box to the left of your world folder.
 6. Click on "archive" at the bottom of the page.
 7. A new file should be created, locate it and click on the 3 dots to its right.
 8. Click on "download".
-9. Your world(s) folder should be downloaded!
+9. Your world folder should be downloaded!
 
 ![image](..\..\..\assets\images\posts\minecraft\download-and-upload-your-world-files\1.png)
 
