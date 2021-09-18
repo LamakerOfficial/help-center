@@ -83,7 +83,7 @@ Startup flags are also very important for optimization and may make a major diff
 1. Go to your server panel.
 2. Go to startup tab.
 3. Scroll down to `JAVA ARGUMENTS`.
-4. Paste the flags [here](https://haste.flaxeneel2.net/Z3SgPnxvQyaJ9Q47LPbLooXKHq7FSax6UBFkBzpY03OOCdV22k.coffeescript) in it.
+4. Paste the flags [here](https://haste.flaxeneel2.net/raw/java-args) in it.
 5. Start your server and you are done!
 
 > Why should I use these startup flags? 
