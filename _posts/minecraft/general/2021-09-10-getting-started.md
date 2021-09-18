@@ -67,7 +67,7 @@ If for whatever reason clicking "I Accept" didn't work when creating your server
 In order to start your server, you must accept [Mojang's EULA](https://account.mojang.com/documents/minecraft_eula). If you agree to it, go to your server's file manager, find and open the file "`eula.txt`", find the "`eula`" string and set it to `true`.
 
 # Optimizing your Server
-Optimizing your server is a great idea to reduce lag and server load, as it increases the efficiency of the server, letting it process requests quickly. By doing this, you will also increase TPS.
+Optimizing your server is a great way to reduce lag and server load, as it increases the efficiency of the server, letting it process requests quickly. By doing this, you will also increase TPS.
 
 ## Pre-requisites
 Choosing the right server type is very important. An example of a good server software type is [Purpur](https://purpur.pl3x.net/), as it is very optimized and provides a ton of configuration options.
@@ -77,6 +77,19 @@ You can find a detailed guide [here](https://www.spigotmc.org/threads/guide-serv
 These guides give a detailed explanation of all the settings they do on your server. To use them, go to the said files and configure them as the guide shows.
 
 You also have a shortcut. You can check out premade configs by clicking [here](https://github.com/flaxeneel2/pterodactyl-optimized-paper-egg) and then edit the values to your liking (PaperMC).
+
+**Startup Flags**
+Startup flags are also very important for optimization and may make a major difference in performance.
+1. Go to your server panel.
+2. Go to startup tab.
+3. Scroll down to `JAVA ARGUMENTS`.
+4. Paste the flags [here](https://haste.flaxeneel2.net/Z3SgPnxvQyaJ9Q47LPbLooXKHq7FSax6UBFkBzpY03OOCdV22k.coffeescript) in it.
+5. Start your server and you are done!
+
+> Why should I use these startup flags? 
+These flags help keep your server run with a stable TPS by tweaking different allocation and garbage collection settings for Minecraft. 
+For further information on these flags, check out [this blog](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft).
+
 
 # Configuring
 ## Message of the Day
