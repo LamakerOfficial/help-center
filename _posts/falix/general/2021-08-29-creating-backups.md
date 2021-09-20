@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Creating Backups"
-categories: Minecraft
-tags: mcgeneral
-permalink: /minecraft/general/creating-backups/
+categories: Falix
+tags: fxgeneral
+permalink: /falix/general/creating-backups/
 ---
 
 # How To Create Backups
