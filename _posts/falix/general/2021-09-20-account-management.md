@@ -7,12 +7,12 @@ permalink: /falix/general/account-management/
 ---
 # Your Account
 ## Identifying
-In Falix, we identify accounts using their Discord ID and email, We use this to search for users on our staff admin panel.
+In Falix, we identify accounts by their Discord user ID and/or email.
 
-To get your Discord ID on Discord, please enable developer mode in your appearance settings. Head over to the account settings, click on the 3 dots button on the right side and click Copy ID.
+Click [here](https://support.discord.com/hc/en-us/articles/206346498) to visit a Discord article on information to obtain your Discord user ID.
 
 ## Transferring
-It is currently not possible to transfer your Falix server and account to another Discord account. We also don't allow multiple accounts, so using another Discord account on our platform will be detected as an alt account. You should stay with your current Discord account and continue to use it to log in to our service.
+It is currently not possible to transfer your Falix account and servers to another account. We also don't allow multiple accounts, so using another account on our platform will be detected as an alt account. You should stay with your current account and continue to use it to log into our service.
 
 # Managing
 ## Resetting Your Panel Password
