@@ -13,8 +13,8 @@ You can watch advertisements on our Android app to earn coins, follow the steps 
 
 1. Make sure that your Falix account is linked with your discord account, you can do so [here](https://client.falixnodes.net/profile/settings).
 2. Download the app from the [Play Store](https://play.google.com/store/apps/details?id=net.falixnodes.falixcoins).
-3. Copy your discord ID, follow [this](https://support.discord.com/hc/en-us/articles/206346498) guide to learn how.
-4. Open the app and insert your discord ID into the field given.
+3. Copy your Discord user ID, follow [this](https://support.discord.com/hc/en-us/articles/206346498) guide to learn how.
+4. Open the app and insert your discord user ID into the given field.
 5. Click on "Watch ads".
 
 > Note: any kinds of scripts, macros, and auto clickers are strictly not allowed.
