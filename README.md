@@ -159,11 +159,13 @@ Debian/Ubuntu:
 ```
 sudo apt-get install ruby-full build-essential zlib1g-dev
 gem install jekyll bundler
+bundle install
 ```
-Fedora/CentOS/RedHat:
+Fedora/RedHat:
 ```
-sudo dnf install make automake gcc gcc-c++ kernel-devel
+sudo dnf install make automake gcc gcc-c++ kernel-devel ruby-devel
 gem install jekyll bundler
+bundle install
 ```
 
 ## Building and Locally Hosting
@@ -173,4 +175,4 @@ To run a localhost server, run:
 bundle exec jekyll serve
 ```
 
-After using `bundle exec jekyll serve`, try going to http://localhost:4000/.
+After using `bundle exec jekyll serve`, try going to http://localhost:4000/ in your preferred web browser.
