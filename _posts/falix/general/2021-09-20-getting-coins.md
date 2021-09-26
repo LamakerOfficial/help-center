@@ -24,7 +24,7 @@ If you do not see any ads, try again later.
 # Referring
 You can refer your friends to register through your affiliate code for 50 coins per user, follow the steps below to learn how:
 
-#### Creating your affiliate code
+## Creating your affiliate code
 
 1. Go to your [affiliate page](https://client.falixnodes.net/affiliate/link).
 2. Scroll down then enter in any code you wish, this will be your affiliate code.
@@ -32,7 +32,7 @@ You can refer your friends to register through your affiliate code for 50 coins 
 4. Your page should reload with a success message.
 ![image](../../../assets/images/posts/falix/earning-coins/making-affiliate-code.png)
 
-#### How to use an affiliate code
+## How to use an affiliate code
 
 1. Go to the [login page](https://client.falixnodes.net/auth/register).
 2. Fill in your details.
