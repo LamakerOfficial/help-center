@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Adding users to your server"
+title:  "Giving users access to your server panel"
 categories: Falix
 tags: fxgeneral
-permalink: /falix/general/adding-users-to-your-server/
+permalink: /falix/general/giving-users-access-to-your-panel/
 ---
 
 
-# Adding Users To Your Server
-If you need to give other users access to your server, you can easily do so using the "users" feature in the game panel, follow the steps below to learn how:
+# Giving users access to your server panel
+If you need to give other users access to your panel, you can easily do so using the "users" feature in the game panel, follow the steps below to learn how:
 
 > Note: Make sure the user you are adding is already registered in Falix.
 
