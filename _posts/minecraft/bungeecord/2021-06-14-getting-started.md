@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: post
 title:  "Getting Started"
 categories: Minecraft
 tags: Bungeecord
 permalink: /minecraft/bungeecord/getting-started/
 ---
-
+-->
 # Getting Started with BungeeCord
 ## What and Why?
 ### What is it?
