@@ -1,10 +1,10 @@
----
+
 layout: post
 title:  "Schedules"
 categories: Falix
 tags: fxgeneral
 permalink: /falix/general/schedules/
----
+
 
 # Guide on how to use Schedules
 ## What are schedules?
