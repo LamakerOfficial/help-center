@@ -10,7 +10,7 @@ permalink: /falix/software/setting-up/
 Falix Software is built on Electron, meaning it's cross-platform and supports Windows, macOS, Linux, and ChromeOS. The installation is easy to follow and you should of the software installed within at least 2 minutes or less(depending on your internet speed).
 
 ## Windows
-You can install the exe file provided by the [update server](https://updates.korbsstudio.com/falix-software/falixnodes-software-3.1.0.zip).
+You can install the exe file provided by the [update server](https://updates.korbsstudio.com/falix-software/falixnodes-software-3.4.0.zip).
 
 ## Windows 10
 You can install the software easily in the Microsoft Store on Windows 10. Just search "Falix" and the software should show up. Select it and click install.
