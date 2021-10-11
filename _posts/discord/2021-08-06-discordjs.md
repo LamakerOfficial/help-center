@@ -54,6 +54,8 @@ The Token is like a password, so don't share it with anyone!
 
 `client.login('Your Super Secret Token')`
 
+You can refer to this guide for making a complete discord bot with javascript [discordjs.guide](https://discordjs.guide)
+
 ## Hosting The Bot
 
 To host your bot in our service, you need a server. To create one, follow [this article](https://help.falixnodes.net/falix/general/getting-started/#creating-a-server). Head over to the [Game Panel](https://panel.falixnodes.net), log in and select the server you've just created. Once you're there, go to your server's file manager. A "button" for it can be found on the top bar. Now, simply upload your 3 bot files (index.js, package.json, package-lock.json) to the main path. Wait for the upload to be complete and navigate back to your server's console, then start your server. You'll be shown a bunch of options including Bot hosting. Since we're hosting a Discord bot, type `5` and press enter. You will now see 2 options, one for Discord bot hosting, and other for SinusBot hosting. Type `1`, for Discord. You'll now be shown a new menu with a bunch of new options. This is a NodeJS Discord bot guide, so we're going to choose option `2` to start a NodeJS server. Choose the NodeJS version (If you downloaded the latest NodeJS version (16.2.0 at the moment) or you're running a version that is not listed there, choose `custom`, and type the version you want) then type the name of bot your main file, in our case, `index.js`. Wait for nodejs to download and install, and start your bot.
