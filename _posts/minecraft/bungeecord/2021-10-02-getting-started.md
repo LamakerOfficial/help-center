@@ -46,7 +46,7 @@ Wait for half a minute, your server should be on.
 ![image](../../../assets/images/posts/bungeecord/getting-started/starting-proxy.png)
 8. Locate `config.yml` and open it.
 9. Scroll down to `host: 0.0.0.0:25577` and change the numbers after `:` to your Bungeecord's port. You can find your port in the "Network" tab at the top of the page.
-10. Scroll down to `priorities:- lobby`, change `lobby` to your deafult fallback server's name (Case sensitive), this will be the default server that users will be redirected to when they join your Bungeecord.
+10. Scroll down to `priorities:- lobby`, change `lobby` to your default fallback server's name (Case sensitive), this will be the default server that users will be redirected to when they join your BungeeCord server.
 11. Scroll down and set `IP_forward` to `true`.
 12. Scroll down to `servers:` follow the format below:
 
