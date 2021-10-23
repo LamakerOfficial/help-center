@@ -1,6 +1,10 @@
-name: Update Website
+name: Rebuild and Update Website on VPS
 
 on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
