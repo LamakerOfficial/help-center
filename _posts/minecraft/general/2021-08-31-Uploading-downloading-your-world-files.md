@@ -4,7 +4,6 @@ title:  "Uploading And Downloading Your World Files"
 categories: Minecraft
 tags: mcgeneral
 permalink: /minecraft/general/uploading-and-downloading-your-world-files/
-permalink: /minecraft/general/getting-started/
 order: 2
 ---
 
