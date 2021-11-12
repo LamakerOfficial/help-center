@@ -1,11 +1,8 @@
 _site
+.idea
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 Gemfile.lock
 Gemfile
-.idea/vcs.xml
-.idea/modules.xml
-.idea/help-center.iml
-.idea/discord.xml
