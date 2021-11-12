@@ -5,3 +5,7 @@ _site
 vendor
 Gemfile.lock
 Gemfile
+.idea/vcs.xml
+.idea/modules.xml
+.idea/help-center.iml
+.idea/discord.xml
