@@ -2,6 +2,7 @@
 layout: post
 title:  "Uploading And Downloading Your World Files"
 categories: Minecraft
+icon: <i class="fa-duotone fa-memo"></i></span>
 tags: mcgeneral
 permalink: /minecraft/general/uploading-and-downloading-your-world-files/
 order: 2

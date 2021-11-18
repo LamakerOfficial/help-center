@@ -2,6 +2,7 @@
 layout: post
 title:  "WorldGuard and WorldEdit"
 categories: Minecraft
+icon: <i class="fa-duotone fa-puzzle"></i>
 permalink: /minecraft/plugins/worldguard-and-worldedit/
 tags: minecraft edit paint brush structure wand protect guard restrict area region define 
 --- -->

@@ -2,13 +2,15 @@
 layout: post
 title:  "DiscordSRV"
 categories: Minecraft
+icon: <i class="fa-duotone fa-puzzle"></i>
 tags: plugins
 permalink: /minecraft/plugins/discordsrv/
 ---
 
 <div class="install-plugin">
     <img style="border-radius: 50px;" src="https://www.spigotmc.org/data/resource_icons/18/18494.jpg?1455529290">
-    <p>DiscordSRV</p>
+    <h2>DiscordSRV</h2>
+    <h3>Developer: Scarsz</h3> 
     <a href="https://www.spigotmc.org/resources/discordsrv.18494/">Download this Plugin</a>
 </div>
 

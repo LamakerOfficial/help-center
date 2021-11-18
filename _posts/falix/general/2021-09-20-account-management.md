@@ -3,11 +3,12 @@ layout: post
 title:  "Account Management"
 categories: Falix
 tags: fxgeneral
+icon: <i class="fa-duotone fa-file-user"></i>
 permalink: /falix/general/account-management/
 ---
 # Your Account
 ## Identifying
-In Falix, we identify accounts by their Discord user ID and/or email.
+In FalixNodes, we identify accounts by their Discord user ID and/or email.
 
 Click [here](https://support.discord.com/hc/en-us/articles/206346498) to visit a Discord article on information to obtain your Discord user ID.
 

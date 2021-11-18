@@ -3,6 +3,7 @@ layout: post
 title:  "Using SFTP"
 categories: Falix
 tag: fxgeneral
+icon: <i class="fa-duotone fa-memo"></i></span>
 permalink: /falix/general/sftp/
 ---
 
@@ -16,7 +17,7 @@ permalink: /falix/general/sftp/
 ### What is SFTP
 In computing, the SSH File Transfer Protocol is a network protocol that provides file access, file transfer, and file management over any reliable data stream. It was designed by the Internet Engineering Task Force as an extension of the Secure Shell protocol version 2.0 to provide secure file transfer capabilities. [Wikipedia](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol){:target='_blank'}
 
-This allows you to manage files remotely through a SFTP client, without having to access our game panel.
+This allows you to manage files remotely through an SFTP client without having to access our game panel.
 
 ### Choosing a SFTP Client
 A SFTP client is required:

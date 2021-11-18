@@ -3,7 +3,9 @@ layout: post
 title:  "Getting Started"
 categories: Falix
 tags: fxgeneral
+icon: <i class="fa-duotone fa-wand-magic-sparkles"></i>
 permalink: /falix/general/getting-started/
+order: 0
 ---
 # Signing Up
 ## Signing up for Discord

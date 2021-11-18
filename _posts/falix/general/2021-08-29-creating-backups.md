@@ -3,6 +3,7 @@ layout: post
 title:  "Creating Backups"
 categories: Falix
 tags: fxgeneral
+icon: <i class="fa-duotone fa-memo"></i></span>
 permalink: /falix/general/creating-backups/
 ---
 

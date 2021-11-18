@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Setting Up"
-parent: Discord
+categories: Discord
 tags: discordPY
+icon: <i class="fa-brands fa-python"></i>
 permalink: /discord/python-discord-bot/
 ---
 

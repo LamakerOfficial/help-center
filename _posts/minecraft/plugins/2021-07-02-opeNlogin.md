@@ -2,6 +2,7 @@
 layout: post
 title:  "OpeNLogin"
 categories: Minecraft
+icon: <i class="fa-duotone fa-puzzle"></i>
 tags: plugins
 permalink: /minecraft/plugins/openlogin/
 ---
