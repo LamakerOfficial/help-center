@@ -15,5 +15,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
-      run: bundle exec jekyll build
-      run: sudo cp /usr/share/nginx/falixnodes/main-website/_work/main-website/main-website/_site/blog-raw/index.html /usr/share/nginx/falixnodes/help-center/_work/help-center/help-center/_site/blog.html
+    - run: bundle exec jekyll build
+    - run: sudo cp /usr/share/nginx/falixnodes/main-website/_work/main-website/main-website/_site/blog-raw/index.html /usr/share/nginx/falixnodes/help-center/_work/help-center/help-center/_site/blog.html
