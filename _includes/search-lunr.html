@@ -31,7 +31,7 @@ var idx = lunr(function () {
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
     if(term) {
-        document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p><style>.ct {display: none;} div#lunrsearchresults {display: block;}</style>" + document.getElementById('lunrsearchresults').innerHTML;
+        document.getElementById('lunrsearchresults').innerHTML = "<p><i class='fa-duotone fa-magnifying-glass'></i> Search results for '" + term + "'</p><style>.ct {display: none;} div#lunrsearchresults {display: block;}</style>" + document.getElementById('lunrsearchresults').innerHTML;
         var results = idx.search(term);
         if(results.length>0){
             for (var i = 0; i < results.length; i++) {

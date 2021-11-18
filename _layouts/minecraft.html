@@ -2,46 +2,61 @@
 ---
 <title>{{page.title}} | {{site.title}}</title>
 {% include header.html %}
+<video id="hero" poster="{{site.baseurl}}/assets/images/thuf-40.png" playsinline autoplay muted loop src="{{site.baseurl}}/assets/videos/backgrounds/ocean-minecraft-dots.webm"></video>
 
-<section style="height: 300px;" id="hero">
-    <h1>Minecraft</h1>
-    {% include search-lunr.html %}
-</section>
+<div class="sections">
+    <section>{% include hero.html %}</section>
+    <section id="category">
+        <div class="grid_ct">
+            <div class="ct">
+                <h1>General</h1>
+                <ui>
+                    {% for post in site.tags.mcgeneral %}
+                        <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
+                    {% endfor %}
+                </ui>
+            </div>
+    <!--         <div class="ct">
+                <h1>Configuration</h1>
+                <ui>
+                    {% for post in site.tags.config %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ui>
+            </div> -->
+            <div class="ct">
+                <h1>Plugins</h1>
+                <ui>
+                    {% for post in site.tags.plugins %}
+                        <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
+                    {% endfor %}
+                </ui>
+            </div>
+            <div class="ct">
+                <h1>BungeeCord</h1>
+                <ui>
+                    {% for post in site.tags.Bungeecord %}
+                        <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
+                    {% endfor %}
+                </ui>
+            </div>
+        </div>
+    </section>
+    <section>{% include footer.html %}</section>
+</div>
 
-<section id="category">
-    <div class="grid_ct">
-        <div class="ct">
-            <h1>General</h1>
-            <ui>
-                {% for post in site.tags.mcgeneral %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ui>
-        </div>
-<!--         <div class="ct">
-            <h1>Configuration</h1>
-            <ui>
-                {% for post in site.tags.config %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ui>
-        </div> -->
-        <div class="ct">
-            <h1>Plugins</h1>
-            <ui>
-                {% for post in site.tags.plugins %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ui>
-        </div>
-        <div class="ct">
-            <h1>BungeeCord</h1>
-            <ui>
-                {% for post in site.tags.Bungeecord %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ui>
-        </div>
-    </div>
-    {% include footer.html %}
-</section>
+
+
+<script>
+    const event11 = window.addEventListener('scroll', function(e) {
+        if(this.scrollY < 100) {
+            document.getElementById('h_').style.background = 'transparent';
+            document.getElementById('h_').style.backdropFilter = 'unset';
+            document.getElementById('h_').style.transition = '1.2s background ease, 0.8s backdrop-filter ease';
+        } else {
+            document.getElementById('h_').style.background = 'rgb(41 112 204 / 75%)';
+            document.getElementById('h_').style.backdropFilter = 'blur(20px) contrast(0.8)';
+            document.getElementById('h_').style.transition = '1.2s background ease, 0.8s backdrop-filter ease';
+        }
+    });
+</script>

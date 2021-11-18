@@ -1,0 +1,35 @@
+
+<h1><i class="fa-duotone fa-wand-magic-sparkles"></i> Getting Started</h1>
+<div class="category-articles">
+    <button onclick="location.href='https://help.falixnodes.net/falix/general/getting-started/'"><span id="article-icon"><i class="fa-duotone fa-wand-magic-sparkles"></i></span> <span id="title">Setup an Account</span></button>
+    <button onclick="location.href='https://help.falixnodes.net/minecraft/general/getting-started/'"><span id="article-icon"><i class="fa-duotone fa-wand-magic-sparkles"></i></span> <span id="title">Minecraft Server</span></button>
+</div>
+
+<h1><i class="fa-duotone fa-book-open-cover"></i> Articles</h1>
+<div class="category">
+    <h1>General</h1>
+    <div class="category-articles">
+        <button onclick="location.href = '{{site.baseurl}}/falix/'" style="filter: brightness(2)"><span id="article-icon"><i class="fa-duotone fa-angle-right"></i></span> <span id="title">View General Articles</span></button>
+        {% for post in site.categories.Falix limit: 6 %}
+            <button onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title | truncate: 32}}</span></button>
+        {% endfor %}
+    </div>
+</div>
+<div class="category">
+    <h1>Minecraft</h1>
+    <div class="category-articles">
+        <button onclick="location.href = '{{site.baseurl}}/minecraft/'" style="filter: brightness(2)"><span id="article-icon"><i class="fa-duotone fa-angle-right"></i></span> <span id="title">View Minecraft Articles</span></button>
+        {% for post in site.categories.Minecraft limit: 6 %}
+            <button onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title | truncate: 32}}</span></button>
+        {% endfor %}
+    </div>
+</div>
+<div class="category">
+    <h1>Discord</h1>
+    <div class="category-articles">
+        <button onclick="location.href = '{{site.baseurl}}/discord/'" style="filter: brightness(2)"><span id="article-icon"><i class="fa-duotone fa-angle-right"></i></span> <span id="title">View Discord Articles</span></button>
+        {% for post in site.categories.Discord limit: 6 %}
+            <button onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title | truncate: 32}}</span></button>
+        {% endfor %}
+    </div>
+</div>

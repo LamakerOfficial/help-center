@@ -1,21 +1,18 @@
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.scss">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/video-player.css">
-    <script src="{{site.baseurl}}/assets/js/menu/menu.js"></script> <!-- Keep this script at top, since Jekyll compiles scripts all together (Which I'm not a fan of)-->
-    <script src="{{site.baseurl}}/assets/js/dropdown-menus/apps.js"></script>
-    <script src="{{site.baseurl}}/assets/js/dropdown-menus/get-started.js"></script>
-    <script src="{{site.baseurl}}/assets/js/menu/menu-mobile.js"></script>
-    <script src="{{site.baseurl}}/assets/js/include.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/video-player.css">
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet">
+
+    <script src="{{site.baseurl}}/assets/js/include.js"></script>
+    <script src="{{site.baseurl}}/assets/js/dropdown-menus/get-started.js"></script>
     <script src="https://kit.fontawesome.com/fc093d7fbf.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script> 
     <script src="https://scripts.korbsstudio.com/ie-detect/dis-allow.js"></script>
-
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9C1BZ9CHQH"></script>
+
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -23,7 +20,6 @@
 
     gtag('config', 'G-9C1BZ9CHQH');
     </script>
-
 </head>
 <header id="h_">
     <div class="h_content">
@@ -31,26 +27,17 @@
             <h1 style="cursor: pointer;" onclick="location.href = '{{ base.url | prepend: site.url }}/'">Falix</h1>
         </div>
         <div class="h_right">
-            <div class="if_mobile">
-                <button id="mobile_menu" onmouseover="openMobileMenu();" onmouseleave="closeMobileMenu();"><i class="fas fa-bars"></i></button>
-                <div id="mm" class="mobile_menu">
-                    <a style="margin-left: 0px;" href="https://falixnodes.net">Main Website</a>
-                    <a href="https://desktop.falixnodes.net">Desktop App</a>
-                    <p>Get Started:</p>
-                    <ui>
-                        <li onclick="location.href = 'https://client.falixnodes.net/'"><i class="fas fa-user"></i> Client Panel</li>
-                        <li onclick="location.href = 'https://panel.falixnodes.net/'"><i class="fas fa-stream"></i> Game Panel</li>
-                    </ui>
-                </div>
+            <div class="mobile_only">
+                <a id="ges" href="https://client.falixnodes.net/"><i class="fa-duotone fa-arrow-right-to-bracket"></i> Get Started</a>
             </div>
-            <div class="if_desktop">
-                <a href="https://falixnodes.net/" target="_blank">Main Website</a>
-                <a href="https://software.falixnodes.net/" target="_blank">Desktop App</a>
-                <a onmouseover="open_dropdown_getStarted();" onmouseleave="close_dropdown_getStarted();">Get Started <i class="fas fa-sort-down"></i></a>
-                <ui style="margin: 10px 0px 0px 172px;" onmouseover="open_dropdown_getStarted();" onmouseleave="close_dropdown_getStarted();" class="dropdown" id="dropdown_get-started">
-                    <li onclick="location.href = 'https://client.falixnodes.net/'"><i class="fas fa-user"></i> Client Panel</li>
-                    <li onclick="location.href = 'https://panel.falixnodes.net/'"><i class="fas fa-stream"></i> Game Panel</li>
-                </ui>
+            <div class="desktop_only">
+                <a href="https://falixnodes.net/" target="_blank" rel="noopener">Main Website</a>
+                <a href="https://software.falixnodes.net/"">Desktop App</a>
+                <a id="ges" onclick="dropdownGS()"><i class="fa-duotone fa-arrow-right-to-bracket"></i> Get Started</a>
+                <div style="display: none;" class="dropdown_menu" id="dropdown_getStarted">
+                    <a href="https://client.falixnodes.net/" target="_blank" rel="noopener"><i class="fa-duotone fa-id-card"></i> Client Panel</a>
+                    <a href="https://panel.falixnodes.net/" target="_blank" rel="noopener"><i class="fa-duotone fa-server"></i> Game Panel</a>
+                </div>
             </div>
         </div>
     </div>
