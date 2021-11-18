@@ -2,7 +2,6 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.2.0"
 gem "webrick", "~> 1.7"
 gem "minima", "~> 2.5"
-# gem 'jekyll-admin', group: :jekyll_plugins
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem 'jekyll-redirect-from'
 group :jekyll_plugins do
