@@ -1,0 +1,411 @@
+:root {
+    --accent: #2970cc;
+}
+
+/* SIL OPEN FONT LICENSE: https://falix.gg/src/fonts/Poppins/OFL.txt */
+/* Poppins was downloaded from Google Fonts: https://fonts.google.com/specimen/Poppins */
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+    font-weight: lighter;
+}
+
+
+
+body {
+    background: #0f1d2d;
+    color: white;
+    font-family: 'POPPINS';
+    overflow-x: hidden !important;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    background: transparent;
+    z-index: 10;
+}
+
+::-webkit-scrollbar {width: 0px;}
+::selection {background: #17365a; color: rgba(255, 255, 255, 0.5);}
+*:focus {outline: none;}
+a {color: var(--accent);}
+code {font-family: monospace;background: #1c2e42;padding: 3px 6px;}
+td code {background: #0f1d2d;}
+td {border-bottom: 2px #0f1d2d solid !important;}
+
+thead {background: var(--accent);}
+img {max-width: 100%;}
+pre {
+    background: #1c2e42;
+    padding: 14px 10px 15px 10px;
+    border-radius: 4px;
+    overflow-x: scroll;
+}
+blockquote {
+    border-left: 2px white solid;
+    margin: 0px;
+    background: #1c2e42;
+    padding: 1px 0px 1px 20px;
+}
+video {
+    width: 100%;
+    border-radius: 4px;
+    border: 2px var(--accent) solid;
+}
+table {
+    background: #1c2e42;
+    border: 2px var(--accent) solid;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button#btn {
+    color: white;
+    background: var(--accent);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Support for mobile */
+.mobile_menu {
+    display: none;
+}
+button#mobile_menu {
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    margin-top: 4px;
+}
+div#mm {
+    background: #0b1725;
+    position: fixed;
+    top: 72px;
+    right: 0px;
+    text-align: left;
+    width: 290px;
+    font-size: 16px;
+    padding: 20px 0px 20px 30px;
+    border-radius: 7px;
+}
+div#mm li {
+    list-style: none;
+    margin: 13px 0px;
+}
+
+/* Header */
+.h_content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1000px;
+}
+.h_left {
+    font-family: Poppins;
+    position: absolute;
+    top: -6px;
+    cursor: default;
+}
+
+.h_right {
+    position: absolute;
+    top: 25px;
+    right: -15px;
+    text-align: right;
+    display: flex;
+}
+.h_right a {
+    font-family: 'POPPINS';
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+ui#dropdown_apps {
+    display: none;
+}
+ui#dropdown_get-started {
+    display: none;
+}
+
+
+@media only screen and (min-width:1081px){
+    .mobile_only {display: none;}
+}
+
+@media only screen and (max-width:1080px){
+    .desktop_only, .install-plugin {display: none !important;}
+    #ges {margin-right: 30px !important;}
+    p#date {display: flex !important; margin-top: 38px !important;}
+    .sections, .article, .h_content {
+        width: calc(100% - 50px) !important;
+    }
+    .category-articles, .ct ui {
+        grid-template-columns: 50% 50% !important;
+    }
+    .faq {
+        grid-template-columns: calc(100%  - 50px) !important;
+    }
+}
+
+
+/*** Dropdowns ***/
+/** Styling **/
+.dropdown {
+    background: #0B1725;
+    position: absolute;
+    margin: 10px 0px 0px 90px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: left;
+}
+.dropdown::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 26px;
+    top: -20px;
+    left: 0px;
+}
+.dropdown li {
+    padding: 6px 0px;
+    list-style: none;
+    cursor: pointer;
+}
+.dropdown li:hover {
+    filter: brightness(0.8);
+}
+.dropdown i {
+    margin: 0px 10px 0px 3px;
+}
+
+div#dropdown_getStarted {
+    position: absolute;
+    background: #1d2a43;
+    width: 170px;
+    right: 0px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+div#dropdown_getStarted a {
+    background: #413e5e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flow-root;
+    text-align: left;
+    margin: 10px;
+    font-size: 12px;
+}
+
+div#dropdown_getStarted a i {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sections {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1000px;
+}
+
+.hero {
+    height: 250px;
+}
+.hero h1 {
+    position: absolute;
+    top: 140px;
+    font-size: 40px;
+}
+
+#hero {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border: none;
+    filter: brightness(0.6) contrast(0.9) hue-rotate(27deg);
+}
+.faq {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
+.qmf button {
+    text-align: ;
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.question p {
+    font-size: 14px;
+}
+.questions h2 {
+    font-size: 18px;
+}
+
+.blog {
+    overflow: scroll;
+    scrollbar-color: #f9f9f9 transparent;
+    scrollbar-width: thin;
+    padding-bottom: 20px;
+}
+.blog::-webkit-scrollbar-thumb {
+    height: 0px;
+    width: 0px;
+}
+.blog::after {
+    content: "";
+    background: linear-gradient(90deg, #0f1d2d00, #0f1d2d);
+    height: 220px;
+    width: 270px;
+    position: absolute;
+    right: 0px;
+    margin: -210px 0px 0px 0px;
+    pointer-events: none;
+}
+.posts {
+    display: flex;
+    width: 1480px;
+    height: 190px;
+}
+.blog img {
+    width: auto;
+    border-radius: 7px;
+}
+.card {
+  background: #182c44;
+  border-radius: 7px;
+  padding: 8px;
+  margin-right: 10px;
+  padding-bottom: 192px;
+  cursor: pointer;
+}
+.card h1 {
+  font-size: 14px;
+  margin: 138px 0px -177px 4px;
+}
+.card h2 {
+  display: none;
+}
+
+.category-articles {
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-gap: 0px 12px;
+}
+.category-articles button, button#ica {
+    display: grid;
+    grid-template-columns: 22px auto;
+}
+.category-articles button, button#ica {
+    text-align: left;
+    background: #182c44;
+    color: white;
+    border: none;
+    padding: 17px 20px;
+    border-radius: 4px;
+    margin: 0px 4px 10px 0px;
+    cursor: pointer;
+    align-items: center;
+}
+.category-articles button:hover, button#ica:hover {
+    opacity: 0.8;
+}
+#article-icon {
+    font-size: 24px;
+    align-self: stretch;
+}
+#title {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.article {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1000px;
+}
+
+.ct ui {
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-gap: 0px 3px;
+}
+
+.install-plugin {
+    background: #182c44;
+    display: flex;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.install-plugin img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+.install-plugin h2 {
+    position: absolute;
+    margin: 0px 0px 0px 84px;
+}
+.install-plugin h3 {
+    position: absolute;
+    margin: 30px 0px 0px 84px;
+    opacity: 0.5;
+}
+.install-plugin a {
+    position: absolute;
+    right: 17px;
+    background: var(--accent);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 8px;
+    font-weight: ;
+    text-decoration: none;
+}
