@@ -1,5 +1,11 @@
-# Falix Help Center
-![preview](https://i.imgur.com/PricFQB.png)
+<img style="border-radius: 20px;" src="https://i.imgur.com/zthS5Ss.png">
+
+# FalixNodes Help Center
+What's all this? You're currently viewing the source code that makes up the [help center](https://help.falixnodes.net/). It's all built on Jekyll, a static website generator we use for a couple of our sites.
+
+We're using our own template built and designed by our partner [Korbs Studio](https://github.com/KorbsStudio/).
+
+![powered by Jekyll](https://img.shields.io/badge/powered_by-Jekyll-blue.svg) ![Website Build - VPS](https://github.com/FalixNodes-Software/help-center/actions/workflows/jekyll-build.yml/badge.svg)
 
 # Creating a New Article
 Want to help contribute to the Help Center? Write or update an article!
@@ -10,9 +16,12 @@ Want to help contribute to the Help Center? Write or update an article!
  - Good grammar
  - Valid syntax
  - Proper metadata
+ - Valid links and up to date
 
 ## ✍️ Creating an Article
-By following the file structure, create a `.md` file under the correct category. As an example, if you were to create an article that explains on how to install and use a plugin on Minecraft Java, the file would be created like `_posts_/minecraft/plugins/2021-08-04-plugin-name.md`. You're required to add the date at the beginning of the file name, `2021-08-04`. Then start writing the article in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do, if you need help understanding how to do certain task like creating a link, inserting an image, creating a list look [here](https://guides.github.com/features/mastering-markdown/).
+By following the file structure, create a `.md` file under the correct category. As an example, if you were to create an article that explains on how to install and use a plugin on Minecraft Java, the file would be created like `_posts_/minecraft/plugins/2021-08-04-plugin-name.md`. You're required to add the date at the beginning of the file name, `YYYY-DD-MM`. These dates are used to show when the article was last updated, to allow users to know if the article is up to date.
+
+ Then start writing the article in [Markdown](https://www.markdownguide.org/getting-started/). Writing in Markdown is very easy to do, if you need help understanding how to do certain task like creating a link, inserting an image, creating a list look [here](https://guides.github.com/features/mastering-markdown/).
 
 ## 📃️ Metadata
 Make sure the metadata is setup properly, this is usually at the top of every article.
@@ -23,6 +32,7 @@ layout: post
 title:  "Title of Article"
 categories: Minecraft
 tags: plugins
+icon: <i class="fa-duotone fa-file-user"></i>
 permalink: /minecraft/plugins/name-of-plugin/
 ---
 ```
@@ -30,6 +40,24 @@ permalink: /minecraft/plugins/name-of-plugin/
 `layout` must remain as `post`.
 
 `tags` is the sub-category.
+
+`icon` - When viewing our help center, an icon is displayed by each article link. Use the default one if you're unsure what icon to use.
+
+Default: `<i class="fa-duotone fa-file-user"></i>`
+
+Getting Started Articles: `<i class="fa-duotone fa-wand-magic-sparkles"></i>`
+
+Plugins: `<i class="fa-duotone fa-puzzle"></i>`
+
+Discord JavaScript: `<i class="fa-brands fa-js-square"></i>`
+
+Discord Python: ` <i class="fa-brands fa-python"></i>`
+
+BungeeCord: `<i class="fa-duotone fa-diagram-project"></i>`
+
+> If the article does not contain any metadata or at least valid ones, the help center will not show the article anywhere.
+
+> You're adding a new category, contact __Korbs#0001__ right away so he can setup a section for it.
 
 ## Content
 ### Plugin's Download
@@ -40,21 +68,14 @@ At the top of each plugin article, there is a box displays information about the
 If you plan to create an article explaining how to use a plugin, it's best you use this at the top of the article. The code is:
 ```
 <div class="install-plugin">
-    <img style="border-radius: 7px;" src="">
-    <p>Name of Plugin</p>
+    <img style="border-radius: 7px;" src="#">
+    <h2>Name of Plugin</h2>
+    <h3>Developer: Author</h3> 
     <a href="#">Download this Plugin</a>
 </div>
 ```
 
-In the future, I plan to add more content to this custom HTML code like author, official website, last updated, etc.
-
 ### Headers
-
-# Header 1
-```
-# Header 1
-```
-
 ## Header 2
 ```
 ## Header 2
@@ -89,20 +110,6 @@ List:
  - Item
 ```
 
-Checklist:
- - [x] Item
- - [x] Item
- - [ ] Item
- - [ ] Item
- - [ ] Item
-```
- - [x] Item
- - [x] Item
- - [ ] Item
- - [ ] Item
- - [ ] Item
-```
-
 ### Tables
 A table is used to display content clearly without making a mess, like we did in the [Getting Started](https://help.falixnodes.net/minecraft/general/getting-started/#message-of-the-day) article under Minecraft, showing a color code table.
 
@@ -129,12 +136,8 @@ Code:
 I personally like seeing `<video>` in the help center over a YouTube embed, but you're allowed to use a YouTube embed if you want to.
 [Learn how to embed a YouTube video](https://support.google.com/youtube/answer/171780?hl=en)
 
-We've added VideoJS script recently to the help center, which adds custom controls to the code.
-
-So when adding videos to an article, make sure it looks like this:
-
 ```
-<video class="video-js" controls preload="auto" data-setup="{}"><source
+<video controls preload="auto"><source
  src="https://example.com/video.webm" type="video/webm"
  src="https://example.com/video.mp4" type="video/mp4"
  /></video>
@@ -145,7 +148,7 @@ Make sure to provide both webm and mp4. Webm are much smaller and load faster, a
 ## 📢️ Publishing
 Create a pull request on this repo and title it like this "New Post: Name of Article" or if you're editing an article, title it like "Edit: Name of Existing Article".
 
-Your edit will be reviewed by [Korbs](https://github.com/KorbsStudio/) along with your code to check for any syntax error.
+Your edit will be reviewed by our support team along with your code to check for any syntax error.
 
 # Building
 If you're interested in learning on how to build the Help Center locally, maybe to preview that your article does show up properly, just follow the instructions below.
