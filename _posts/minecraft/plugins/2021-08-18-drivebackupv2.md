@@ -9,7 +9,8 @@ permalink: /minecraft/plugins/drivebackupv2/
 
 <div class="install-plugin">
     <img style="border-radius: 7px;" src="https://media.forgecdn.net/avatars/272/319/637250850729446954.png">
-    <p>DriveBackupV2</p>
+    <h2>DriveBackupV2</h2>
+    <h3>Developer: MaxTheGinus</h3>
     <a href="https://dev.bukkit.org/projects/drivebackupv2/">Download this Plugin</a>
 </div>
 

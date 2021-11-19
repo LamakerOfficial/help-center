@@ -63,7 +63,7 @@ BungeeCord: `<i class="fa-duotone fa-diagram-project"></i>`
 ### Plugin's Download
 At the top of each plugin article, there is a box displays information about the plugin with a download link, example:
 
-<img src="https://i.imgur.com/3tWsjYD.png">
+<img src="https://i.imgur.com/KsS4RAB.png">
 
 If you plan to create an article explaining how to use a plugin, it's best you use this at the top of the article. The code is:
 ```

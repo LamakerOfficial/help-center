@@ -8,8 +8,9 @@ permalink: /minecraft/plugins/holographic-displays/
 ---
 
 <div class="install-plugin">
-    <img style="border-radius: 50px;" src="https://media.forgecdn.net/avatars/85/180/636200108824720524.png">
-    <p>Holograpgic Displays</p>
+    <img style="border-radius: 10px;" src="https://media.forgecdn.net/avatars/85/180/636200108824720524.png">
+    <h2>Holograpgic Displays</h2>
+    <h3>Developer: filoghost</h3>
     <a href="https://dev.bukkit.org/projects/holographic-displays">Download this Plugin</a>
 </div>
 

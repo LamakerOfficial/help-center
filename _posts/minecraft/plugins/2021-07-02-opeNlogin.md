@@ -8,9 +8,10 @@ permalink: /minecraft/plugins/openlogin/
 ---
 
 <div class="install-plugin">
-    <img style="border-radius: 50px;" src="https://www.spigotmc.org/data/resource_icons/57/57272.jpg?1617128675">
-    <p>OpeNLogin</p>
-    <a href="https://www.spigotmc.org/resources/openlogin-1-7x-1-17x.57272">Download this Plugin</a>
+    <img src="https://www.spigotmc.org/data/resource_icons/57/57272.jpg?1617128675">
+    <h2>OpeNLogin</h2>
+    <h3>Developer: NickUltracraft</h3>
+    <a href="https://www.spigotmc.org/resources/openlogin-1-7x-1-17x.57272">Download this Plugin</a>
 </div>
 
 # What is OpeNLogin
