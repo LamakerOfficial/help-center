@@ -5,4 +5,5 @@ permalink: /falix/
 redirect_from:
   - /falix/general/
   - /falix/support/
+  - /falix/software/
 ---
