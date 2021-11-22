@@ -9,7 +9,7 @@ permalink: /minecraft/general/uploading-and-downloading-your-world-files/
 
 {% include minecraft-edition-picker.html %}
 
-<span id="java"><i class="fab fa-java"></i> Java</span>
+<div style="display: none" id="java" markdown=1>
 
 # Uploading Your World
 This guide explains how to upload a world to your server!
@@ -47,7 +47,9 @@ This guide explains how to download a world from your server!
 > Note: If you are using Spigot or any of its forks, you should also have the `world_nether` and `world_the_end` folders. These are also your world files so make sure to download them alongside `world`.
 > Note: You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
 
-<span id="bedrock"><i class="fas fa-mobile-alt"></i> Bedrock</span>
+</div>
+
+<div style="display: none" id="bedrock" markdown=1>
 
 # Uploading Your World
 This guide explains how to upload a world to your server!
@@ -104,3 +106,5 @@ This guide explains how to download a world from your server!
 9. Your world folder should be downloaded!
 
 > Note: You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
+ 
+</div>

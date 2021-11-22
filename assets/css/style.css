@@ -409,3 +409,24 @@ div#dropdown_getStarted a i {
     font-weight: ;
     text-decoration: none;
 }
+
+.minecraft-edition-picker {
+    background: #182c44;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto 80px 100px;
+    padding: 0px 7px 0px 20px;
+    margin-top: 20px;
+}
+.minecraft-edition-picker button {
+    background: #0000002e;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.minecraft-edition-picker h1 {
+    font-size: 18px;
+}

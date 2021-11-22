@@ -10,7 +10,7 @@ order: 0
 
 {% include minecraft-edition-picker.html %}
 
-<span id="java"><i class="fab fa-java"></i> Java</span>
+<div style="display: none" id="java" markdown=1>
 
 # Creating a Server
 ## Creating a Server on your Account
@@ -157,9 +157,9 @@ If you're looking for the numeric IP, this usually shows up when booting the ser
 ## Play In-Game
 On your Multiplayer server list, click Add Server, then put the IP for your server into the IP Address box. As for the Server Name, this can be set as whatever. Click Add and the server should appear on your list.
 
+</div>
 
-
-<span id="bedrock"><i class="fas fa-mobile-alt"></i> Bedrock</span>
+<div style="display: none" id="bedrock" markdown=1>
 
 # Creating a Server
 ## Creating a Server on your Account
@@ -422,3 +422,5 @@ If you're looking for the numeric IP, this usually shows up when booting the ser
 On your Servers list, click Add Server, then put the IP for your server into the IP Address box, then add the correct port number. As for the Server Name, this can be set as whatever. Click Add and the server should appear on your list.
 
 If your platform of Minecraft Bedrock isn't giving your an option to add a server to your servers list, then you may only have the options for Mineplex, InPvP, and Lifeboat. This is due to platform restrictions. **You may only be able to add a server to your servers list on Windows 10/11**. However, there are workarounds, view here: [https://github.com/Pugmatt/BedrockConnect](https://github.com/Pugmatt/BedrockConnect).
+
+</div>
