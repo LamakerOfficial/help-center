@@ -9,11 +9,10 @@ permalink: /falix/support/tickets-and-support/
 
 ## Where to Ask
 Recommended:
- - [Discord](https://discord.gg/falixnodes)
- <!-- - [Support Website](https://support.falixnodes.net) -->
+ - [Discord](https://discord.falixnodes.net)
 
  Other Options:
- - [Email](mailto:welcome@falix.gg)
+ - [Email](mailto:support@falixnodes.net)
  - [Twitter](https://twitter.com/FalixNodes)
  - [Instagram](https://instagram.com/FalixNodes)
 
@@ -30,7 +29,7 @@ There may be some things our social media manager can't help with, which is why 
 While creating a ticket may be simple to do, this article will also provide recommendations on how you should provide your question or issue to our staff members to give clear communication to them.
 
 ## Viewing our Discord
-All tickets are done via our Discord server, when signing up for Falix you'll automatically be added to our Discord server. If not, for whatever reason, you can join [here](https://discord.gg/falixnodes).
+All tickets are done via our Discord server, you can join by [clicking here](https://discord.falixnodes.net).
 
 ## Creating the Ticket
 View our tickets channel found under the Support category. Then, type the following command:
