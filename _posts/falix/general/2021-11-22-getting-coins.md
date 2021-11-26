@@ -25,6 +25,9 @@ Make sure your Discord account is connected to your FalixNodes account. You can 
 1. Go to the [Join For Rewards](https://client.falixnodes.net/join_for_rewards) page.
 2. You should see a list of servers on the right. Click on the "join" button next to a server to join it.
 3. To receive coins for joining servers, click on "Get FalixCoins For Joined Servers". The button is located above the server list. If this does not work, make sure to try relogging (logging out and logging back in).
-   ![image](../../../assets/images/posts/falix/earning-coins/joining-discord-servers-for-rewards.gif)
+
+<video controls preload="auto"><source
+ src="../../../assets/videos/getting-coins/j4r.webm" type="video/webm"
+ /></video>
 
 > Note: Leaving servers will make you lose coins.
