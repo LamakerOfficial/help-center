@@ -1,45 +1,5 @@
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/video-player.css">
-    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet">
-
-    <script src="{{site.baseurl}}/assets/js/include.js"></script>
-    <script src="{{site.baseurl}}/assets/js/minecraft-edition-picker.js"></script>
-    <script src="{{site.baseurl}}/assets/js/dropdown-menus/get-started.js"></script>
-    <script src="https://kit.fontawesome.com/fc093d7fbf.js"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script> 
-    <script src="https://scripts.korbsstudio.com/ie-detect/dis-allow.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9C1BZ9CHQH"></script>
-
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-9C1BZ9CHQH');
-    </script>
-</head>
-<header id="h_">
-    <div class="h_content">
-        <div class="h_left">
-            <h1 style="cursor: pointer;" onclick="location.href = '{{ base.url | prepend: site.url }}/'">Falix</h1>
-        </div>
-        <div class="h_right">
-            <div class="mobile_only">
-                <a id="ges" href="https://client.falixnodes.net/"><i class="fa-duotone fa-arrow-right-to-bracket"></i> Get Started</a>
-            </div>
-            <div class="desktop_only">
-                <a href="https://falixnodes.net/" target="_blank" rel="noopener">Main Website</a>
-                <a href="https://software.falixnodes.net/"">Desktop App</a>
-                <a id="ges" onclick="dropdownGS()"><i class="fa-duotone fa-arrow-right-to-bracket"></i> Get Started</a>
-                <div style="display: none;" class="dropdown_menu" id="dropdown_getStarted">
-                    <a href="https://client.falixnodes.net/" target="_blank" rel="noopener"><i class="fa-duotone fa-id-card"></i> Client Panel</a>
-                    <a href="https://panel.falixnodes.net/" target="_blank" rel="noopener"><i class="fa-duotone fa-server"></i> Game Panel</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+{% include head.html %}
+<script src="/assets/js/include.js"></script>
+<div include="https://falixnodes.net/master-header.html"></div>
+<script>includeHTML()</script>
+<style>#individual-link-helpcenter {display: none;}</style>

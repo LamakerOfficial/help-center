@@ -4,11 +4,13 @@
 
 {% include header.html %}
 
-<div class="article">
-    {% include breadcrumbs.html %}
-    {{content}}
-    {% include related-articles.html %}
-    {% include footer.html %}
+<div class="content">
+    <div class="article">
+        {% include breadcrumbs.html %}
+        {{content}}
+        {% include related-articles.html %}
+        {% include footer.html %}
+    </div>
 </div>
 
 <script>

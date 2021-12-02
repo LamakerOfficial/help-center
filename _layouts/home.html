@@ -2,8 +2,29 @@
 ---
 <title>{{site.title}}</title>
 {% include header.html %}
-<video id="hero" poster="{{site.baseurl}}/assets/images/thuf-40.png" playsinline autoplay muted loop src="{{site.baseurl}}/assets/videos/backgrounds/ocean-minecraft-dots.webm"></video>
-
+<img style="height: 390px !important;" id="heroIMG" src="">
+<script type="text/javascript">
+    var images = [
+        // Screenshots were shotted by Korbs Studio
+        // Using Terra plugin on a 1.17.1 Java Server
+        // Using Complementary v4.2.2 shaders with Vanilla RTX-ish settings enabled 
+        "https://falixnodes.net/assets/images/hero/1.png",
+        "https://falixnodes.net/assets/images/hero/2.png",
+        "https://falixnodes.net/assets/images/hero/3.png",
+        "https://falixnodes.net/assets/images/hero/3.png",
+        "https://falixnodes.net/assets/images/hero/4.png",
+        "https://falixnodes.net/assets/images/hero/5.png",
+        "https://falixnodes.net/assets/images/hero/6.png",
+        "https://falixnodes.net/assets/images/hero/7.png",
+        "https://falixnodes.net/assets/images/hero/8.png"
+    ];
+    function randImg() {
+        var size = images.length
+        var choose = Math.floor(size * Math.random())
+        document.getElementById('heroIMG').src = images[choose];
+    }
+    randImg();
+</script>
 <div class="sections">
     <section>{% include hero.html %}</section>
     <section>{% include welcome.html %}</section>
@@ -11,17 +32,3 @@
     <section>{% include categories.html %}</section>
     <section>{% include footer.html %}</section>
 </div>
-<script>includeHTML()</script>
-<script>
-    const event11 = window.addEventListener('scroll', function(e) {
-        if(this.scrollY < 100) {
-            document.getElementById('h_').style.background = 'transparent';
-            document.getElementById('h_').style.backdropFilter = 'unset';
-            document.getElementById('h_').style.transition = '1.2s background ease, 0.8s backdrop-filter ease';
-        } else {
-            document.getElementById('h_').style.background = 'rgb(41 112 204 / 75%)';
-            document.getElementById('h_').style.backdropFilter = 'blur(20px) contrast(0.8)';
-            document.getElementById('h_').style.transition = '1.2s background ease, 0.8s backdrop-filter ease';
-        }
-    });
-</script>
