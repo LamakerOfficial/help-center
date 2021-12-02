@@ -57,7 +57,7 @@ BungeeCord: `<i class="fa-duotone fa-diagram-project"></i>`
 
 > If the article does not contain any metadata or at least valid ones, the help center will not show the article anywhere.
 
-> You're adding a new category, contact __Korbs#0001__ right away so he can setup a section for it.
+> If you're adding a new category, contact __Korbs#0001__ right away so he can setup a section for it.
 
 ## Content
 ### Plugin's Download
