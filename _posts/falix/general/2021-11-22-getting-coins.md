@@ -3,7 +3,7 @@ layout: post
 title:  "Getting Coins"
 categories: Falix
 tags: fxgeneral
-icon: <i class="fa-duotone fa-memo"></i></span>
+icon: <i class="fa-light fa-memo"></i></span>
 permalink: /falix/general/getting-coins/
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Started"
 categories: Minecraft
-icon: <i class="fa-duotone fa-wand-magic-sparkles"></i>
+icon: <i class="fa-light fa-wand-magic-sparkles"></i>
 tag: mcgeneral
 permalink: /minecraft/general/getting-started/
 order: 0

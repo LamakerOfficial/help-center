@@ -3,7 +3,7 @@ layout: post
 title:  "Tickets and Support"
 categories: Falix
 tags: support
-icon: <i class="fa-duotone fa-question"></i>
+icon: <i class="fa-light fa-question"></i>
 permalink: /falix/support/tickets-and-support/
 ---
 

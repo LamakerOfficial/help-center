@@ -3,7 +3,7 @@ layout: post
 title:  "Using SFTP"
 categories: Falix
 tag: fxgeneral
-icon: <i class="fa-duotone fa-memo"></i></span>
+icon: <i class="fa-light fa-memo"></i></span>
 permalink: /falix/general/sftp/
 ---
 

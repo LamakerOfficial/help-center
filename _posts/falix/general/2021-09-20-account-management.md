@@ -3,7 +3,7 @@ layout: post
 title:  "Account Management"
 categories: Falix
 tags: fxgeneral
-icon: <i class="fa-duotone fa-file-user"></i>
+icon: <i class="fa-light fa-file-user"></i>
 permalink: /falix/general/account-management/
 ---
 # Your Account

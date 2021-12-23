@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Started"
 categories: Minecraft
-icon: <i class="fa-duotone fa-diagram-project"></i>
+icon: <i class="fa-light fa-diagram-project"></i>
 tags: Bungeecord
 permalink: /minecraft/bungeecord/getting-started/
 ---

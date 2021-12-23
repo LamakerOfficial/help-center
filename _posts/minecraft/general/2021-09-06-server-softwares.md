@@ -2,7 +2,7 @@
 layout: post
 title:  "Server Softwares"
 categories: Minecraft
-icon: <i class="fa-duotone fa-memo"></i></span>
+icon: <i class="fa-light fa-memo"></i></span>
 tag: mcgeneral
 permalink: /minecraft/general/server-softwares/
 ---

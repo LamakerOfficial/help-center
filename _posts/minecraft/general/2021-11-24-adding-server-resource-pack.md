@@ -2,7 +2,7 @@
 layout: post
 title:  "Adding a Server Resource Pack"
 categories: Minecraft
-icon: <i class="fa-duotone fa-memo"></i></span>
+icon: <i class="fa-light fa-memo"></i></span>
 tags: mcgeneral
 permalink: /minecraft/general/adding-a-server-resource-pack/
 ---

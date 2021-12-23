@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Started"
 categories: Falix
-icon: <i class="fa-duotone fa-wand-magic-sparkles"></i>
+icon: <i class="fa-light fa-wand-magic-sparkles"></i>
 tags: fxgeneral
 permalink: /falix/general/getting-started/
 ---

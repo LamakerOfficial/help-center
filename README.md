@@ -32,7 +32,7 @@ layout: post
 title:  "Title of Article"
 categories: Minecraft
 tags: plugins
-icon: <i class="fa-duotone fa-file-user"></i>
+icon: <i class="fa-light fa-file-user"></i>
 permalink: /minecraft/plugins/name-of-plugin/
 ---
 ```
@@ -43,17 +43,17 @@ permalink: /minecraft/plugins/name-of-plugin/
 
 `icon` - When viewing our help center, an icon is displayed by each article link. Use the default one if you're unsure what icon to use.
 
-Default: `<i class="fa-duotone fa-file-user"></i>`
+Default: `<i class="fa-light fa-file-user"></i>`
 
-Getting Started Articles: `<i class="fa-duotone fa-wand-magic-sparkles"></i>`
+Getting Started Articles: `<i class="fa-light fa-wand-magic-sparkles"></i>`
 
-Plugins: `<i class="fa-duotone fa-puzzle"></i>`
+Plugins: `<i class="fa-light fa-puzzle"></i>`
 
 Discord JavaScript: `<i class="fa-brands fa-js-square"></i>`
 
 Discord Python: ` <i class="fa-brands fa-python"></i>`
 
-BungeeCord: `<i class="fa-duotone fa-diagram-project"></i>`
+BungeeCord: `<i class="fa-light fa-diagram-project"></i>`
 
 > If the article does not contain any metadata or at least valid ones, the help center will not show the article anywhere.
 

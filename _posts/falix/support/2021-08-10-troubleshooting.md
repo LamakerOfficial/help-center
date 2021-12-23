@@ -3,7 +3,7 @@ layout: post
 title:  "Troubleshooting and Errors"
 categories: Falix
 tags: support
-icon: <i class="fa-duotone fa-question"></i>
+icon: <i class="fa-light fa-question"></i>
 permalink: /falix/support/troubleshooting/
 redirect_from:
   - /falix/general/troubleshooting/
