@@ -27,8 +27,33 @@
 </script>
 <div class="sections">
     <section>{% include hero.html %}</section>
-    <section>{% include welcome.html %}</section>
-    <!-- <section>{% include whats-new.html %}</section> -->
-    <section>{% include categories.html %}</section>
+    <div class="help-home">
+        <div class="boxWel">
+            <h1>Welcome to our help center</h1>
+            <p>Looking for something? Don't know how to do a specific task? or need help setting up a plugin? You look around here for the answer, just select a category or use the search function. We recommend that you check out our <a href="https://discord.com/channels/710503370187735160/898620220015530035">FAQ</a> before reading or asking for support.</p>
+        </div>
+        <div class="category-selection">
+            <div onclick="location.href = '/falix'" class="category-select">
+                <i class="fa-light fa-square-f"></i>
+                <p>General</p>
+                <i id="cright" class="fa-light fa-arrow-right"></i>
+            </div>
+            <div onclick="location.href = '/minecraft'" class="category-select">
+                <i class="fa-light fa-cube"></i>
+                <p>Minecraft</p>
+                <i id="cright" class="fa-light fa-arrow-right"></i>
+            </div>
+            <div onclick="location.href = '/discord'" class="category-select">
+                <i class="fa-brands fa-discord"></i>
+                <p>Discord</p>
+                <i id="cright" class="fa-light fa-arrow-right"></i>
+            </div>
+            <div onclick="location.href = 'https://discord.com/channels/710503370187735160/829662494930239498'" id="ohno" class="category-select">
+                <i class="fa-light fa-hand-wave"></i>
+                <p>Help! I can't find what I'm looking for!</p>
+                <i id="cright" class="fa-light fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
     <section>{% include footer.html %}</section>
 </div>
