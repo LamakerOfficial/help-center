@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
-      run: bundle exec jekyll build
+      run: JEKYLL_ENV=production bundle exec jekyll build
