@@ -181,3 +181,6 @@ bundle exec jekyll serve
 After using `bundle exec jekyll serve`, try going to http://localhost:4000/ in your preferred web browser.
 
 If you're unable to get Ruby installed or the serve command working, you can always resort to building it on other platform like GitHub Pages, Cloudflare Pages, or Netlify.
+
+___
+> All PRs are closed if inactive for a long period of time, usually about 3 weeks to a month.

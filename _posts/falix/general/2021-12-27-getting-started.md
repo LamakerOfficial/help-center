@@ -10,16 +10,22 @@ sticky: true
 
 # Getting Started
 
-Welcome to FalixNodes! Here you can host game servers for free! To get started, sign up at our [Client Panel](https://client.falixnodes.net/auth/register), which allows you to create & manage your servers!
+Welcome to FalixNodes! Here you can host game servers for free! To get started, sign up at our [Client Panel](https://client.falixnodes.net/auth/register).
 
 ## Signing Up
-There are two ways to sign up. You can either use your email and a password, or your Discord account.
+There are three ways to sign up. You can use your email and a password, your Google account, or your Discord account.
 
 ### Registering With A Username And Password
 
 1. Go to the [Register page](https://client.falixnodes.net/auth/register).
 2. Fill in all the fields.
 3. Click on "Register".
+
+### Registering With Google
+
+1. Go to the [Register page](https://client.falixnodes.net/auth/register).
+2. Scroll down and click on "Google". You will shortly be redirected to the Google domain.
+3. Select an account and you should be registered.
 
 ### Registering With Discord
 
@@ -45,6 +51,7 @@ There are two ways to sign up. You can either use your email and a password, or 
 ![image](../../../assets/images/posts/falix/getting-started/creating-server.png)
 
 ## Logging Into The Game Panel
+The Game Panel is where you can setup and manage your server, to login into the Panel follow the steps listed below:
 
 1. Go to the [Settings Page](https://client.falixnodes.net/profile/settings).
 2. Make sure you have updated your details under the "Profile Settings" category.
@@ -58,13 +65,13 @@ There are two ways to sign up. You can either use your email and a password, or 
 
 ## Upgrading Your Server
 
-Here in Falix, you can upgrade your server by earning coins then purchasing resources from the store. Follow the steps below:
+Here in Falix, you can upgrade your server by earning coins then purchasing plans from the store. Follow the steps below:
 
 ### Getting Coins
 
 A guide to this can be found [here](https://help.falixnodes.net/falix/general/getting-coins/).
 
-### Buying Items From The Store
+### Purchasing Plans From The Store
 
 A guide to this can be found [here](https://help.falixnodes.net/falix/general/buying-items-from-the-store/).
 
