@@ -11,7 +11,8 @@
             <div class="ct">
                 <h1>General</h1>
                 <ui>
-                    {% for post in site.tags.mcgeneral %}
+                    {% assign sorted = site.tags.mcgeneral | sort: "sticky" %}
+                    {% for post in sorted %}
                         <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
                     {% endfor %}
                 </ui>
@@ -27,7 +28,8 @@
             <div class="ct">
                 <h1>BungeeCord</h1>
                 <ui>
-                    {% for post in site.tags.Bungeecord %}
+                    {% assign sorted = site.tags.Bungeecord | sort: "sticky" %}
+                    {% for post in sorted %}
                         <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
                     {% endfor %}
                 </ui>
@@ -36,19 +38,3 @@
     </section>
     <section>{% include footer.html %}</section>
 </div>
-
-
-
-<script>
-    const event11 = window.addEventListener('scroll', function(e) {
-        if(this.scrollY < 100) {
-            document.getElementById('h_').style.background = 'transparent';
-            document.getElementById('h_').style.backdropFilter = 'unset';
-            document.getElementById('h_').style.transition = '1.2s background ease, 0.8s backdrop-filter ease';
-        } else {
-            document.getElementById('h_').style.background = 'rgb(41 112 204 / 75%)';
-            document.getElementById('h_').style.backdropFilter = 'blur(20px) contrast(0.8)';
-            document.getElementById('h_').style.transition = '1.2s background ease, 0.8s backdrop-filter ease';
-        }
-    });
-</script>

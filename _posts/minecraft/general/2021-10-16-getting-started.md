@@ -5,7 +5,7 @@ categories: Minecraft
 icon: <i class="fa-light fa-wand-magic-sparkles"></i>
 tag: mcgeneral
 permalink: /minecraft/general/getting-started/
-order: 0
+sticky: true
 ---
 
 {% include minecraft-edition-picker.html %}

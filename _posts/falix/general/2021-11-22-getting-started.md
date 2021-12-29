@@ -5,6 +5,7 @@ categories: Falix
 icon: <i class="fa-light fa-wand-magic-sparkles"></i>
 tags: fxgeneral
 permalink: /falix/general/getting-started/
+sticky: true
 ---
 
 # Getting Started

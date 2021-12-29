@@ -11,16 +11,18 @@
             <div class="ct">
                 <h1>General</h1>
                 <ui>
-                    {% for post in site.tags.fxgeneral %}
-                    <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
+                    {% assign sorted = site.tags.fxgeneral | sort: "sticky" %}
+                    {% for post in sorted %}
+                        <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
                     {% endfor %}
                 </ui>
             </div>
             <div class="ct">
                 <h1>Support</h1>
                 <ui>
-                    {% for post in site.tags.support %}
-                    <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
+                    {% assign sorted = site.tags.support | sort: "sticky" %}
+                    {% for post in sorted %}
+                        <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
                     {% endfor %}
                 </ui>
             </div>
