@@ -5,6 +5,7 @@ categories: Falix
 icon: <i class="fa-light fa-wand-magic-sparkles"></i>
 tags: fxgeneral
 permalink: /falix/general/getting-started/
+gitURL: _posts/falix/general/2021-12-27-getting-started.md
 sticky: true
 ---
 

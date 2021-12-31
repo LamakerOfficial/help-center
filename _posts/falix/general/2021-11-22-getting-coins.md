@@ -5,6 +5,7 @@ categories: Falix
 tags: fxgeneral
 icon: <i class="fa-light fa-memo"></i></span>
 permalink: /falix/general/getting-coins/
+gitURL: _posts/falix/general/2021-11-22-getting-coins.md
 ---
 
 Currently, there are two ways of getting FalixCoins. You can find them [here](https://client.falixnodes.net/coins).

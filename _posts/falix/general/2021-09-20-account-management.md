@@ -5,6 +5,7 @@ categories: Falix
 tags: fxgeneral
 icon: <i class="fa-light fa-file-user"></i>
 permalink: /falix/general/account-management/
+gitURL: _posts/falix/general/2021-09-20-account-management.md
 ---
 # Your Account
 ## Identifying

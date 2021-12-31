@@ -5,6 +5,7 @@ categories: Falix
 tags: fxgeneral
 icon: <i class="fa-light fa-file-user"></i>
 permalink: /falix/general/giving-users-access-to-your-panel/
+gitURL: _posts/falix/general/2021-09-24-adding-users-to-your-servers.md
 ---
 
 If you need to give other users access to your server panel, you can easily do so using the "users" feature in the game panel, follow the steps below to learn how:

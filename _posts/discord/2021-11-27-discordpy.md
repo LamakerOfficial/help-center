@@ -5,6 +5,7 @@ categories: Discord
 tags: discordPY
 icon: <i class="fa-brands fa-python"></i>
 permalink: /discord/python-discord-bot/
+gitURL: _posts/discord/2021-11-27-discordpy.md
 ---
 
 # Creating And Hosting a Discord Bot Using Discord.py

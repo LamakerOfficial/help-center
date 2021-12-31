@@ -5,6 +5,7 @@ categories: Falix
 tag: fxgeneral
 icon: <i class="fa-light fa-memo"></i></span>
 permalink: /falix/general/sftp/
+gitURL: _posts/falix/general/2021-06-23-sftp-rcon.md
 ---
 
 <!-- RCON is being added later -->

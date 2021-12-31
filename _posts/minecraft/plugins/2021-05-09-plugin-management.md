@@ -5,6 +5,7 @@ categories: Minecraft
 icon: <i class="fa-light fa-puzzle"></i>
 tags: plugins
 permalink: /minecraft/plugins/management/
+gitURL: _posts/minecraft/plugins/2021-05-09-plugin-management.md
 ---
 
 # Explanation

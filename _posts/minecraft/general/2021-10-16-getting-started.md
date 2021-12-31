@@ -5,6 +5,7 @@ categories: Minecraft
 icon: <i class="fa-light fa-wand-magic-sparkles"></i>
 tag: mcgeneral
 permalink: /minecraft/general/getting-started/
+gitURL: _posts/minecraft/general/2021-10-16-getting-started.md
 sticky: true
 ---
 
