@@ -2,25 +2,24 @@
 ---
 <title>{{page.title}} | {{site.title}}</title>
 {% include header.html %}
-<video id="hero" poster="{{site.baseurl}}/assets/images/thuf-40.png" playsinline autoplay muted loop src="{{site.baseurl}}/assets/videos/backgrounds/ocean-minecraft-dots.webm"></video>
-
 <div class="sections">
-    <section>{% include hero.html %}</section>
     <section id="category">
-        <div class="grid_ct">
-            <div class="ct">
-                <h1>Discord JS</h1>
+        {% include category-header.html %}
+        <div class="hc_categories">
+            <div class="hc_category">
+                <h1>General</h1>
                 <ui>
-                    {% for post in site.tags.discordJS %}
-                    <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
+                    {% assign sorted = site.tags.discordJS | sort: "sticky" %}
+                    {% for post in sorted %}
+                        <a id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></a><br>
                     {% endfor %}
                 </ui>
             </div>
-            <div class="ct">
-                <h1>Discord Python</h1>
+            <div class="hc_category">
+                <h1>BungeeCord</h1>
                 <ui>
                     {% for post in site.tags.discordPY %}
-                    <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
+                        <a id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></a><br>
                     {% endfor %}
                 </ui>
             </div>
@@ -28,16 +27,4 @@
     </section>
     <section>{% include footer.html %}</section>   
 </div>
-<script>
-    const event11 = window.addEventListener('scroll', function(e) {
-        if(this.scrollY < 100) {
-            document.getElementById('h_').style.background = 'transparent';
-            document.getElementById('h_').style.backdropFilter = 'unset';
-            document.getElementById('h_').style.transition = '1.2s background ease, 0.8s backdrop-filter ease';
-        } else {
-            document.getElementById('h_').style.background = 'rgb(41 112 204 / 75%)';
-            document.getElementById('h_').style.backdropFilter = 'blur(20px) contrast(0.8)';
-            document.getElementById('h_').style.transition = '1.2s background ease, 0.8s backdrop-filter ease';
-        }
-    });
-</script>
+<style>#category-selection-Discord {background:  var(--accent)}</style>

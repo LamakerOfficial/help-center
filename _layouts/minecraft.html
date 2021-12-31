@@ -2,35 +2,32 @@
 ---
 <title>{{page.title}} | {{site.title}}</title>
 {% include header.html %}
-<video id="hero" poster="{{site.baseurl}}/assets/images/thuf-40.png" playsinline autoplay muted loop src="{{site.baseurl}}/assets/videos/backgrounds/ocean-minecraft-dots.webm"></video>
-
 <div class="sections">
-    <section>{% include hero.html %}</section>
     <section id="category">
-        <div class="grid_ct">
-            <div class="ct">
+        {% include category-header.html %}
+        <div class="hc_categories">
+            <div class="hc_category">
                 <h1>General</h1>
                 <ui>
                     {% assign sorted = site.tags.mcgeneral | sort: "sticky" %}
                     {% for post in sorted %}
-                        <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
+                        <a id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></a><br>
                     {% endfor %}
                 </ui>
             </div>
-            <div class="ct">
+            <div class="hc_category">
                 <h1>Plugins</h1>
                 <ui>
                     {% for post in site.tags.plugins %}
-                        <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
+                        <a id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></a><br>
                     {% endfor %}
                 </ui>
             </div>
-            <div class="ct">
+            <div class="hc_category">
                 <h1>BungeeCord</h1>
                 <ui>
-                    {% assign sorted = site.tags.Bungeecord | sort: "sticky" %}
-                    {% for post in sorted %}
-                        <button id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></button>
+                    {% for post in site.tags.Bungeecord %}
+                        <a id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></a><br>
                     {% endfor %}
                 </ui>
             </div>
@@ -38,3 +35,4 @@
     </section>
     <section>{% include footer.html %}</section>
 </div>
+<style>#category-selection-Minecraft {background:  var(--accent)}</style>
