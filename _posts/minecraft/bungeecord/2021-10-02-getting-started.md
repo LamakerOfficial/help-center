@@ -7,8 +7,7 @@ tags: Bungeecord
 permalink: /minecraft/bungeecord/getting-started/
 ---
 
-# Getting Started With BungeeCord
-![image](../../../assets/images/posts/bungeecord/getting-started/bungeecord.png)
+![image](/assets/images/posts/bungeecord/getting-started/bungeecord.png)
 
 ### What Is It?
 [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) (created by the [SpigotMC](https://www.spigotmc.org/XenStaff/) team) is a proxy designed to seamlessly connect multiple Minecraft servers together, allowing players to navigate between them without leaving the game. 

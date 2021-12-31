@@ -7,8 +7,6 @@ icon: <i class="fa-light fa-file-user"></i>
 permalink: /falix/general/giving-users-access-to-your-panel/
 ---
 
-
-# Giving users access to your server panel
 If you need to give other users access to your server panel, you can easily do so using the "users" feature in the game panel, follow the steps below to learn how:
 
 > Note: Make sure the user you are adding is already registered in Falix, otherwise this will not work.

@@ -11,7 +11,6 @@ permalink: /minecraft/general/uploading-and-downloading-your-world-files/
 
 <div style="display: none" id="java" markdown=1>
 
-# Uploading Your World
 This guide explains how to upload a world to your server!
 
 > Make sure your server is turned off while following the steps below.

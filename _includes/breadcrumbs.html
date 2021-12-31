@@ -3,23 +3,21 @@
 <a href="/">Home</a>
 {% for crumb in crumbs offset: 1 %}
   {% if forloop.last %}
-  <i class="fa-solid fa-angle-right"></i> {{ page.title }}
+  <i class="fa-light fa-angle-right"></i> {{ page.title }}
   {% else %}
-  <i class="fa-solid fa-angle-right"></i> <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+<i class="fa-light fa-angle-right"></i> <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
   {% endif %}
 {% endfor %}
-<p id="date">Last updated: {{page.date | date: "%m/%d/%Y"}}</p>
+<p id="date"><i class="fa-light fa-calendar-clock"></i> Last updated: {{page.date | date: "%m/%d/%Y"}}</p>
 </div>
 <style>
 div#breadcrumbs * {
   text-decoration: none;
 }
 #date {
-  text-align: right;
   position: absolute;
-  width: 100%;
-  top: -16px;
-  pointer-events: none;
+  right: 0px;
+  top: 75px;
 }
 #breadcrumbs i {
   font-size: 11px;

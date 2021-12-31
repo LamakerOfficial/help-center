@@ -7,7 +7,6 @@ icon: <i class="fa-light fa-memo"></i></span>
 permalink: /falix/general/creating-backups/
 ---
 
-# How To Create Backups
 Backing up your server is a crucial task when you're a server owner. If anything bad happens to your server, such as griefing and/or unintentional actions, you'll be able to revert those changes. 
 In this article, we'll give you a quick and easy explanation of how to create backups for your server within the Game Panel.
 

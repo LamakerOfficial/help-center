@@ -5,9 +5,9 @@ categories: Minecraft
 icon: <i class="fa-light fa-memo"></i></span>
 tag: mcgeneral
 permalink: /minecraft/general/server-softwares/
+gitURL: _posts/minecraft/general/2021-09-06-server-softwares.md
 ---
 
-# Server Softwares
 Choosing your server's software is a very important task. This article will help you choose the software that fits your server's needs.
 
 ## Minecraft Java

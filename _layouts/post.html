@@ -4,20 +4,29 @@
 
 {% include header.html %}
 
+<span id="bg-art-he"></span>
 <div class="content">
     <div class="article">
-        {% include breadcrumbs.html %}
+        <div class="article-header">
+            <div class="article-header-top">
+                <h1>{{page.title}}</h1>
+                <div class="aht-right">
+                    <button id="ONoaos" onclick="openArticleOptions()"><i class="fa-light fa-ellipsis"></i></button>
+                    <button style="display: none;" id="OFFoaos" onclick="closeArticleOptions()"><i class="fa-light fa-ellipsis"></i></button>
+                    <div id="oaos" class="article-options">
+                        <button onclick="location.href = 'https://github.com/FalixNodes-Software/help-center/edit/main/{{page.gitURL}}'"><i class="fa-light fa-pen-line"></i> Edit</button>
+                        <button onclick="location.href = 'https://github.com/FalixNodes-Software/help-center/commits/main/{{page.gitURL}}'"><i class="fa-light fa-clock-rotate-left"></i> View History</button>
+                        <button style="color: rgb(255, 110, 110);" onclick="location.href = 'https://github.com/FalixNodes-Software/help-center/issues/new?assignees=KorbsStudio&labels=&template=help-center-issue.md&title=Feedback:%20NAME_OF_ARTICLE'"><i class="fa-light fa-flag"></i> Report Issue</button>
+                    </div>
+                </div>
+            </div>
+            <div class="article-header-bottom">
+                {% include breadcrumbs.html %}
+            </div>
+        </div>
         {{content}}
         {% include related-articles.html %}
         {% include footer.html %}
     </div>
 
 </div>
-
-
-
-
-<script>
-document.getElementById('h_').style.background = 'rgb(41 112 204 / 75%)';
-document.getElementById('h_').style.backdropFilter = 'blur(20px) contrast(0.8)';
-</script>

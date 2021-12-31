@@ -8,8 +8,6 @@ permalink: /falix/general/getting-started/
 sticky: true
 ---
 
-# Getting Started
-
 Welcome to FalixNodes! Here you can host game servers for free! To get started, sign up at our [Client Panel](https://client.falixnodes.net/auth/register).
 
 ## Signing Up
