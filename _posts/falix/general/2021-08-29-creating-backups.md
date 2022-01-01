@@ -30,10 +30,10 @@ In this article, we'll give you a quick and easy explanation of how to create ba
 | []                         | Specifies a set of characters to match, `-` specifies a range of consecutive characters |• `[Jj]`ava = `J`ava / `j`ava 
 |			     |				 	 |• folder`[1-3]` = folder1 / folder2 / folder3 |
 
-> Note: Make sure to type every path, directory, filename or folder name on a separate line.
+> Make sure to type every path, directory, filename or folder name on a separate line.
 
 8. You can choose to lock the backup, locking it will prevent the backup from being unintentionally deleted by a user, you can always unlock it later.
 
 That's it! Your backup has been created!
 
-> Note: You can also delete, restore and download the backup to your device by clicking the 3 dots to the right of the backup!
+> You can also delete, restore and download the backup to your device by clicking the 3 dots to the right of the backup!

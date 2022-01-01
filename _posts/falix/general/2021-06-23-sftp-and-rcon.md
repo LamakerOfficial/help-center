@@ -33,7 +33,7 @@ SFTP Clients:
 | [AndFTP](https://play.google.com/store/apps/details?id=lysesoft.andftp&hl=en_US&gl=US) | Android |
 | [FTPManager](https://apps.apple.com/us/app/ftpmanager-ftp-sftp-client/id525959186) | IOS |
 
-NOTE: Linux usually has SFTP integration built into the file manager.
+> Linux usually has SFTP integration built into the file manager.
 
 ## Connecting to your server
 

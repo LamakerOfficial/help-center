@@ -17,7 +17,7 @@ You can refer our service to your friends. If they register with your referral l
 
 To use your affiliate link, simply paste the link into any browser.
 
-> Note: Alting is **strictly prohibited**.
+> Alting is **strictly prohibited**.
 
 # Joining Discord Servers
 
@@ -31,4 +31,4 @@ Make sure your Discord account is connected to your FalixNodes account. You can 
  src="../../../assets/videos/getting-coins/j4r.webm" type="video/webm"
  /></video>
 
-> Note: Leaving servers will make you lose coins.
+> Leaving servers will make you lose coins.

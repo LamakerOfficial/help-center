@@ -31,4 +31,4 @@ Your server will restart and you'll now be shown a new menu with a bunch of opti
 You'll then be asked for a NodeJS version, it's recommended to use the latest stable version. 
 Enter the version you'd like, then wait a bit, and your server should be ready, and your bot online!
 
-> Note: You can change the NodeJS version under the startup tab so that it is set automatically.
+> You can change the NodeJS version under the startup tab so that it is set automatically.

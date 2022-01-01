@@ -28,7 +28,7 @@ This guide explains how to upload a world to your server!
 8. Click on "Unarchive".
 9. Your world should be uploaded!
 
-> Note: You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
+> You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
 
 # Downloading Your World
 This guide explains how to download a world from your server!
@@ -46,9 +46,9 @@ This guide explains how to download a world from your server!
 
 9. Your world folder should be downloaded!
 
-> Note: If you are using Spigot or any of its forks, you should also have the `world_nether` and `world_the_end` folders. These are also your world files so make sure to download them alongside `world`.
+> If you are using Spigot or any of its forks, you should also have the `world_nether` and `world_the_end` folders. These are also your world files so make sure to download them alongside `world`.
 
-> Note: You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
+> You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
 
 </div>
 
@@ -67,7 +67,7 @@ PC (Windows 10 Edition):
 - \Users\USERNAME\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds
 ```
 
-> Note: "USERNAME" is your own Windows username. <br>
+> "USERNAME" is your own Windows username. <br>
 
 Android:
 ```
@@ -92,7 +92,7 @@ Apps/com.mojang.minecraftpe/Documents/games/com.mojang/minecraftWorlds
 12. Open the `server.properties` file on your server. Find the `level-name=` line and enter the name of the folder you uploaded in step 8, (spaces are allowed) so that it looks something like `level-name=My Server Level`. This must match the folder name.
 13. Start your server. It should now be running your imported world.
 
-> Note: If you have a compressed/archived world (ending in ".zip", ".rar" or others), then follow steps from step 5.
+> If you have a compressed/archived world (ending in ".zip", ".rar" or others), then follow steps from step 5.
 
 
 # Downloading Your World
@@ -111,6 +111,6 @@ This guide explains how to download a world from your server!
    ![image](..\..\..\assets\images\posts\minecraft\download-and-upload-your-world-files\step-5-6-bedrock.png)
 9. Your world folder should be downloaded!
 
-> Note: You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
+> You can also use [SFTP](https://help.falixnodes.net/falix/general/sftp/)!
  
 </div>

@@ -43,7 +43,7 @@ Repeat the steps above for all your fallback servers.
 4. Type `7` and click on enter.
 5. Type `6` and click on enter.
 Wait around 30 seconds, your server should be on.
-> Note: Do not rely on the server status at the top left of the page, it does not indicate the status of proxy servers correctly.
+> Do not rely on the server status at the top left of the page, it does not indicate the status of proxy servers correctly.
 6. Click on "Stop", then click "Kill".
 7. Click on "File Manager" at the top of the page.
 ![image](../../../assets/images/posts/bungeecord/getting-started/starting-proxy.png)
@@ -62,7 +62,7 @@ Wait around 30 seconds, your server should be on.
 Change `server-name` to the fallback server's name (case sensitive).
 Change `server-IP:PORT`  to the fallback server's IP and port.
 
-> Note: restricted does not allow players to join the server unless they have the `bungeecord.server.SERVERNAME` permission.
+> Restricted does not allow players to join the server unless they have the `bungeecord.server.SERVERNAME` permission.
 > If you have multiple fallback servers, duplicate the code above and paste it under your first server.
 
 It should look like this:

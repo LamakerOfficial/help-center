@@ -10,7 +10,7 @@ gitURL: _posts/falix/general/2021-09-24-adding-users-to-your-servers.md
 
 If you need to give other users access to your server panel, you can easily do so using the "users" feature in the game panel, follow the steps below to learn how:
 
-> Note: Make sure the user you are adding is already registered in Falix, otherwise this will not work.
+> Make sure the user you are adding is already registered in Falix, otherwise this will not work.
 
 1. Go to the [Game Panel](https://panel.falixnodes.net) and click on your server.
 2. Click on the "Users" tab at the top of the page.

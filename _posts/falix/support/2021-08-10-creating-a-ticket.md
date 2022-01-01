@@ -42,7 +42,7 @@ Then follow on-screen instructions, providing our bot what kind of ticket you're
 
 After using the `=new` command, a new channel will be created, which should be visible at the bottom of the channels list.
 
-NOTE: Falix employees and staff will never ask for your Discord password.
+> Falix employees and staff will never ask for your Discord password.
 
 # Providing Clear Communication
 To help make things easier for us and to get things done faster for you, we recommend you to speak with clear commucations, speak only in English, proper grammar, and to provide as much information as you can right away. 
