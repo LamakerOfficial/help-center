@@ -1,4 +1,4 @@
-<img style="border-radius: 20px;" src="https://i.imgur.com/zthS5Ss.png">
+<img style="border-radius: 20px;" src="https://i.imgur.com/nyoM6z6.png">
 
 # FalixNodes Help Center
 What's all this? You're currently viewing the source code that makes up the [help center](https://help.falixnodes.net/). It's all built on Jekyll, a static website generator we use for a couple of our sites.
