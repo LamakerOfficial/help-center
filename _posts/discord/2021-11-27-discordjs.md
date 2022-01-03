@@ -3,7 +3,7 @@ layout: post
 title:  "Setting Up"
 categories: Discord
 tags: discordJS
-icon: <i class="fa-brands fa-js-square"></i>
+icon: <i class='fa-brands fa-js-square'></i>
 permalink: /discord/nodejs-discord-bot/
 gitURL: _posts/discord/2021-11-27-discordjs.md
 

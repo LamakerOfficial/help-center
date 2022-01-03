@@ -2,7 +2,7 @@
 layout: post
 title:  "Registering a Custom IP Address"
 categories: Minecraft
-icon: <i class="fa-light fa-memo"></i></span>
+icon: <i class='fa-light fa-memo'></i></span>
 tag: mcgeneral
 permalink: /minecraft/general/custom-ip/
 gitURL: _posts/minecraft/general/2021-05-09-custom-ip-address.md

@@ -2,7 +2,7 @@
 layout: post
 title:  "Plugin Management"
 categories: Minecraft
-icon: <i class="fa-light fa-puzzle"></i>
+icon: <i class='fa-light fa-puzzle'></i>
 tags: plugins
 permalink: /minecraft/plugins/management/
 gitURL: _posts/minecraft/plugins/2021-05-09-plugin-management.md
@@ -31,9 +31,9 @@ Overall, mods and plugins often don't get along, so it's unlikely that you'll be
 There are a lot of websites that provide plugins for server administrators.
 
 Here are the websites that we've approved:
- - <i class="fa-solid fa-badge-check"></i> [Spigot](https://www.spigotmc.org/)
- - <i class="fa-solid fa-badge-check"></i> [Bukkit](https://dev.bukkit.org/)
- - <i class="fa-solid fa-badge-check"></i> [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins)
+ - <i class='fa-solid fa-badge-check'></i> [Spigot](https://www.spigotmc.org/)
+ - <i class='fa-solid fa-badge-check'></i> [Bukkit](https://dev.bukkit.org/)
+ - <i class='fa-solid fa-badge-check'></i> [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins)
 
 Some plugins may have their own website.
 

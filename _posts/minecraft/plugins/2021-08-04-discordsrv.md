@@ -2,7 +2,7 @@
 layout: post
 title:  "DiscordSRV"
 categories: Minecraft
-icon: <i class="fa-light fa-puzzle"></i>
+icon: <i class='fa-light fa-puzzle'></i>
 tags: plugins
 permalink: /minecraft/plugins/discordsrv/
 gitURL: _posts/minecraft/plugins/2021-08-04-discordsrv.md

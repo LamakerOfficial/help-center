@@ -3,7 +3,7 @@ layout: post
 title:  "Tickets and Support"
 categories: Falix
 tags: support
-icon: <i class="fa-light fa-question"></i>
+icon: <i class='fa-light fa-question'></i>
 permalink: /falix/support/tickets-and-support/
 gitURL: _posts/falix/support/2021-08-10-creating-a-ticket.md
 
@@ -24,7 +24,7 @@ Recommended:
 Only one of our staff members, as in the social media manager, will get with you on our social media. So waiting time is longer when using social media to contact us. When asking for support on social media, you'll be required to provide the following:
 
  - Your Email
- - Your Discord ID <span class="whats-this" id="discord-id-wt"><a href="https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-" target="_blank"><i class="fas fa-question-circle"></i></a></span>
+ - Your Discord ID <span class="whats-this" id="discord-id-wt"><a href="https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-" target="_blank"><i class='fas fa-question-circle'></i></a></span>
  - Your Discord Username
 
 There may be some things our social media manager can't help with, which is why asking via Discord is recommended.

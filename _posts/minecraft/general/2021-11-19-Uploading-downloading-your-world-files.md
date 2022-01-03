@@ -2,7 +2,7 @@
 layout: post
 title:  "Uploading And Downloading Your World Files"
 categories: Minecraft
-icon: <i class="fa-light fa-memo"></i></span>
+icon: <i class='fa-light fa-memo'></i></span>
 tags: mcgeneral
 permalink: /minecraft/general/uploading-and-downloading-your-world-files/
 gitURL: _posts/minecraft/general/2021-11-19-Uploading-downloading-your-world-files.md

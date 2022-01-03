@@ -3,7 +3,7 @@ layout: post
 title:  "Setting Up"
 categories: Discord
 tags: discordPY
-icon: <i class="fa-brands fa-python"></i>
+icon: <i class='fa-brands fa-python'></i>
 permalink: /discord/python-discord-bot/
 gitURL: _posts/discord/2021-11-27-discordpy.md
 

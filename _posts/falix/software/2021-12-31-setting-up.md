@@ -3,7 +3,7 @@ layout: post
 title:  "Setting Up"
 categories: Falix
 tags: desktopsoftware
-icon: <i class="fa-light fa-desktop"></i>
+icon: <i class='fa-light fa-desktop'></i>
 permalink: /falix/software/setting-up/
 gitURL: _posts/falix/software/2021-12-31-setting-up.md
 

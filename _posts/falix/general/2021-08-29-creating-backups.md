@@ -3,7 +3,7 @@ layout: post
 title:  "Creating Backups"
 categories: Falix
 tags: fxgeneral
-icon: <i class="fa-light fa-memo"></i></span>
+icon: <i class='fa-light fa-memo'></i></span>
 permalink: /falix/general/creating-backups/
 gitURL: _posts/falix/general/2021-08-29-creating-backups.md
 

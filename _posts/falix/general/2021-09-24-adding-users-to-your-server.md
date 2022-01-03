@@ -3,7 +3,7 @@ layout: post
 title:  "Giving users access to your server panel"
 categories: Falix
 tags: fxgeneral
-icon: <i class="fa-light fa-file-user"></i>
+icon: <i class='fa-light fa-file-user'></i>
 permalink: /falix/general/giving-users-access-to-your-panel/
 gitURL: _posts/falix/general/2021-09-24-adding-users-to-your-servers.md
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Troubleshooting and Errors"
 categories: Falix
 tags: support
-icon: <i class="fa-light fa-question"></i>
+icon: <i class='fa-light fa-question'></i>
 permalink: /falix/support/troubleshooting/
 gitURL: _posts/falix/support/2021-08-10-troubleshooting.md
 redirect_from:
