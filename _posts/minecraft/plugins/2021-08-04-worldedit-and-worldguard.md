@@ -5,6 +5,9 @@ categories: Minecraft
 icon: <i class="fa-light fa-puzzle"></i>
 permalink: /minecraft/plugins/worldguard-and-worldedit/
 tags: minecraft edit paint brush structure wand protect guard restrict area region define 
+
+author: Korbs
+authorGitHub: korbsstudio
 --- -->
 
 In-Progress

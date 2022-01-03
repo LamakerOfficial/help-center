@@ -6,6 +6,9 @@ tags: discordJS
 icon: <i class="fa-brands fa-js-square"></i>
 permalink: /discord/nodejs-discord-bot/
 gitURL: _posts/discord/2021-11-27-discordjs.md
+
+author: Juoum
+authorGitHub: itsjuoum
 ---
 
 # Creating And Hosting a Discord Bot Using Discord.js

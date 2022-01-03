@@ -6,6 +6,9 @@ icon: <i class="fa-light fa-diagram-project"></i>
 tags: Bungeecord
 permalink: /minecraft/bungeecord/getting-started/
 gitURL: _posts/minecraft/bungeecord/2021-10-02-getting-started.md
+
+author: Korbs
+authorGitHub: korbsstudio
 ---
 
 ![image](/assets/images/posts/bungeecord/getting-started/bungeecord.png)

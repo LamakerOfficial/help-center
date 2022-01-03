@@ -6,6 +6,9 @@ tags: desktopsoftware
 icon: <i class="fa-light fa-desktop"></i>
 permalink: /falix/software/setting-up/
 gitURL: _posts/falix/software/2021-12-31-setting-up.md
+
+author: Korbs
+authorGitHub: korbsstudio
 ---
 > The download and update server of FalixNodes Desktop is operated by Korbs Studio
 

@@ -7,6 +7,9 @@ tags: fxgeneral
 permalink: /falix/general/getting-started/
 gitURL: _posts/falix/general/2021-12-27-getting-started.md
 sticky: true
+
+author: Mocab
+authorGitHub: mocab
 ---
 
 Welcome to FalixNodes! Here you can host game servers for free! To get started, sign up at our [Client Panel](https://client.falixnodes.net/auth/register).

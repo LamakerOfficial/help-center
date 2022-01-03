@@ -6,6 +6,9 @@ icon: <i class="fa-light fa-puzzle"></i>
 tags: plugins
 permalink: /minecraft/plugins/holographic-displays/
 gitURL: _posts/minecraft/plugins/2021-08-06-holographic-displays.md
+
+author: Juoum
+authorGitHub: itsjuoum
 ---
 
 <div class="install-plugin">

@@ -6,6 +6,9 @@ tags: fxgeneral
 icon: <i class="fa-light fa-memo"></i></span>
 permalink: /falix/general/creating-backups/
 gitURL: _posts/falix/general/2021-08-29-creating-backups.md
+
+author: Mocab
+authorGitHub: mocab
 ---
 
 Backing up your server is a crucial task when you're a server owner. If anything bad happens to your server, such as griefing and/or unintentional actions, you'll be able to revert those changes. 

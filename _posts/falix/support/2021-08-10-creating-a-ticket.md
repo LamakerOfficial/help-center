@@ -6,6 +6,9 @@ tags: support
 icon: <i class="fa-light fa-question"></i>
 permalink: /falix/support/tickets-and-support/
 gitURL: _posts/falix/support/2021-08-10-creating-a-ticket.md
+
+author: Korbs
+authorGitHub: korbsstudio
 ---
 
 ## Where to Ask

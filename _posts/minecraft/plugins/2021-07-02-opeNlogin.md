@@ -6,6 +6,9 @@ icon: <i class="fa-light fa-puzzle"></i>
 tags: plugins
 permalink: /minecraft/plugins/openlogin/
 gitURL: _posts/minecraft/plugins/2021-07-02-opeNlogin.md
+
+author: Korbs
+authorGitHub: korbsstudio
 ---
 
 <div class="install-plugin">

@@ -6,6 +6,9 @@ icon: <i class="fa-light fa-memo"></i></span>
 tags: mcgeneral
 permalink: /minecraft/general/adding-a-server-resource-pack/
 gitURL: _posts/minecraft/general/2021-11-24-adding-server-resource-pack.md
+
+author: Korbs
+authorGitHub: korbsstudio
 ---
 
 ## What is a resource pack and why use it on my server?

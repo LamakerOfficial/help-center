@@ -11,6 +11,7 @@
             <div class="article-header-top">
                 <h1>{{page.title}}</h1>
                 <div class="aht-right">
+                    <button id="author" onclick="location.href = 'https://github.com/{{page.authorGitHub}}'"><img src="https://avatars3.githubusercontent.com/{{page.authorGitHub}}?v=3&amp;s=40"> {{page.author}}</button>
                     <button id="ONoaos" onclick="openArticleOptions()"><i class="fa-light fa-ellipsis"></i></button>
                     <button style="display: none;" id="OFFoaos" onclick="closeArticleOptions()"><i class="fa-light fa-ellipsis"></i></button>
                     <div id="oaos" class="article-options">

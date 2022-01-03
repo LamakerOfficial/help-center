@@ -6,6 +6,9 @@ icon: <i class="fa-light fa-memo"></i></span>
 tag: mcgeneral
 permalink: /minecraft/general/custom-ip/
 gitURL: _posts/minecraft/general/2021-05-09-custom-ip-address.md
+
+author: Korbs
+authorGitHub: korbsstudio
 ---
 
 Why a domain? A custom IP address like <u>hypixel.net</u> is a domain and you need one to create a custom IP address for your Minecraft server. 

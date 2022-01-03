@@ -8,6 +8,9 @@ permalink: /falix/support/troubleshooting/
 gitURL: _posts/falix/support/2021-08-10-troubleshooting.md
 redirect_from:
   - /falix/general/troubleshooting/
+
+author: Korbs
+authorGitHub: korbsstudio
 ---
 
 In Progress

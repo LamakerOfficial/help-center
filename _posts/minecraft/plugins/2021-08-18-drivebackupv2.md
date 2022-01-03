@@ -6,6 +6,9 @@ icon: <i class="fa-light fa-puzzle"></i>
 tags: plugins
 permalink: /minecraft/plugins/drivebackupv2/
 gitURL: _posts/minecraft/plugins/2021-08-18-drivebackupv2.md
+
+author: Juoum
+authorGitHub: itsjuoum
 ---
 
 <div class="install-plugin">

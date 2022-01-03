@@ -7,6 +7,9 @@ tag: mcgeneral
 permalink: /minecraft/general/getting-started/
 gitURL: _posts/minecraft/general/2021-10-16-getting-started.md
 sticky: true
+
+author: Korbs
+authorGitHub: korbsstudio
 ---
 
 {% include minecraft-edition-picker.html %}
