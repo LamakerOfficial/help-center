@@ -35,7 +35,7 @@ var idx = lunr(function () {
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
     if(term) {
-        document.getElementById('lunrsearchresults').innerHTML = "<p><i class='fa-light fa-magnifying-glass'></i> Search results for '" + term + "'</p><style>footer {display: none;} div#lunrsearchresults {display: block;}</style>" + document.getElementById('lunrsearchresults').innerHTML;
+        document.getElementById('lunrsearchresults').innerHTML = "<p><i class='fa-light fa-magnifying-glass'></i> Search results for '" + term + "'</p><style>.help-home, footer {display: none;} div#lunrsearchresults {display: block;}</style>" + document.getElementById('lunrsearchresults').innerHTML;
         var results = idx.search(term);
         if(results.length>0){
             for (var i = 0; i < results.length; i++) {
@@ -55,7 +55,7 @@ function lunr_search(term) {
 
 
 <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-    <p><input type="text" class="form-control" id="lunrsearch" name="q" minlength="4" maxlength="25" value="" placeholder="Search" /></p>
+    <p><input type="text" class="form-control" id="lunrsearch" name="q" minlength="4" maxlength="25" value="" placeholder="Search (BETA)" /></p>
 </form>
 <div id="lunrsearchresults">
     <ul></ul>
