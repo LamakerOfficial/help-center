@@ -5,7 +5,7 @@ What's all this? You're currently viewing the source code that makes up the [hel
 
 We're using our own template built and designed by our partner [Korbs Studio](https://github.com/KorbsStudio/).
 
-![powered by Jekyll](https://img.shields.io/badge/powered_by-Jekyll-blue.svg) ![Website Build - VPS](https://github.com/FalixNodes-Software/help-center/actions/workflows/jekyll-build.yml/badge.svg)
+![Powered by Jekyll](https://img.shields.io/badge/powered_by-Jekyll-blue.svg) ![Website Build - VPS](https://github.com/FalixNodes-Software/help-center/actions/workflows/jekyll-build.yml/badge.svg)
 
 # Creating a New Article
 Want to help contribute to the Help Center? Write or update an article!
@@ -13,7 +13,7 @@ Want to help contribute to the Help Center? Write or update an article!
 ## 🛡️ Requirements 
  - The communication must be clear and well explained for the user to understand
  - Fact check and make sure the information you're providing is accurate
- - Good grammar
+ - Good grammar [Check out QuillBot](https://quillbot.com/grammar-check)
  - Valid syntax
  - Proper metadata
  - Valid links and up to date
@@ -34,6 +34,9 @@ categories: Minecraft
 tags: plugins
 icon: <i class="fa-light fa-file-user"></i>
 permalink: /minecraft/plugins/name-of-plugin/
+
+author: Username
+authorGitHub: username
 ---
 ```
 
@@ -54,6 +57,8 @@ Discord JavaScript: `<i class="fa-brands fa-js-square"></i>`
 Discord Python: ` <i class="fa-brands fa-python"></i>`
 
 BungeeCord: `<i class="fa-light fa-diagram-project"></i>`
+
+> Icons are provided by Font Awesome
 
 > If the article does not contain any metadata or at least valid ones, the help center will not show the article anywhere.
 
@@ -76,6 +81,8 @@ If you plan to create an article explaining how to use a plugin, it's best you u
 ```
 
 ### Headers
+Uisng "# Title of Article" isn't needed, the layout will automatically add the title of the article to the top of the webpage.
+
 ## Header 2
 ```
 ## Header 2
@@ -142,6 +149,7 @@ I personally like seeing `<video>` in the help center over a YouTube embed, but 
  src="https://example.com/video.mp4" type="video/mp4"
  /></video>
 ```
+If you're adding a video to the files, use a path like `/assets/videos/etc/etc/etc`.
 
 Make sure to provide both webm and mp4. Webm are much smaller and load faster, although an MP4 file is required as not all browsers support webm format. So the MP4 is more of a fallback option if the user's browser doesn't like the webm format.
 
@@ -176,6 +184,11 @@ bundle install
 To run a localhost server, run:
 ```
 bundle exec jekyll serve
+```
+
+Howerver, the development mode pulls from a different source with CSS, you'll need to clone the main website for that. Open the terminal in the main website repo, and run:
+```
+bundle exec jekyll serve --port 4003
 ```
 
 After using `bundle exec jekyll serve`, try going to http://localhost:4000/ in your preferred web browser.
