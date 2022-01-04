@@ -7,7 +7,7 @@
         {% include category-header.html %}
         <div class="hc_categories">
             <div class="hc_category">
-                <h1>General</h1>
+                <h1>Javascript</h1>
                 <ui>
                     {% assign sorted = site.tags.discordJS | sort: "sticky" %}
                     {% for post in sorted %}
@@ -16,7 +16,7 @@
                 </ui>
             </div>
             <div class="hc_category">
-                <h1>BungeeCord</h1>
+                <h1>Python</h1>
                 <ui>
                     {% for post in site.tags.discordPY %}
                         <a id="ica" onclick="location.href='{{ post.url }}'"><span id="article-icon">{{ post.icon }}</span> <span id="title">{{ post.title }}</span></a><br>
