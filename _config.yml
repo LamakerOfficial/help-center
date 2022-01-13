@@ -12,6 +12,11 @@ plugins:
 whitelist:
   - jekyll-redirect-from
 
+algolia:
+  application_id: '${{ secrets.ALGOLIA_ID }}'
+  index_name: ${{ secrets.ALGOLIA_INDEX_NAME }}
+  search_only_api_key: '${{ secrets.ALGOLIA_SEARCH_ONLY_API_KEY }}'
+
 stickyposts:
 #enabled: false   # Enable StickyPosts; default: true
 debug: true       # Show additional info; default: false
