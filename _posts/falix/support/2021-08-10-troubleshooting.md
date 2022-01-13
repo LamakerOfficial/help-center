@@ -13,9 +13,6 @@ author: Korbs
 authorGitHub: korbsstudio
 ---
 
-In Progress
-{: .label .label-yellow }
-
 # Troubleshooting
 ## Corrupted Bungeecord JAR File
 Delete the <u>bungeecord.jar</u> and <u>bungeecord.server</u> file in your file manager, then upload the <u>BungeeCord.jar</u> file from the official [Jenkins](https://ci.md-5.net/job/BungeeCord/) build and rename it to <u>custom.jar</u>. Then try booting your server again.
