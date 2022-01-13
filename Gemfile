@@ -7,6 +7,7 @@ gem 'jekyll-redirect-from'
 gem 'jekyll-avatar'
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem 'jekyll-algolia', '~> 1.0'
 end
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"

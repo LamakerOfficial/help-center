@@ -1,62 +1,20 @@
-<script src="{{ base.url | prepend: site.url }}/assets/js/lunr.js"></script>
+<div id="search-searchbar"></div>
 
-<script>
-{% assign counter = 0 %}
-var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
-    "id": {{ counter }},
-    "icon": "{{page.icon}}",
-    "url": "{{ site.url }}{{ page.url }}",
-    "title": "{{ page.title }}",
-    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
-    "id": {{ counter }},
-    "icon": "{{page.icon}}",
-    "url": "{{ site.url }}{{ page.url }}",
-    "title": "{{ page.title }}",
-    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }, {% endfor %}{% for page in site.posts %}{
-    "id": {{ counter }},
-    "icon": "{{page.icon}}",
-    "url": "{{ site.url }}{{ page.url }}",
-    "title": "{{ page.title }}",
-    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
+<div style="display: none;" class="post-list" id="search-hits">
+    {% for post in site.posts %}
+      <div class="post-item">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-var idx = lunr(function () {
-    this.ref('id')
-    this.field('title')
-    this.field('body')
-    this.field('icon')
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h2>
 
-    documents.forEach(function (doc) {
-        this.add(doc)
-    }, this)
-});
-function lunr_search(term) {
-    document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
-    if(term) {
-        document.getElementById('lunrsearchresults').innerHTML = "<p><i class='fa-light fa-magnifying-glass'></i> Search results for '" + term + "'</p><style>.help-home, footer {display: none;} div#lunrsearchresults {display: block;}</style>" + document.getElementById('lunrsearchresults').innerHTML;
-        var results = idx.search(term);
-        if(results.length>0){
-            for (var i = 0; i < results.length; i++) {
-                var ref = results[i]['ref'];
-                var url = documents[ref]['url'];
-                var title = documents[ref]['title'];
-                var icon = documents[ref]['icon'];
-                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + icon + title + "</span><br></li>";
-            }
-        } else {
-            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
-        }
-    }
-    return false;
-}
-</script>
+        <div class="post-snippet">{{ post.excerpt }}</div>
+      </div>
+    {% endfor %}
+  </div>
 
-
-<form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-    <p><input type="text" class="form-control" id="lunrsearch" name="q" minlength="4" maxlength="25" value="" placeholder="Search (BETA)" /></p>
-</form>
-<div id="lunrsearchresults">
-    <ul></ul>
-</div>
+  {% include algolia.html %}
