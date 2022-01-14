@@ -15,5 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
-      run: sudo cp /usr/share/korbs-studio/help-center.yml ./
-      run: JEKYLL_ENV=production bundle exec jekyll build
+      run: sudo cp /usr/share/korbs-studio/help-center.yml ./ && JEKYLL_ENV=production bundle exec jekyll build
