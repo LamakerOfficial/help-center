@@ -14,5 +14,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Copy configuration
+      run: sudo cp /usr/share/korbs-studio/help-center/_config.yml ./
+    - name: Update Algolia Search
+      run: sudo ALGOLIA_API_KEY='${{ secrets.ALGOLIA_API_KEY}}' bundle exec jekyll algolia
     - name: Build the site in the jekyll/builder container
-      run: sudo cp /usr/share/korbs-studio/help-center/_config.yml ./ && JEKYLL_ENV=production bundle exec jekyll build
+      run: JEKYLL_ENV=production bundle exec jekyll build
