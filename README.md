@@ -197,3 +197,4 @@ If you're unable to get Ruby installed or the serve command working, you can alw
 
 ___
 > All PRs are closed if inactive for a long period of time, usually about 3 weeks to a month.
+
