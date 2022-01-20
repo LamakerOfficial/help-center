@@ -2,6 +2,7 @@
 ---
 <title>{{page.title}} | {{site.title}}</title>
 {% include header.html %}
+<body onclick="closeMenu_apps(); closeMenu_support();">
 <div class="sections">
     <section id="category">
         {% include category-header.html %}
@@ -35,4 +36,5 @@
     </section>
     <section>{% include footer.html %}</section>
 </div>
+</body>
 <style>#category-selection-Minecraft {background:  var(--accent)}</style>

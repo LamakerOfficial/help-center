@@ -25,6 +25,7 @@
     }
     randImg();
 </script>
+<body onclick="closeMenu_apps(); closeMenu_support();">
 <div class="sections">
     <section>{% include hero.html %}</section>
     <div class="help-home">
@@ -57,6 +58,7 @@
     </div>
     <section>{% include footer.html %}</section>
 </div>
+</body>
 <style>
 @media only screen and (max-width:720px) {
     .help-home {grid-template-columns: calc(100% - -40px) !important;}
